@@ -1,0 +1,65 @@
+.for-whom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.for-whom__inner{
+    max-width: 1240px;
+    width: 100%; height: auto;
+}
+
+.for-whom__title{
+    font-family: 'Unbounded';
+    font-size: 50px;
+
+    font-weight: 600;
+}
+
+.for-whom__pbox{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: calc(100% + 40px); height: auto;
+    margin-top: 60px;
+    
+    margin-left: -40px;
+}
+
+.for-whom_elem-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+
+    box-sizing: border-box;
+}
+
+.for-whom_elem-margin{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+.for-whom__elem-one, .for-whom__elem-two, .for-whom__elem-three, .for-whom__elem-four, .for-whom__elem-five{
+    background-color: #3A3637;
+    width: 386px; height: 200px;
+
+
+    border-radius: 7px;
+}
+
+.for-whom_elem-text{
+    font-family: 'Unbounded';
+    font-size: 18px;
+
+    font-weight: 300;
+
+    color: #FCEADA;
+}
+
+.for-whom_elem-text_bold{
+    font-weight: 400;
+}
+
+.for-whom__icon{
+    margin-bottom: 5px;
+}

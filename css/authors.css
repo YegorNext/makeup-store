@@ -1,0 +1,55 @@
+.authors{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 80px;
+}
+
+.authors__inner{
+    max-width: 1240px;
+    width: 100%; height: auto;
+}
+
+.authors__title{
+    font-family: 'Unbounded';
+    font-size: 50px;
+
+    font-weight: 600;
+}
+
+.authors__content{
+    display: flex;
+
+    width: auto; height: auto;
+    margin-top: 60px;
+}
+
+.authors__info{
+    width: auto; height: auto;
+}
+
+.authors__sub-one, .authors__sub-two, .authors__sub-three{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.authors__sub_t-bold{
+    color: #F5F5F5;
+
+    font-family: 'Unbounded';
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.authors__sub_icon{
+    margin-right: 8px;
+}
+
+.authors__sub_margin{
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.authors__button_m{
+    margin-top: 10px;
+}
