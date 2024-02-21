@@ -15,6 +15,8 @@
         <link rel = "stylesheet" type="text/css" href = "css/for-whom.css">
         <link rel = "stylesheet" type="text/css" href = "css/authors.css">
         <link rel = "stylesheet" type="text/css" href = "css/methods.css">
+        <link rel = "stylesheet" type="text/css" href = "css/stock.css">
+
     </head>
     <body>
         <header>
@@ -127,19 +129,91 @@
                 <div class = "methods__title content__title_gradient">ПЕРЕВАГИ МОЇХ КУРСІВ</div>
 
                 <div class = "methods__spoilers">
-                    <button id="spoiler-ph-btn" class = "methods_spoilers methods_btn-visual methods__spoilers_weight" data-bs-toggle="collapse" data-bs-target="#spoiler-ph" aria-expanded="false" aria-controls="spoiler-ph">
-                        <div class="methods__btn-content">
-                            <img src = "img/icons/video.svg">&nbsp;&nbsp;<span class = "methods__spoilers_text-m">Відчуйте себе на майстер-класі</span>
+                    <div class = "methods__ph-spoiler">
+                        <button id="spoiler-ph-btn" class = "methods__spoiler_align methods_btn-visual" data-bs-toggle="collapse" data-bs-target="#spoiler-ph" aria-expanded="false" aria-controls="spoiler-ph">
+                            <div class="methods__btn-content">
+                                <img src = "img/icons/video.svg">&nbsp;&nbsp;<span class = "methods__spoilers_text-m">Відчуйте себе на майстер-класі</span>
+                            </div>
+                            <div class = "methods__btn-switcher"><img id ="switcher1" src = "img/icons/switcher.svg"></div>
+                        </button>
+                        <div class="methods__anim-set_m collapse" id="spoiler-ph">
+                            <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text">
+                            4К якість та унікальний ракурс занурює вас у процес, де ви відчуваєте, ніби я веду вас за руку в світі перманентного макіяжу
+                            </div>
                         </div>
-                    </button>
-                      <div class="methods__anim-set_m collapse" id="spoiler-ph">
-                        <div class="card-body methods__collapsed-content">
-                          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+
+                    <div class = "methods__ph-spoiler">
+                        <button id="spoiler-lk-btn" class = "methods__spoiler_align methods_btn-visual" data-bs-toggle="collapse" data-bs-target="#spoiler-lk" aria-expanded="false" aria-controls="spoiler-lk">
+                            <div class="methods__btn-content">
+                                <img src = "img/icons/lock.svg">&nbsp;&nbsp;<span class = "methods__spoilers_text-m">Ексклюзивна інформація</span>
+                            </div>
+                            <div class = "methods__btn-switcher"><img id ="switcher2" src = "img/icons/switcher.svg"></div>
+                        </button>
+                        <div class="methods__anim-set_m collapse" id="spoiler-lk">
+                            <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text">
+                            Ділюсь секретними техніками для гарантованого успіху, заповнюючи теоритичні прогалини, пояснюючи на практиці усі деталі
+                            </div>
                         </div>
-                      </div>
+                    </div>
+
+                    
+
+                    <div class = "methods__ph-spoiler">
+                        <button id="spoiler-wm-btn" class = "methods__spoiler_align methods_btn-visual" data-bs-toggle="collapse" data-bs-target="#spoiler-wm" aria-expanded="false" aria-controls="spoiler-wm">
+                            <div class="methods__btn-content_w">
+                                <img src = "img/icons/women.svg" class = "methods__wm_m">&nbsp;&nbsp;<span class = "methods__spoilers_text-m">Демонстрація на різних типах шкіри</span>
+                            </div>
+                            <div class = "methods__btn-switcher methods__btn-switcher_size"><img id ="switcher3" src = "img/icons/switcher.svg"></div>
+                        </button>
+                        <div class="methods__anim-set_m collapse" id="spoiler-wm">
+                            <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text">
+                            Ретельно розглядаємо, як правильно працювати з різними типами шкіри, створюючи із кожного клієнта живу рекламу
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "methods__ph-spoiler">
+                        <button id="spoiler-sp-btn" class = "methods__spoiler_align methods_btn-visual" data-bs-toggle="collapse" data-bs-target="#spoiler-sp" aria-expanded="false" aria-controls="spoiler-sp">
+                            <div class="methods__btn-content">
+                                <img src = "img/icons/speak.svg">&nbsp;&nbsp;<span class = "methods__spoilers_text-m">Постійна підтримка</span>
+                            </div>
+                            <div class = "methods__btn-switcher"><img id ="switcher4" src = "img/icons/switcher.svg"></div>
+                        </button>
+                        <div class="methods__anim-set_m collapse" id="spoiler-sp">
+                            <div class="card-body methods__collapsed-content_sp methods__ph-spoiler-content_text ">
+                            Відео підтримка, надання завдань, які розвивають навички роботи зі штрихами та лінями<br><br>
+                            Допомога з підбором матеріалів та відправкою закордон
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <button class = "content__button content__button_visual methods__button_m">ОБРАТИ КУРС</button>
+            </div>
+        </section>
+
+        <section class = "stock">
+            <div class = "stock__inner">
+                <div class = "stock__title content__title_gradient">АКЦІЙНІ ПРОПОЗИЦІї</div>
+                <div class = "stock__content">
+                    <div class = "stock__spoiler">
+                        <button id="spoiler-st-btn" class = "stock_spoiler_align stock_btn-visual stock__button_theme_img" data-bs-toggle="collapse" data-bs-target="#spoiler-crs" aria-expanded="false" aria-controls="spoiler-crs">
+                            <div class = "stock__fall-container">
+                                <div class = "stock__fall-mark stock__fall-mark_visual">
+                                    -30%
+                                </div>
+                            </div>
+                        </button>
+                        <div class="stock__set-up_m collapse" id="spoiler-crs">
+                            <div class="card-body stock__collaps-content stock__spoiler_text stock__collaps-content_theme_img">
+                                <div class = "stock__collaps-title">
+                                    <img src = "img/anyawork.png" draggable="false" class = "stock__collaps-title-photo stock__collaps-title-photo_visual">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -148,6 +222,8 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src = "js/custom.js"></script>
 
     </body>
 </html>

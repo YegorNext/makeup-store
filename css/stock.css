@@ -1,0 +1,135 @@
+.stock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.stock__inner{
+    max-width: 1240px;
+    width: 100%; height: auto;
+}
+
+.stock__title{
+    font-family: 'Unbounded';
+    font-size: 50px;
+
+    font-weight: 600;
+}
+
+.stock__content{
+    display: flex;
+
+    width: auto; height: auto;
+    margin-top: 60px;
+}
+
+.stock__spoiler{
+    width: 100%; height: auto;
+}
+
+.stock_spoiler_align{
+    display: flex;
+    width: 100%; height: 272px;
+
+    padding: 0;
+}
+
+.stock_btn-visual{
+    border: none;
+
+    border-radius: 7px;
+    
+    font-family: 'Unbounded';
+    color: #F5F5F5;
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.stock__spoiler_text{
+    padding-left: 97px;
+    padding-right: 65px;
+
+    box-sizing: border-box;
+
+    font-family: 'Unbounded';
+    font-size: 18px;
+
+    font-weight: 300;
+    color: #FCEADA;
+}
+
+.stock__collaps-content{
+    background-color: #3A3637;
+
+    height: 323px; width: 100%;
+
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.stock__button_theme_img{
+    background-image: url("../img/Girl_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #3a3637;
+}
+
+.stock__collaps-content_theme_img{
+    background-image: url("../img/Girl_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stock__set-up_m{
+    position: relative;
+    top: 0px;
+}
+
+.hide-angels{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;    
+}
+
+.stock__fall-container{
+    height: 100%; width: 160px;
+}
+
+.stock__fall-mark{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 50px; width: 100%;
+    margin: 0;
+}
+
+.stock__fall-mark_visual{
+    background-color: #900000;
+    
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+
+    font-family: 'Unbounded';
+    color: #DADADA;
+
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.stock__collaps-title{
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%; height: 475px;
+}
+
+.stock__collaps-title-photo{
+    width: 100%; height: 100%;
+}
+
+.stock__collaps-title-photo_visual{
+    border-radius: 5px;
+}
