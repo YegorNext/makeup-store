@@ -38,8 +38,15 @@ $('#spoiler-sp-btn').on('click', function(){
 $('#spoiler-st-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
 
-    if(expanded == 'true') $(this).addClass('hide-angels');
+    if(expanded == 'true'){
+         $(this).addClass('hide-angels');
+         $('#switcher-dbl').addClass('expand');
+    }
 
-    if(expanded == 'false') $(this).removeClass('hide-angels');
+    if(expanded == 'false'){
+         $(this).removeClass('hide-angels');
+         $('#switcher-dbl').removeClass('expand');
+    }
 
 });
+

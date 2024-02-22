@@ -1,7 +1,7 @@
 .stock{
     display: flex;
     justify-content: space-around;
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 .stock__inner{
@@ -17,13 +17,15 @@
 }
 
 .stock__content{
-    display: flex;
-
     width: auto; height: auto;
     margin-top: 60px;
 }
 
 .stock__spoiler{
+    width: 100%; height: auto;
+}
+
+.stock__spoiler-lips{
     width: 100%; height: auto;
 }
 
@@ -62,10 +64,13 @@
 .stock__collaps-content{
     background-color: #3A3637;
 
-    height: 323px; width: 100%;
+    height: auto; width: 100%;
 
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+
+    padding: 0;
+    padding-bottom: 50px;
 }
 
 .stock__button_theme_img{
@@ -79,7 +84,7 @@
 .stock__collaps-content_theme_img{
     background-image: url("../img/Girl_2.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 323px;
 }
 
 .stock__set-up_m{
@@ -127,9 +132,189 @@
 }
 
 .stock__collaps-title-photo{
-    width: 100%; height: 100%;
+    width: 90%; height: 100%;
 }
 
 .stock__collaps-title-photo_visual{
     border-radius: 5px;
+}
+
+.stock__collaps-info{
+    height: auto; width: 100%;
+    margin-top: 40px; 
+
+    padding-left: 65px; padding-right: 65px;
+    box-sizing: border-box;
+}
+
+.stock__collaps-demo{
+    width: 100%; height: auto;
+}
+
+
+.stock__demo-title{
+    width: 100%; height: auto;
+}
+
+.stock__collaps-demo_title_font{
+    font-family: 'Unbounded';
+    color: #F5F5F5;
+
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.stock__collaps-demo_main_font{
+    font-family: 'Unbounded';
+    color: #FCEADA;
+
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.stock__demo-main{
+   width: 100%; height: auto; 
+   margin-top: 30px;
+}
+
+.stock__collaps-main{
+    width: 100%; height: auto;
+    margin-top: 40px;
+}
+
+.stock__main-content{
+    width: 100%; height: auto; 
+    margin-top: 30px;
+}
+
+.white{
+    color: #F5F5F5;
+}
+
+.small{
+    font-size: 14px;
+}
+
+.stock__collaps-add{
+    display: flex;
+    margin-top: 40px;
+}
+
+.stock__part-one-title{
+    height: auto;
+}
+
+.stock__part-one-desc{
+    height: auto; 
+    margin-left: 70px;
+    margin-top: 10px;
+
+    box-sizing: border-box;
+}
+
+.stock__desc_m{
+    margin-top: 15px;
+}
+
+
+.stock__part-two-desc{
+    height: auto; 
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.stock__add-part-two{
+    height: auto;
+    margin-left: 100px; margin-top: 13px;
+}
+
+.stock__collaps-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 85px;
+}
+
+.stock__price_visual{
+    font-family: 'Unbounded';
+    color: #F5F5F5;
+
+    font-size: 35px;
+    font-weight: 600;  
+}
+
+.stock__price_striked{
+    font-family: 'Unbounded';
+    color: #CB4D4D;
+
+    font-size: 20px;
+    font-weight: 300; 
+    
+    align-self: self-end;
+}
+
+.stock__collaps-buy{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 65px;
+
+    padding-right: 50px;
+    padding-left: 50px;
+
+    box-sizing: border-box;
+}
+
+.stock__buy-btn_modifed{
+    height: 57px; width: 450px;
+
+    font-weight: 400; font-size: 18px;
+}
+
+.stock__buy-btn_bordered{
+    height: 57px; width: 450px;
+
+    font-weight: 400; font-size: 18px;
+
+    background: none;
+    color: #F5F5F5;
+    text-align: center;
+
+    border: 2px solid;
+    border-image: linear-gradient(120deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 25%, rgba(249,242,149,1) 75%, rgba(184,138,68,1) 100%);
+    border-image-slice: 1; 
+    border-radius: 5px;
+}
+
+.stock__btn-title-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%; 
+    height: 100%;
+
+    box-sizing: border-box;
+    padding-right: 100px;
+}
+
+.stock__btn-title-text_visual{
+    font-family: 'Unbounded';
+    
+    color: white;
+    
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.stock__swticher-container{
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+
+.stock__spoiler_m{
+    margin-top: 60px;
 }
