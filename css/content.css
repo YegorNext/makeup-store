@@ -20,7 +20,8 @@
     background-image: url("../img/anyas_photo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center;
+
     border-radius: 10px;
 }
 
