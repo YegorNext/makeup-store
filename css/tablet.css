@@ -82,8 +82,22 @@
         min-width: 328px; min-height: 187px;
     }
 
+    .for-whom__elems-wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+    
+        user-select: none;
+        cursor: grab;
+    
+        overflow-x: hidden;
+    }
+
     .for-whom_elem-text{
         font-size: 14px;
+    }
+
+    .for-whom__pbox{
+        width: calc(100% + 40px + 10%);
     }
 
     /* authors */
@@ -174,4 +188,6 @@
     
         font-weight: 600;
     }
+
+
 }

@@ -63,3 +63,8 @@
 .for-whom__icon{
     margin-bottom: 5px;
 }
+
+.for-whom__elems-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}

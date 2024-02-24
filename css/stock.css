@@ -36,6 +36,15 @@
     padding: 0;
 }
 
+.stock_spoiler_align-brows{
+    height: 258px;
+}
+
+.stock_spoiler_align-remover{
+    height: 233px;
+    background-position: 97.3%;
+}
+
 .stock_btn-visual{
     border: none;
 
@@ -85,6 +94,116 @@
     background-image: url("../img/Girl_2.png");
     background-repeat: no-repeat;
     background-size: 100% 323px;
+}
+
+
+.stock__button_theme_img-lips{
+    background-image: url("../img/lips_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #3a3637;
+}
+
+.stock__collaps-content_theme_img-lips{
+    background-image: url("../img/lips_2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 323px;
+}
+
+.stock__button_theme_img-brows{
+    background-image: url("../img/brow_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #3a3637;
+}
+
+.stock__collaps-content_theme_img-brows{
+    background-image: url("../img/brow_2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 323px;
+}
+
+.stock__button_theme_img-eyes{
+    background-image: url("../img/eyes_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #3a3637;
+}
+
+.stock__collaps-content_theme_img-eyes{
+    background-image: url("../img/eyes_2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 323px;
+}
+
+.stock__button_theme_img-remover{
+    background-image: url("../img/remover_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-size: 100% 100%;
+
+    background-color: #3a3637;
+}
+
+.stock__collaps-content_theme_img-remover{
+    background-image: url("../img/remover_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.stock__button_theme_img-mk{
+    background-image: url("../img/mk_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-size: 100% 100%;
+
+    background-color: #3a3637;
+}
+
+.stock__collaps-content_theme_img-mk{
+    background-image: url("../img/mk_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.stock__button_theme_img-base{
+    background-image: url("../img/base_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-size: 100% 100%;
+
+    background-color: #3a3637;
+}
+
+
+.stock__collaps-content_theme_img-base{
+    background-image: url("../img/base_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.stock__button_theme_img-rmv{
+    background-image: url("../img/rmv_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-size: 100% 100%;
+
+    background-color: #3a3637;
+}
+
+
+.stock__collaps-content_theme_img-rmv{
+    background-image: url("../img/rmv_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .stock__set-up_m{
