@@ -14,14 +14,11 @@
 .forms_body-gradient {
     background: rgb(28, 18, 11);
     background: linear-gradient(120deg, rgba(28, 18, 11, 1) 0%, rgba(69, 46, 25, 1) 100%);
-    
-    
+  
+    /* Добавляем префиксы для кросс-браузерной поддержки */
     -webkit-background: linear-gradient(120deg, rgba(28, 18, 11, 1) 0%, rgba(69, 46, 25, 1) 100%);
-    -webkit-background: rgb(28, 18, 11);
     -moz-background: linear-gradient(120deg, rgba(28, 18, 11, 1) 0%, rgba(69, 46, 25, 1) 100%);
-    -moz-background: rgb(28, 18, 11);
   }
-
 .forms__title{
     width: 100%;
 
