@@ -9,6 +9,9 @@
     width: 100%; height: auto;
 
     border-radius: 5px;
+
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .forms_body-gradient {
@@ -22,7 +25,7 @@
 .forms__title{
     width: 100%;
 
-    text-align: center;
+    text-align: left;
 
     margin-top: 120px;
 
@@ -34,6 +37,8 @@
 
     font-weight: 600;
 }
+
+
 
 .forms__content{
     width: auto; height: auto;
@@ -69,6 +74,8 @@
     height: 45px; width: 625px;
 
     border: none;
+    border-radius: 3px;
+
 
     margin-bottom: 20px;
 
@@ -79,6 +86,8 @@
     font-size: 18px;
     font-weight: 400px;
     color: #ACACAC;
+
+
 }
 
 .forms__second-title{
