@@ -121,14 +121,14 @@
     color: #1a1918;
     border-radius: 5px;
 
-    -webkit-background: linear-gradient(
+    background: -webkit-linear-gradient(
         120deg,
         rgba(249, 242, 149, 1) 0%,
         rgba(224, 170, 62, 1) 25%,
         rgba(249, 242, 149, 1) 75%,
         rgba(184, 138, 68, 1) 100%
       );
-      -moz-background: linear-gradient(
+      background: -moz-linear-gradient(
         120deg,
         rgba(249, 242, 149, 1) 0%,
         rgba(224, 170, 62, 1) 25%,
