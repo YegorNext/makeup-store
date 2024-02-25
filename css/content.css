@@ -106,13 +106,6 @@
 }
 
 .content__button_visual {
-    background: linear-gradient(
-      120deg,
-      rgba(249, 242, 149, 1) 0%,
-      rgba(224, 170, 62, 1) 25%,
-      rgba(249, 242, 149, 1) 75%,
-      rgba(184, 138, 68, 1) 100%
-    );
     border: none;
     text-align: center;
     font-family: 'Unbounded';
@@ -128,19 +121,11 @@
         rgba(249, 242, 149, 1) 75%,
         rgba(184, 138, 68, 1) 100%
       );
-      background: -moz-linear-gradient(
-        120deg,
-        rgba(249, 242, 149, 1) 0%,
-        rgba(224, 170, 62, 1) 25%,
-        rgba(249, 242, 149, 1) 75%,
-        rgba(184, 138, 68, 1) 100%
-      );
 
       background-size: 100% 100%;
       background-repeat: no-repeat;
 
       -webkit-background-clip: padding-box;
-      -moz-background-clip: padding-box;
   }
 
 
