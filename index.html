@@ -26,6 +26,7 @@
         <link rel = "stylesheet" type="text/css" href = "css/footer.css">
 
         <link rel = "stylesheet" type="text/css" href = "css/tablet.css">
+        <link rel = "stylesheet" type="text/css" href = "css/mobile.css">
     </head>
     <body>
         <header>
@@ -145,7 +146,7 @@
                         
                         <button class = "content__button content__button_visual authors__button_m">ОБРАТИ КУРС</button>
                     </div>
-                    <img class = "authors__image" src = "img/atwork.png" class = "authors__image" draggable="false">
+                    <div class = "authors__image" class = "authors__image" >
                 </div>
             </div>
         </section>
@@ -772,17 +773,23 @@
 
                             <div class = "forms__second-title forms__second-title-visual">Де вам зручно буде зв'язатись?</div>
                             <div class = "forms__check-container forms__check-container_text-visual">
-                                <div class="forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
+                                
+                                <div class = "forms__check-box-divider">
+                                    <div class="forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
+                                    </div>
+                                    <div class = "forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
+                                    </div>
                                 </div>
-                                <div class = "forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
-                                </div>
-                                <div class = "forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
-                                </div>
-                                <div class = "forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
+
+                                <div class = "forms__check-box-divider">
+                                    <div class = "forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
+                                    </div>
+                                    <div class = "forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
+                                    </div>
                                 </div>
                             </div>
                             <button class = "content__button content__button_visual">ВІДПРАВИТИ</button>
@@ -1043,18 +1050,25 @@
 
                             <div class = "forms__second-title forms__second-title-visual">Де вам зручно буде зв'язатись?</div>
                             <div class = "forms__check-container forms__check-container_text-visual">
-                                <div class="forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
+
+                                <div class = "forms__check-box-divider">
+                                    <div class="forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
+                                    </div>
+                                    <div class = "forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
+                                    </div>
                                 </div>
-                                <div class = "forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
+
+                                <div class = "forms__check-box-divider">
+                                    <div class = "forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
+                                    </div>
+                                    <div class = "forms__check-box">
+                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
+                                    </div>
                                 </div>
-                                <div class = "forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
-                                </div>
-                                <div class = "forms__check-box">
-                                    <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
-                                </div>
+
                             </div>
                             <button class = "content__button content__button_visual">ВІДПРАВИТИ</button>
                         </form>
@@ -1338,16 +1352,16 @@
 
         <section class = "why">
             <div class = "why__inner">
-                <div class = "why__title content__title_gradient">ВАРТО ПРИЖБАТИ НАВЧАННЯ<br>САМЕ У МЕНЕ, БО:</div>
+                <div class = "why__title content__title_gradient">ВАРТО ПРИДБАТИ НАВЧАННЯ<br>САМЕ У МЕНЕ, БО:</div>
                 <div class = "why__content">
                     <div class = "why__subinfo">
                         <div class = "why__subtitle why__subtitle-text_visual">Я - Анна Орленко</div>
                         <div class = "why__subinfo-text why__subinfo-text_visual">
-                            <div class = "why__subinfo-point"><img src = "img/icons/crone.svg">&nbsp;Чемпіонка України 2023</div>
-                            <div class = "why__subinfo-point"><img src = "img/icons/fire2.svg">&nbsp;Майстер міжнародного класу</div>
-                            <div class = "why__subinfo-point"><img src = "img/icons/medal.svg">&nbsp;Увійшла в 10 - ку найкращих майстрів Європи, "European Beauty Festival 2019"</div>
-                            <div class = "why__subinfo-point"><img src = "img/icons/rocket.svg">&nbsp;Засновниця студії "ANNORA Permanent"</div>
-                            <div class = "why__subinfo-point"><img src = "img/icons/micro.svg">&nbsp;Спікер та учасниця численних конференцій</div>
+                            <div class = "why__subinfo-point"><img src = "img/icons/crone.svg">&nbsp;<div>Чемпіонка України 2023</div></div>
+                            <div class = "why__subinfo-point"><img src = "img/icons/fire2.svg">&nbsp;<div>Майстер міжнародного класу</div></div>
+                            <div class = "why__subinfo-point"><img src = "img/icons/medal.svg">&nbsp;<div>Увійшла в 10 - ку найкращих майстрів Європи, "European Beauty Festival 2019"</div></div>
+                            <div class = "why__subinfo-point"><img src = "img/icons/rocket.svg">&nbsp;<div>Засновниця студії "ANNORA Permanent"</div></div>
+                            <div class = "why__subinfo-point"><img src = "img/icons/micro.svg">&nbsp;<div>Спікер та учасниця численних конференцій</div></div>
                         </div>
                     </div>
 
@@ -1373,7 +1387,7 @@
             <div class = "footer__inner">
                 <div class = "footer__main">
                     <div class = "footer__logo-container">
-                        <img src = "img/icons/footer-logo.svg">
+                        <img class = "footer-logo__image" src = "img/icons/footer-logo.svg">
                     </div>
                     <div class = "footer__contact-container">
                         <div class = "footer__contact-title">Contacts</div>
@@ -1402,7 +1416,7 @@
                 </div>
                 <div class = "footer__bottom">
                     <div class = "footer__container">
-                        <div class = "footer__bottom-designer footer__bottom_text-visual"><span class = "grey">Дизайнер сайту:</span> alya.mur.designer</div>
+                        <div class = "footer__bottom-designer footer__bottom_text-visual"><span class = "grey">Дизайнер сайту:</span> <span class = "footer__designer-pc-tablet">alya.mur.designer</span> <div class = "footer__designer"><u>alya.mur.designer</u> </div> </div>
                         <div class = "footer__bottom-rights footer__bottom_text-visual">@ 2024 All rights reserved</div>
                     </div>
                 </div>

@@ -49,6 +49,7 @@
 }
 
 .why__subinfo-text_visual{
+    font-family: 'Unbounded';
     color: #FCEADA;
     font-size: 18px;
 
@@ -68,4 +69,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.why__subinfo-point{
+    display: flex;
+}
+
+.why__subinfo-point div{
+    margin-top: 15px;
 }

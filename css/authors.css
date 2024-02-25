@@ -52,8 +52,14 @@
 
 .authors__button_m{
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .authors__image{
+    width: 689px; height: 455px;
+
+    background-image: url('../img/atwork.png');
     background-size: cover;
+
+    border-radius: 7px;
 }
