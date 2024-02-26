@@ -24,9 +24,8 @@
     margin-top: 60px;
 }
 
-.authors__info{
-    width: auto; height: auto;
-}
+
+
 
 .authors__sub-one, .authors__sub-two, .authors__sub-three{
     display: flex;
@@ -56,7 +55,7 @@
 }
 
 .authors__image{
-    width: 689px; height: 455px;
+    width: 1100px; height: 455px;
 
     background-image: url('../img/atwork.png');
     background-size: cover;

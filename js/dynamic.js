@@ -1,26 +1,29 @@
 const dragBox = document.querySelector(".history__content-wrap");
 let isDragging = false;
+let startX;
+
+const startDragging = (e) => {
+    isDragging = true;
+    startX = e.clientX || e.touches[0].clientX;
+}
 
 const dragging = (e) => {
     if (!isDragging) return;
-    console.log('dragging');
-    dragBox.scrollLeft -= e.movementX;
+    const currentX = e.clientX || e.touches[0].clientX;
+    const movementX = startX - currentX;
+    dragBox.scrollLeft += movementX;
+    startX = currentX;
 }
 
-dragBox.addEventListener('mousedown', () => isDragging = true);
-document.addEventListener('mouseup', () => isDragging = false);
+const stopDragging = () => {
+    isDragging = false;
+}
+
+dragBox.addEventListener('mousedown', startDragging);
 dragBox.addEventListener('mousemove', dragging);
+document.addEventListener('mouseup', stopDragging);
 
-
-
-const whomBox = document.querySelector(".for-whom__elems-wrapper");
-let isWhomDragging = false;
-
-const wdragging = (e) => {
-    if (!isWhomDragging) return;
-    whomBox.scrollLeft -= e.movementX;
-}
-
-whomBox.addEventListener('mousedown', () => isWhomDragging = true);
-document.addEventListener('mouseup', () => isWhomDragging = false);
-whomBox.addEventListener('mousemove', wdragging);
+// Добавляем обработчики для тач-событий
+dragBox.addEventListener('touchstart', startDragging);
+dragBox.addEventListener('touchmove', dragging);
+document.addEventListener('touchend', stopDragging);

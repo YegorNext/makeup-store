@@ -118,6 +118,10 @@
         margin-bottom: 30px;
     }
 
+    .authors__sub-three{
+        padding-right: 105px;
+    }
+
     .authors__sub_t-bold{
         font-size: 18px;
     }
@@ -259,6 +263,10 @@
     /* forms */
     .forms__inner{
         max-width: 696px;
+    }
+
+    .forms__content-title{
+        padding: 0;
     }
 
     .forms__title_size_h2{

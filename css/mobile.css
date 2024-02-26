@@ -115,6 +115,10 @@
         max-width: 288px;
     }
 
+    .authors__sub_icon{
+        width: 63px; height: 75px;
+    }
+
     .authors__title{
         font-size: 24px;
     }
@@ -126,6 +130,10 @@
 
     .authors__sub-one, .authors__sub-two, .authors__sub-three{
         margin-bottom: 30px;
+    }
+
+    .authors__sub-three{
+        padding-right: 0;
     }
 
     .authors__sub_t-bold{
@@ -418,6 +426,9 @@
         font-size: 14px;
     }
 
+    .forms__content-title{
+        padding: 0;
+    }
     .input-field{
         font-size: 14px;
     }
