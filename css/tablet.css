@@ -209,6 +209,42 @@
         font-size: 30px;
     }
 
+    .stock__collaps-title-photo{
+        height: 300px;
+    }
+
+    .stock__collaps-title{
+        height: auto;
+    }
+
+    .stock__collaps-demo_title_font{
+        font-size: 16px;
+    }
+
+    .stock__collaps-demo_main_font{
+        font-size: 16px;
+    }
+
+    .stock__price_visual{
+        font-size: 24px;
+    }
+
+    .stock__buy-btn_modifed{
+        font-size: 14px;
+    }
+
+    .stock__buy-btn_bordered{
+        font-size: 14px;
+    }
+
+    .stock__collaps-content_theme_img-brows, .stock__collaps-content_theme_img-lips, .stock__collaps-content_theme_img-eyes {
+        background-size: 100% 250px;
+    }
+
+    .stock__demo-buy_text_visual{
+        font-size: 14px;
+    }
+
     /* online */
     .online__inner{
         max-width: 696px;

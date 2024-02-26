@@ -27,13 +27,16 @@
 }
 
 .offline__subtitle{
+    display: flex;
+    align-items: center;
+
     height: auto; width: 100%;
     margin-bottom: 30px;
 }
 
 .offline__subtitle-text_visual{
     font-family: 'Unbounded';
-    font-size: 18px;
+    font-size: 24px;
 
     font-weight: 400;
 

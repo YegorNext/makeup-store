@@ -21,6 +21,10 @@
     margin-top: 60px;
 }
 
+.stock__price-sub-container{
+    text-align: center;
+}
+
 .stock__spoiler{
     width: 100%; height: auto;
 }
@@ -355,12 +359,56 @@
     margin-top: 85px;
 }
 
+.stock__collaps-price_between{
+    justify-content: space-around;
+
+    padding-left: 115px; padding-right: 115px;
+}
+
 .stock__price_visual{
     font-family: 'Unbounded';
     color: #F5F5F5;
 
     font-size: 35px;
     font-weight: 600;  
+}
+
+.stock__price-container{
+    height: auto; width: auto;
+}
+
+.stock__price-desc{
+    width: 100%;
+    text-align: center;
+}
+
+.stock__price-sub-container{
+    height: auto;
+}
+
+.stock__demo-buy_text_visual{
+    font-family: 'Unbounded';
+    color: #F5F5F5;
+
+    font-size: 22px;
+    font-weight: 400;  
+    
+    border-bottom: 1px solid white;
+    border-image: linear-gradient(120deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 25%, rgba(249,242,149,1) 75%, rgba(184,138,68,1) 100%);
+    border-image-slice: 1; 
+}
+
+
+
+.stock__demo-buy{
+    height: auto;
+
+    margin-top: 45px;
+    margin-bottom: 5px;
+
+    text-align: center;
+
+    
 }
 
 .stock__price_striked{
@@ -386,13 +434,13 @@
 }
 
 .stock__buy-btn_modifed{
-    height: 57px; width: 450px;
+    height: 75px; width: 450px;
 
     font-weight: 400; font-size: 18px;
 }
 
 .stock__buy-btn_bordered{
-    height: 57px; width: 450px;
+    height: 75px; width: 450px;
 
     font-weight: 400; font-size: 18px;
 

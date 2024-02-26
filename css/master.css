@@ -21,6 +21,11 @@
     font-weight: 600;
 }
 
+.master__subtitle{
+    display: flex;
+    align-items: center;
+}
+
 .master__content{
     width: auto; height: auto;
     margin-top: 60px;
@@ -33,7 +38,7 @@
 
 .master__subtitle-text_visual{
     font-family: 'Unbounded';
-    font-size: 18px;
+    font-size: 24px;
 
     font-weight: 400;
 
