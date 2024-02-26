@@ -63,8 +63,12 @@
     
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+
       -moz-background-clip: text;
       -moz-text-fill-color: transparent;
+
+      -o-background-clip: text;
+      -o-text-fill-color: transparent;
 }
 
 .content__addinfo{
@@ -153,6 +157,14 @@
       color-stop(75%, rgba(249, 242, 149, 1)),
       color-stop(100%, rgba(184, 138, 68, 1))
     );
+
+    background: -o-linear-gradient(
+        120deg,
+        rgba(249, 242, 149, 1) 0%,
+        rgba(224, 170, 62, 1) 25%,
+        rgba(249, 242, 149, 1) 75%,
+        rgba(184, 138, 68, 1) 100%
+      );
   
     background-size: 100% 100%;
     background-repeat: no-repeat;
