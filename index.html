@@ -83,28 +83,28 @@
                     
                     <div class = "for-whom__elems-wrapper">
                         <div class = "for-whom__elem-one for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
-                            <img src = "img/icons/finger.png" class = "for-whom__icon"><br>
+                            <img src = "img/icons/finger.png" draggable="false" class = "for-whom__icon"><br>
                             Відчуваєте <span class = "for-whom_elem-text_bold">невпевненість</span> 
                             під час роботи та <span class = "for-whom_elem-text_bold">боїтесь зіпсувати обличчя клієнту</span>
                         </div>
 
                         <div class = "for-whom__elem-two for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
-                            <img src = "img/icons/timer.png" class = "for-whom__icon">
+                            <img src = "img/icons/timer.png" draggable="false" class = "for-whom__icon">
                             <br>Проблеми зі <span class = "for-whom_elem-text_bold">швидкістю</span> та <span class = "for-whom_elem-text_bold">симетрією ескізів</span>
                         </div>
 
                         <div class = "for-whom__elem-three for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
-                            <img src = "img/icons/sphere.png" class = "for-whom__icon">
+                            <img src = "img/icons/sphere.png" draggable="false" class = "for-whom__icon">
                             <br>Плями, <span class = "for-whom_elem-text_bold">слабкий залишок</span>, відсутність чіткості
                         </div>
 
                         <div class = "for-whom__elem-four for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
-                            <img src = "img/icons/palette.png" class = "for-whom__icon">
+                            <img src = "img/icons/palette.png" draggable="false" class = "for-whom__icon">
                             <br><span class = "for-whom_elem-text_bold">Слабке розуміння колористики</span> та вибору <span class = "for-whom_elem-text_bold">коректорів</span>
                         </div>
 
                         <div class = "for-whom__elem-five for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
-                            <img src = "img/icons/coin.png" class = "for-whom__icon">
+                            <img src = "img/icons/coin.png" draggable="false" class = "for-whom__icon">
                             <br>Бажаєте <span class = "for-whom_elem-text_bold">підвищення прайсу на 20-50%</span> через поліпшення навичок і результатів
                         </div>
                     </div>
@@ -1182,7 +1182,22 @@
                                     Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній
                                     практиці, я змогла стати профейсійним майстром.<br><br>
                                     Наразі, в мене щільний запис, досить високий прайс на мої послуги, я вже відкрила власну студію, та сама вже почала викладати<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-first-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-first-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-first-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img draggable="false" id = "history__arrow-first" class = "history__arrow" src = "img/history-arrow.svg" >
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-first-sp" >
+                                        Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                        бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                        Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                </div>   
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1214,7 +1229,22 @@
                                 <div class = "history__card-mid light-color">
                                     Я дуже задоволена своїм стартом, бо після наввчання мій запис заповнений на місяць вперед та дохід 500$+ тільки за 10 робочих днів.<br><br>
                                     Аня контролювала кожну деталь, все чітко пояснювала. Оскільки, я дуже прискіплива до своєї роботи, то переживала чи залишаться задоволеними клієнти<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-second-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-second-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-second-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img id = "history__arrow-second" class = "history__arrow" src = "img/history-arrow.svg">
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-second-sp" >
+                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    </div>
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1246,7 +1276,22 @@
                                 <div class = "history__card-mid light-color">
                                     Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
                                     Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-third-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-third-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-third-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img id = "history__arrow-third" class = "history__arrow" src = "img/history-arrow.svg">
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-third-sp" >
+                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    </div> 
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1278,7 +1323,22 @@
                                 <div class = "history__card-mid light-color">
                                     Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
                                     Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-fourth-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-fourth-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-fourth-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img id = "history__arrow-fourth" class = "history__arrow" src = "img/history-arrow.svg">
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-fourth-sp" >
+                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    </div>  
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1311,7 +1371,22 @@
                                 <div class = "history__card-mid light-color">
                                     Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
                                     Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-fifth-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-fifth-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-fifth-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img id = "history__arrow-fifth" class = "history__arrow" src = "img/history-arrow.svg">
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-fifth-sp" >
+                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    </div>   
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1344,7 +1419,22 @@
                                 <div class = "history__card-mid light-color">
                                     Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
                                     Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-eigth-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-eigth-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-eigth-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img id = "history__arrow-eigth" class = "history__arrow" src = "img/history-arrow.svg">
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-eigth-sp" >
+                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    </div> 
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1376,7 +1466,22 @@
                                 <div class = "history__card-mid light-color">
                                     Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
                                     Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-six-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-six-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-six-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img id = "history__arrow-six" class = "history__arrow" src = "img/history-arrow.svg">
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-six-sp" >
+                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    </div>    
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1410,7 +1515,22 @@
                                     Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній
                                     практиці, я змогла стати профейсійним майстром.<br><br>
                                     Наразі, в мене щільний запис, досить високий прайс на мої послуги, я вже відкрила власну студію, та сама вже почала викладати<br><br>
-                                    <span class = "white-color"><u>читати повний відгук</u></span> 
+                                    <div class = "history__btn-wrapper">
+                                        <button id = "history-seven-btn" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#history-seven-sp" 
+                                                aria-expanded="false" 
+                                                aria-controls="history-seven-sp" 
+                                                class = "history__card-button_visual white-color">
+                                            <u>читати повний відгук</u>
+                                        </button>
+                                        <img id = "history__arrow-seven" class = "history__arrow" src = "img/history-arrow.svg">
+                                    </div>
+                                    <div class = "collapse history__collapsed history__colapsed_visual" id = "history-seven-sp" >
+                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
+                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
+                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    </div>    
                                 </div>
 
                                 <div class = "history__card-bottom">
@@ -1455,11 +1575,22 @@
             <div class = "faq__inner">
                 <div class = "faq__title content__title_gradient">FAQ</div>
                 <div class = "faq__content">
-                    <button class = "faq__button faq__button-text_visual">Я зможу навчитись онлайн?<div class = "faq__switcher-container"><img src = "img/icons/faq_switcher.svg"></div></button> 
-                    <button class = "faq__button faq__button-text_visual">Як я отримаю доступ до навчання?<div class = "faq__switcher-container"><img src = "img/icons/faq_switcher.svg"></div></button>
-                    <button class = "faq__button faq__button-text_visual">Чи є підтримка після курсу?<div class = "faq__switcher-container"><img src = "img/icons/faq_switcher.svg"></div></button>
-                    <button class = "faq__button faq__button-text_visual">З якої зони краще всього починати навчання?<div class = "faq__switcher-container"><img src = "img/icons/faq_switcher.svg"></div></button>
-                    <button class = "faq__button faq__button-text_visual">Можна оплатити PayPal?<div class = "faq__switcher-container"><img src = "img/icons/faq_switcher.svg"></div></button>
+                    <button id = "faq-first-btn" data-bs-toggle="collapse" data-bs-target="#faq-first-sp" aria-expanded="false" aria-controls="faq-first-sp" class = "faq__button faq__button-text_visual">Я зможу навчитись онлайн?<div class = "faq__switcher-container"><img id = "faq_switcher-first" src = "img/icons/faq_switcher.svg"></div></button> 
+                    <div class = "collapse faq__collapsed faq__colapsed_visual" id = "faq-first-sp" >• Так, це звісно можливо, бо всі уроки створені і прописані так, щоб люди, которі не мають уяви про перманент, могли не тільки вчити теорію, але і практикувати на клієнтах свої отриманні знання</div>    
+                
+                    <button id = "faq-second-btn" data-bs-toggle="collapse" data-bs-target="#faq-second-sp" aria-expanded="false" aria-controls="faq-second-sp" class = "faq__button faq__button-text_visual">Як я отримаю доступ до навчання?<div class = "faq__switcher-container"><img id = "faq_switcher-second" src = "img/icons/faq_switcher.svg"></div></button>
+                    <div class = "collapse faq__collapsed faq__colapsed_visual" id = "faq-second-sp" >• Доступ надається за вашим email, через посилання на уроки. Одразу після оплати.</div>    
+
+                    <button id = "faq-third-btn" data-bs-toggle="collapse" data-bs-target="#faq-third-sp" aria-expanded="false" aria-controls="faq-third-sp" class = "faq__button faq__button-text_visual">Чи є підтримка після курсу?<div class = "faq__switcher-container"><img id = "faq_switcher-third" src = "img/icons/faq_switcher.svg"></div></button>
+                    <div class = "collapse faq__collapsed faq__colapsed_visual" id = "faq-third-sp" >• Я піклуюсь про своїх учнів, і підтримку Вони отримують на регулярній основі: відповіді на питання, ведення практичних навчиков учнів, і підказки у подальшій роботі</div>    
+
+                    
+                    <button id = "faq-fourth-btn" data-bs-toggle="collapse" data-bs-target="#faq-fourth-sp" aria-expanded="false" aria-controls="faq-fourth-sp" class = "faq__button faq__button-text_visual">З якої зони краще всього починати навчання?<div id = "faq_switcher-fourth" class = "faq__switcher-container"><img src = "img/icons/faq_switcher.svg"></div></button>
+                    <div class = "collapse faq__collapsed faq__colapsed_visual" id = "faq-fourth-sp" >• Тут, звісно, бажано обирати повний курс, аби мати змогу якісно надавати комлпексні послуги</div>    
+
+                    
+                    <button id = "faq-fifth-btn" data-bs-toggle="collapse" data-bs-target="#faq-fifth-sp" aria-expanded="false" aria-controls="faq-fifth-sp" class = "faq__button faq__button-text_visual">Можна оплатити PayPal?<div id = "faq_switcher-fifth" class = "faq__switcher-container"><img src = "img/icons/faq_switcher.svg"></div></button>
+                    <div class = "collapse faq__collapsed faq__colapsed_visual" id = "faq-fifth-sp" >• Так, авжеж!</div>    
                 </div>
             </div>
         </section>

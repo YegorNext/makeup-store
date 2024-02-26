@@ -368,7 +368,6 @@
 
     .stock__collaps-price_between{
         padding: 0;
-        padding-right: 15px;
     }
 
     .stock__collaps-content{
@@ -562,6 +561,12 @@
     .history__bottom-images img{
         width: 75px; height: 100px;
     }
+
+    .history__collapsed{
+        font-size: 10px;
+    }
+
+
     /* why */
 
     .why{
@@ -625,6 +630,9 @@
         text-align: left;
     }
 
+    .faq__colapsed_visual{
+        font-size: 12px;
+    }
     /* footer */
     .footer__inner{
         max-width: 288px;  

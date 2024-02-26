@@ -164,3 +164,38 @@
 .history__card-bottom{
     margin-top: 20px;
 }
+
+.history__card-button_visual{
+    outline: none; border: none;
+    padding: 0;
+
+    background: transparent;
+}
+
+
+.history__btn-wrapper{
+    display: flex;
+    
+}
+
+.history__colapsed_visual{
+    font-family: 'Unbounded';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.history__arrow{
+    margin-left: auto;
+
+    display: none;
+    margin-bottom: 10px;
+}
+
+
+.show{
+    display: block;
+}
+
+#history-first-btn, #history-second-btn, #history-third-btn, #history-fourth-btn, #history-fifth-btn, #history-six-btn, #history-seven-btn, #history-eigth-btn{
+    margin-bottom: 10px;
+}

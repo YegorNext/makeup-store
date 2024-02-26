@@ -31,6 +31,9 @@ let startWhomX;
 
 const wdragging = (e) => {
     if (!isWhomDragging) return;
+
+    e.preventDefault(); 
+
     whomBox.scrollLeft -= e.type === 'touchmove' ? startWhomX - e.touches[0].clientX : e.movementX;
     startWhomX = e.type === 'touchmove' ? e.touches[0].clientX : null;
 }
@@ -42,7 +45,6 @@ whomBox.addEventListener('mousedown', (e) => {
 document.addEventListener('mouseup', () => isWhomDragging = false);
 whomBox.addEventListener('mousemove', wdragging);
 
-// Добавляем обработчики для тач-событий
 whomBox.addEventListener('touchstart', (e) => {
     isWhomDragging = true;
     startWhomX = e.touches[0].clientX;

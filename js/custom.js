@@ -188,4 +188,76 @@ $('#spoiler-eight-btn').on('click', function(){
 
 });
 
+$('#faq-first-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     
+ 
+     if(expanded == 'true') $('#faq_switcher-first').addClass('expand');
+     
+     if(expanded == 'false') $('#faq_switcher-first').removeClass('expand');
+ 
+ });
 
+ $('#faq-second-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     
+ 
+     if(expanded == 'true') $('#faq_switcher-second').addClass('expand');
+     
+     if(expanded == 'false') $('#faq_switcher-second').removeClass('expand');
+ 
+ });
+
+ $('#faq-third-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     
+ 
+     if(expanded == 'true') $('#faq_switcher-third').addClass('expand');
+     
+     if(expanded == 'false') $('#faq_switcher-third').removeClass('expand');
+ 
+ });
+
+
+ $('#faq-fourth-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     
+ 
+     if(expanded == 'true') $('#faq_switcher-fourth').addClass('expand');
+     
+     if(expanded == 'false') $('#faq_switcher-fourth').removeClass('expand');
+ 
+ });
+
+ $('#faq-fifth-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     
+ 
+     if(expanded == 'true') $('#faq_switcher-fifth').addClass('expand');
+     
+     if(expanded == 'false') $('#faq_switcher-fifth').removeClass('expand');
+ 
+ });
+
+
+
+ 
+
+ function controlArrow(controller, element){
+     $(controller).on('click', function(){
+          var expanded = $(this).attr('aria-expanded');
+     
+          if(expanded == 'true') $(element).addClass('show');
+          if(expanded == 'false') $(element).removeClass('show');
+     });
+ }
+
+
+ controlArrow('#history-first-btn', '#history__arrow-first');
+ controlArrow('#history-second-btn', '#history__arrow-second');
+ controlArrow('#history-third-btn', '#history__arrow-third');
+ controlArrow('#history-fourth-btn', '#history__arrow-forth');
+ controlArrow('#history-fifth-btn', '#history__arrow-fifth');
+ controlArrow('#history-six-btn', '#history__arrow-six');
+ controlArrow('#history-seven-btn', '#history__arrow-seven');
+ controlArrow('#history-eigth-btn', '#history__arrow-eigth');

@@ -25,6 +25,8 @@
     text-align: center;
 }
 
+
+
 .stock__spoiler{
     width: 100%; height: auto;
 }
@@ -484,4 +486,8 @@
 
 .stock__spoiler_m{
     margin-top: 60px;
+}
+
+.stock__collaps-content_theme_img-brows{
+    background-size: 100% 140px;
 }

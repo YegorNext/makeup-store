@@ -193,6 +193,7 @@
         font-weight: 600;
     }
 
+
     .stock_spoiler_align{
         height: 145px;
     }
@@ -243,6 +244,10 @@
 
     .stock__collaps-content_theme_img-brows, .stock__collaps-content_theme_img-lips, .stock__collaps-content_theme_img-eyes {
         background-size: 100% 250px;
+    }
+
+    .stock__collaps-content_theme_img-brows{
+        background-size: 100% 120px;
     }
 
     .stock__demo-buy_text_visual{
@@ -305,6 +310,7 @@
     
     .master__title{
         font-size: 36px;
+        margin-top: 0px;
     }
 
     .master__subtitle-text_visual{
@@ -325,6 +331,14 @@
     }
 
     /* history */
+    .history{
+        margin-top: 120px;
+    }
+
+    .history__collapsed{
+        font-size: 12px;
+    }
+
     .history__inner{
         max-width: 696px;
     }
@@ -365,12 +379,24 @@
 
     /* faq */
 
+    .faq{
+        margin-top: 0;
+    }
+
+    .faq__collapsed{
+        padding-right: 10%;
+    }
+
     .faq__inner{
         max-width: 696px;
     }
 
     .faq__title{
         font-size: 36px;
+    }
+
+    .faq__colapsed_visual{
+        font-size: 16px;
     }
 
     .faq__subtitle-text_visual{
