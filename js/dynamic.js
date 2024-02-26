@@ -2,28 +2,50 @@ const dragBox = document.querySelector(".history__content-wrap");
 let isDragging = false;
 let startX;
 
-const startDragging = (e) => {
-    isDragging = true;
-    startX = e.clientX || e.touches[0].clientX;
-}
-
 const dragging = (e) => {
     if (!isDragging) return;
-    const currentX = e.clientX || e.touches[0].clientX;
-    const movementX = startX - currentX;
-    dragBox.scrollLeft += movementX;
-    startX = currentX;
+    dragBox.scrollLeft -= e.type === 'touchmove' ? startX - e.touches[0].clientX : e.movementX;
+    startX = e.type === 'touchmove' ? e.touches[0].clientX : null;
 }
 
-const stopDragging = () => {
-    isDragging = false;
-}
-
-dragBox.addEventListener('mousedown', startDragging);
+dragBox.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = null;
+});
+document.addEventListener('mouseup', () => isDragging = false);
 dragBox.addEventListener('mousemove', dragging);
-document.addEventListener('mouseup', stopDragging);
+
+
+dragBox.addEventListener('touchstart', (e) => {
+    isDragging = true;
+    startX = e.touches[0].clientX;
+});
+dragBox.addEventListener('touchmove', dragging);
+document.addEventListener('touchend', () => isDragging = false);
+
+/////////
+
+const whomBox = document.querySelector(".for-whom__elems-wrapper");
+let isWhomDragging = false;
+let startWhomX;
+
+const wdragging = (e) => {
+    if (!isWhomDragging) return;
+    whomBox.scrollLeft -= e.type === 'touchmove' ? startWhomX - e.touches[0].clientX : e.movementX;
+    startWhomX = e.type === 'touchmove' ? e.touches[0].clientX : null;
+}
+
+whomBox.addEventListener('mousedown', (e) => {
+    isWhomDragging = true;
+    startWhomX = null;
+});
+document.addEventListener('mouseup', () => isWhomDragging = false);
+whomBox.addEventListener('mousemove', wdragging);
 
 // Добавляем обработчики для тач-событий
-dragBox.addEventListener('touchstart', startDragging);
-dragBox.addEventListener('touchmove', dragging);
-document.addEventListener('touchend', stopDragging);
+whomBox.addEventListener('touchstart', (e) => {
+    isWhomDragging = true;
+    startWhomX = e.touches[0].clientX;
+});
+whomBox.addEventListener('touchmove', wdragging);
+document.addEventListener('touchend', () => isWhomDragging = false);
