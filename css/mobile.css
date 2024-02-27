@@ -167,6 +167,14 @@
         width: 288px; height: 80px;
     }
 
+    .methods__wm_m{
+        width: 57px; height: 58px;
+    }
+
+    .methods__wm-container{
+        padding-top: 5px;
+    }
+
     .methods_btn-visual{
         font-size: 14px;
     }
@@ -183,6 +191,18 @@
         height: 150px;
     }
 
+
+    .mobile__t-spoiler_m{
+        height: 140px;
+    }
+
+    .mobile__t-spoiler_m_s{
+        height: 190px;
+    }
+
+    .mobile__t-spoiler_f{
+        height: 190px;
+    }
 
     .methods__ph-spoiler-content_text{
         font-size: 14px;
@@ -791,4 +811,32 @@
     .custom-radiobox-text{
         margin-left: 10px;
     }
+
+    /* Menu */
+    .menu{
+        width: 272px;
+        height: 596px;
+
+        padding-left: 32px;
+    }
+
+    .menu__points-container{
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-top: 15px;
+    }
+
+    .menu_visual{
+        font-size: 16px;
+    }
+
+    .menu__divider_m{
+        margin: 0;
+    }
+
+    .menu__points-divider > div{
+        text-align: right;
+    }
+
 }

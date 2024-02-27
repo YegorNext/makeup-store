@@ -31,6 +31,7 @@
         <link rel = "stylesheet" type="text/css" href = "css/footer.css">
 
         <link rel = "stylesheet" type="text/css" href = "css/popups.css">
+        <link rel = "stylesheet" type="text/css" href = "css/menu.css">
 
         <link rel = "stylesheet" type="text/css" href = "css/tablet.css">
         <link rel = "stylesheet" type="text/css" href = "css/mobile.css">
@@ -41,23 +42,23 @@
                 <div class = "header-content__full-version">
                     <img src = "img/logo.svg" class = "header-content__logo">
             
-                    <div class = "header-content__for-who">Для кого</div>
-                    <div class = "header-content__authors">Авторська методика</div>
-                    <div class = "header-content__methods">Переваги</div>
-                    <div class = "header-content__stock">Акції</div>
-                    <div class = "header-content__online">Онлайн</div>
-                    <div class = "header-content__offline">Офлайн</div>
-                    <div class = "header-content__reviews">Відгуки</div>
-                    <div class = "header-content__author">Автор</div>
-                    <div class = "header-content__contact">Зв'язатись</div>
-                    <div class = "header-content__faq">FAQ</div>
+                    <div class = "header-content__for-who"><a href = "#for-whom">Для кого</a></div>
+                    <div class = "header-content__authors"><a href = "#authors">Авторська методика</a></div>
+                    <div class = "header-content__methods"><a href = "#methods">Переваги</a></div>
+                    <div class = "header-content__stock"><a href = "#stock">Акції</a></div>
+                    <div class = "header-content__online"><a href = "#online">Онлайн</a></div>
+                    <div class = "header-content__offline"><a href = "#online">Офлайн</a></div>
+                    <div class = "header-content__reviews"><a href = "#history">Відгуки</a></div>
+                    <div class = "header-content__author"><a href = "#why">Автор</a></div>
+                    <div class = "header-content__contact"><a href = "#forms">Зв'язатись</a></div>
+                    <div class = "header-content__faq"><a href = "#faq">FAQ</a></div>
                 </div>
                 <div class = "header-content__mini-version">
                     <div class = "header-content__logo-container">
                         <img src = "img/icons/mini-logo.svg" class = "header-content__logo">
                     </div>
                     <div class = "header-content__menu-container">
-                        <div class = "header-content__menu"></div>
+                        <div id = "menu-icon" class = "header-content__menu"></div>
                     </div>
                 </div>
             </div>
@@ -85,7 +86,7 @@
         </section>
         <section class = "for-whom">
             <div class = "for-whom__inner">
-                <div class = "for-whom__title content__title_gradient">МОЇ КУРСИ ДОПОМОЖУТЬ <br>ВАМ, ЯКЩО:</div>
+                <div id = "for-whom" class = "for-whom__title content__title_gradient">МОЇ КУРСИ ДОПОМОЖУТЬ <br>ВАМ, ЯКЩО:</div>
                 <div class = "for-whom__pbox">
                     
                     <div class = "for-whom__elems-wrapper">
@@ -122,7 +123,7 @@
 
         <section class = "authors">
             <div class = "authors__inner">
-                <div class = "authors__title content__title_gradient">АВТОРСЬКА МЕТОДИКА</div>
+                <div id = "authors" class = "authors__title content__title_gradient">АВТОРСЬКА МЕТОДИКА</div>
                 <div class = "authors__content">
                     <div class = "authors__info">
                         <div class = "authors_subinfo">
@@ -160,7 +161,7 @@
 
         <section class = "methods">
             <div class = "methods__inner">
-                <div class = "methods__title content__title_gradient">ПЕРЕВАГИ МОЇХ КУРСІВ</div>
+                <div id = "methods" class = "methods__title content__title_gradient">ПЕРЕВАГИ МОЇХ КУРСІВ</div>
                 
                 
                     <div class = "methods__spoilers">
@@ -173,7 +174,7 @@
                                 <div class = "methods__btn-switcher"><img id ="switcher1" src = "img/icons/switcher.svg"></div>
                             </button>
                             <div class="methods__anim-set_m collapse" id="spoiler-ph">
-                                <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text">
+                                <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text mobile__t-spoiler_m">
                                 4К якість та унікальний ракурс занурює вас у процес, де ви відчуваєте, ніби я веду вас за руку в світі перманентного макіяжу
                                 </div>
                             </div>
@@ -190,7 +191,7 @@
                                 <div class = "methods__btn-switcher"><img id ="switcher2" src = "img/icons/switcher.svg"></div>
                             </button>
                             <div class="methods__anim-set_m collapse" id="spoiler-lk">
-                                <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text methods__collapsed-content_ex">
+                                <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text methods__collapsed-content_ex mobile__t-spoiler_m">
                                 Ділюсь секретними техніками для гарантованого успіху, заповнюючи теоритичні прогалини, пояснюючи на практиці усі деталі
                                 </div>
                             </div>
@@ -211,7 +212,7 @@
                                 <div class = "methods__btn-switcher methods__btn-switcher_size"><img id ="switcher3" src = "img/icons/switcher.svg"></div>
                             </button>
                             <div class="methods__anim-set_m collapse" id="spoiler-wm">
-                                <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text">
+                                <div class="card-body methods__collapsed-content methods__ph-spoiler-content_text mobile__t-spoiler_m">
                                 Ретельно розглядаємо, як правильно працювати з різними типами шкіри, створюючи із кожного клієнта живу рекламу
                                 </div>
                             </div>
@@ -230,7 +231,7 @@
                                 <div class = "methods__btn-switcher"><img id ="switcher4" src = "img/icons/switcher.svg"></div>
                             </button>
                             <div class="methods__anim-set_m collapse" id="spoiler-sp">
-                                <div class="card-body methods__collapsed-content_sp methods__ph-spoiler-content_text ">
+                                <div class="card-body methods__collapsed-content_sp methods__ph-spoiler-content_text mobile__t-spoiler_m_s">
                                 Відео підтримка, надання завдань, які розвивають навички роботи зі штрихами та лінями<br><br>
                                 Допомога з підбором матеріалів та відправкою закордон
                                 </div>
@@ -246,7 +247,7 @@
 
         <section class = "stock">
             <div class = "stock__inner">
-                <div class = "stock__title content__title_gradient">АКЦІЙНІ ПРОПОЗИЦІї</div>
+                <div id = "stock" class = "stock__title content__title_gradient">АКЦІЙНІ ПРОПОЗИЦІї</div>
                 <div class = "stock__content">
                     <div class = "stock__spoiler">
                         <button id="spoiler-st-btn" class = "stock_spoiler_align stock_btn-visual stock__button_theme_img" data-bs-toggle="collapse" data-bs-target="#spoiler-crs" aria-expanded="false" aria-controls="spoiler-crs">
@@ -289,11 +290,11 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br class = "tablet mobile">&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
+                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
                                                 <div class = "stock__desc_m">• Правильна робота зі світлом</div>
                                             </div>
                                         </div>
@@ -303,7 +304,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -312,8 +313,13 @@
                                         <span class = "stock__price_visual">450$&nbsp;</span><span class = "stock__price_striked"><s>567$</s></span>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
-                                        <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
+                                        </a>
+
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -364,11 +370,11 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
+                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
                                                 <div class = "stock__desc_m">• Правильна робота зі світлом</div>
                                             </div>
                                         </div>
@@ -378,7 +384,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -399,8 +405,13 @@
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
-                                        <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
+                                        </a>
+                                        
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
@@ -416,7 +427,7 @@
 
         <section class = "online">
             <div class = "online__inner">
-                <div class = "online__title content__title_gradient">ОНЛАЙН КУРСИ</div>
+                <div id = "online" class = "online__title content__title_gradient">ОНЛАЙН КУРСИ</div>
                 <div class = "online__content"> 
                     <div class = "spoiler">
                         <button id="spoiler-one-btn" class = "stock_spoiler_align stock_btn-visual stock__button_theme_img" data-bs-toggle="collapse" data-bs-target="#spoiler-one" aria-expanded="false" aria-controls="spoiler-one">
@@ -457,11 +468,11 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
+                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
                                                 <div class = "stock__desc_m">• Правильна робота зі світлом</div>
                                             </div>
                                         </div>
@@ -471,7 +482,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -480,8 +491,13 @@
                                         <span class = "stock__price_visual">567$</span>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
-                                        <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
+                                        </a>
+
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -530,11 +546,11 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
+                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
                                                 <div class = "stock__desc_m">• Правильна робота зі світлом</div>
                                             </div>
                                         </div>
@@ -544,7 +560,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -565,8 +581,13 @@
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
-                                        <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
+                                        </a>
+
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
@@ -619,11 +640,11 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
+                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
                                                 <div class = "stock__desc_m">• Правильна робота зі світлом</div>
                                             </div>
                                         </div>
@@ -633,7 +654,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -654,8 +675,13 @@
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
-                                        <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
+                                        </a>
+                                        
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
@@ -705,11 +731,11 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
+                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
                                                 <div class = "stock__desc_m">• Правильна робота зі світлом</div>
                                             </div>
                                         </div>
@@ -719,7 +745,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -740,8 +766,12 @@
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
-                                        <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
+                                        </a>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
@@ -793,10 +823,10 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
+                                                <div>• Огляд програм для гарної обробки</div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -805,7 +835,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -814,8 +844,13 @@
                                         <span class = "stock__price_visual">97$</span>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
-                                        <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
+                                        </a>
+
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -828,7 +863,7 @@
 
         <section class = "forms">
             <div class = "forms__inner forms_body-gradient">
-                <div class = "forms__title content__title_gradient forms__title_size_h2">ПОТРІБНА КОНСУЛЬТАЦІЯ АБО ДОПОМОГА?</div>
+                <div id = "forms" class = "forms__title content__title_gradient forms__title_size_h2">ПОТРІБНА КОНСУЛЬТАЦІЯ АБО ДОПОМОГА?</div>
                 <div class = "forms__content">
                     <div class = "forms__content-title forms__content-title_text-visual">
                         <img src = "img/icons/phone.png"><div class = "forms__subtitle_m">Залиште свої контакти і я зв'яжуся з вами</div>
@@ -945,7 +980,9 @@
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <button class = "content__button content__button_visual stock__buy-btn_modifed">ЗАПИСАТИСЬ НА МК</button>
+                                        <a href = "#forms">
+                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">ЗАПИСАТИСЬ НА МК</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -957,7 +994,7 @@
 
         <section class = "offline">
             <div class = "offline__inner">
-                <div class = "offline__title content__title_gradient">ОФЛАЙН КУРСИ</div>
+                <div id = "offline" class = "offline__title content__title_gradient">ОФЛАЙН КУРСИ</div>
                 <div class = "offline__content">
                     <div class = "offline__subtitle offline__subtitle-text_visual"><img src = "img/icons/location.svg">&nbsp;&nbsp;<div class = "after-image">м.Нікополь, Дніпро + виїздні в інші міста та країни</div></div>
                     
@@ -1076,11 +1113,11 @@
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
+                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
                                                 <div class = "stock__desc_m">• Правильна робота зі світлом</div>
                                             </div>
                                         </div>
@@ -1090,7 +1127,7 @@
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
                                                 <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
+                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
                                                 <div class = "stock__desc_m">• Сертифікат</div>
                                             </div>
                                         </div>
@@ -1167,7 +1204,7 @@
 
         <section class = "history">
             <div class = "history__inner">
-                <div class = "history__title content__title_gradient">ІСТОРІЇ УЧНІВ</div>
+                <div id = "history" class = "history__title content__title_gradient">ІСТОРІЇ УЧНІВ</div>
                 <div class = "history__content">
                     <div class = "history__content-wrap">
 
@@ -1248,9 +1285,9 @@
                                         <img id = "history__arrow-second" class = "history__arrow" src = "img/history-arrow.svg">
                                     </div>
                                     <div class = "collapse history__collapsed history__colapsed_visual" id = "history-second-sp" >
-                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
-                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
-                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                        Але Аня надихнула мене, вселила в мене віру в себе, і мені було легше адаптуватись до нових знань і досвіду. 
+                                        Під час навачання, і наразі, клієнти залишаються задоволеними, їм дуже подобається результат, що не може не тішити<br><br>
+                                        В кінці навачання, Аня допомогла з підбором та замовлення необхідних матеріалів та обладнання. Та наразі може допомогти, якщо виникають питання.
                                     </div>
                                 </div>
 
@@ -1281,8 +1318,9 @@
                                 </div>
                                 
                                 <div class = "history__card-mid light-color">
-                                    Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
-                                    Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
+                                    Зараз я досить успішний і затребуваний майстер, а головне я отримую задоволення від того, що роблю ☺️<br><br>
+                                    До навчання, я встигла спробувати себе в нарощуванні вій, а також займалася фарбуванням та ламінуванням брів.  
+                                    Але хотілося подальшого розвитку, тому, що навіть фарбування з оформленням займало близько 1 години, а заробіток від цієї професії був невисокий<br><br>
                                     <div class = "history__btn-wrapper">
                                         <button id = "history-third-btn" 
                                                 data-bs-toggle="collapse" 
@@ -1295,9 +1333,9 @@
                                         <img id = "history__arrow-third" class = "history__arrow" src = "img/history-arrow.svg">
                                     </div>
                                     <div class = "collapse history__collapsed history__colapsed_visual" id = "history-third-sp" >
-                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
-                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
-                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                        Навчання було дуже розвернуте, максимально детальне. Кожен момент відпрацьовувався до ідеалу. Кожен день на навчання я йшла з величезним задоволенням. 
+                                        Якісна база, завдяки якій я змогла рухатися далі.<br><br>
+                                        Любов до перманенту і правильно поставлена рука допомогли мені не тільки не кинути цю професію, а й далі продовжувати розвиватися в цьому напрямку.
                                     </div> 
                                 </div>
 
@@ -1328,8 +1366,10 @@
                                 </div>
                                 
                                 <div class = "history__card-mid light-color">
-                                    Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
-                                    Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
+                                    Запит був по губам - помадний прокрас без набряку. І завдяки курсу мені вдалось це зробити.
+                                    Отримала багато інформації, про яку мало говорять інші тренери по ПМ, 
+                                    так як в губах важливий кожен нюанс: швидкість на блоці, картриджі, сам апарат і рука звісно<br><br>
+                                    Брови були після губ, адже дуже цікаво було прийняти досвід від Ані по всім зонам<br><br>
                                     <div class = "history__btn-wrapper">
                                         <button id = "history-fourth-btn" 
                                                 data-bs-toggle="collapse" 
@@ -1342,9 +1382,8 @@
                                         <img id = "history__arrow-fourth" class = "history__arrow" src = "img/history-arrow.svg">
                                     </div>
                                     <div class = "collapse history__collapsed history__colapsed_visual" id = "history-fourth-sp" >
-                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
-                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
-                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                        Особлива увага була на майстерність розтушовки, яка дає гарний залишок по заживленню — і знову технічні нюанси.
+                                        Тому Аню, як тренера, дуже рекомендую)
                                     </div>  
                                 </div>
 
@@ -1376,8 +1415,9 @@
                                 </div>
                                 
                                 <div class = "history__card-mid light-color">
-                                    Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
-                                    Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
+                                    До навчання я займалась оформленням брів та ламінуванням вій. 
+                                    Згодом вирішила розширити спектр своїх послуг і прийшла до Ані на навчання по перманенту брів<br><br>
+                                    Завдяки її поясненням і допомозі я навчилась робити шикарні брови, тому з часом я повернулась до Ані на Мк по перманенту губ<br><br>
                                     <div class = "history__btn-wrapper">
                                         <button id = "history-fifth-btn" 
                                                 data-bs-toggle="collapse" 
@@ -1390,9 +1430,8 @@
                                         <img id = "history__arrow-fifth" class = "history__arrow" src = "img/history-arrow.svg">
                                     </div>
                                     <div class = "collapse history__collapsed history__colapsed_visual" id = "history-fifth-sp" >
-                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
-                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
-                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                    Її професійний підхід допоміг мені вдосконалити свої навички, та створити чудовий образ для своїх клієнтів. 🌟<br><br>
+                                    Обожнюю Аню 🤍 вона дуже хороша людина та майстер
                                     </div>   
                                 </div>
 
@@ -1424,8 +1463,9 @@
                                 </div>
                                 
                                 <div class = "history__card-mid light-color">
-                                    Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
-                                    Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
+                                    Я бровіст та ламі мейкер, планувала пройти у Ані навчання в літку 2022 року, але почалась війна. 
+                                    Після виїзду з рідного Марганця я не працювала рік взагалі<br><br>
+                                    Піти на навчання до Ані я все одно хотіла, тому я вдячна Ані, що не дивлячись на військовий стан, вона змогла приїхати в Дніпро, та навчити мене 🫶<br><br>
                                     <div class = "history__btn-wrapper">
                                         <button id = "history-eigth-btn" 
                                                 data-bs-toggle="collapse" 
@@ -1438,9 +1478,8 @@
                                         <img id = "history__arrow-eigth" class = "history__arrow" src = "img/history-arrow.svg">
                                     </div>
                                     <div class = "collapse history__collapsed history__colapsed_visual" id = "history-eigth-sp" >
-                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
-                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
-                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                        Після такої довгої перерви мені навчання давалося важко, але підтримка Ані та відпрацювання деталей дали змогу повернутися до роботи. 
+                                        Я люблю свою роботу і я вдячна Ані за її терпіння та професіоналізм<br><br>
                                     </div> 
                                 </div>
 
@@ -1471,8 +1510,10 @@
                                 </div>
                                 
                                 <div class = "history__card-mid light-color">
-                                    Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній практиці я змогла стати професійним майстром.<br><br>
-                                    Наразі в мене щільний запис, досить високий прайс на мої послуги та я відкрила власну студію.<br><br>
+                                    Я довго наважувалась на навчання перманентному макіяжу. Для мене це був серйозний крок, 
+                                    тому я шукала найкращого викладача у сфері краси. І знайшла<br><br>
+                                    Хочу сказати дякую Ані - майстру найвищого рівня за якісне подання матеріалу, 
+                                    індивідуальний підхід до кожного учня, уважність та щедрість на знання, високий рівень професіоналізму<br><br>
                                     <div class = "history__btn-wrapper">
                                         <button id = "history-six-btn" 
                                                 data-bs-toggle="collapse" 
@@ -1480,14 +1521,14 @@
                                                 aria-expanded="false" 
                                                 aria-controls="history-six-sp" 
                                                 class = "history__card-button_visual white-color">
-                                            <u>читати повний відгук</u>
+                                            <br<br><u>читати повний відгук</u>
                                         </button>
                                         <img id = "history__arrow-six" class = "history__arrow" src = "img/history-arrow.svg">
                                     </div>
                                     <div class = "collapse history__collapsed history__colapsed_visual" id = "history-six-sp" >
-                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
-                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
-                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                        Я рада, що пройшла навчання саме у Ані. Адже, я будь-якої миті можу звернутися за порадою до свого улюбленого викладача і завжди отримаю відповідь. 
+                                        Мені не страшно було починати працювати з клієнтами за такої сильної підтримки. <br><br>
+                                        Будь-якої миті можу зазирнути в методичний посібник, який видається кожному учневі. Вчитися було – одне задоволення!
                                     </div>    
                                 </div>
 
@@ -1519,9 +1560,8 @@
                                 </div>
                                 
                                 <div class = "history__card-mid light-color">
-                                    Коли я тільки прийшла на навчання, я була досить посереднім майстром. Завдяки отриманим знанням і постійній
-                                    практиці, я змогла стати профейсійним майстром.<br><br>
-                                    Наразі, в мене щільний запис, досить високий прайс на мої послуги, я вже відкрила власну студію, та сама вже почала викладати<br><br>
+                                    Навчання дуже сподобалося, всі відео у високій якості, інформація подається максимально зрозуміло, питань після перегляду мінімум.<br><br>
+                                    Аня завжди була на зв'язку, допомогла мені з придбанням стартового набору для навчання. Загалом враження найпозитивніші<br><br>
                                     <div class = "history__btn-wrapper">
                                         <button id = "history-seven-btn" 
                                                 data-bs-toggle="collapse" 
@@ -1534,9 +1574,9 @@
                                         <img id = "history__arrow-seven" class = "history__arrow" src = "img/history-arrow.svg">
                                     </div>
                                     <div class = "collapse history__collapsed history__colapsed_visual" id = "history-seven-sp" >
-                                    Після МК в мене дуже піднявся скіл моїх робіт. Змінився підхід до ведення інстаграму, 
-                                    бо Аня заряджає та дає мотивацію для професійного зростання.<br><br>
-                                    Знання Аня дає дуже зрозуміло, чітко, без води. Я була в захваті від навчання.
+                                        Почати працювати не на латексі було дуже складно морально 😁 але Анна переконала мене, 
+                                        що все вийде, на перших практичних заняттях була повністю на зв'язку від ескізу до кінця роботи.<br><br>
+                                        Тепер я можу з упевненістю використовувати свої навички в роботі з клієнтами. 🌟
                                     </div>    
                                 </div>
 
@@ -1560,7 +1600,7 @@
 
         <section class = "why">
             <div class = "why__inner">
-                <div class = "why__title content__title_gradient">ВАРТО ПРИДБАТИ НАВЧАННЯ<br>САМЕ У МЕНЕ, БО:</div>
+                <div id = "why" class = "why__title content__title_gradient">ВАРТО ПРИДБАТИ НАВЧАННЯ<br>САМЕ У МЕНЕ, БО:</div>
                 <div class = "why__content">
                     <div class = "why__subinfo">
                         <div class = "why__subtitle why__subtitle-text_visual">Я - Анна Орленко</div>
@@ -1580,7 +1620,7 @@
 
         <section class = "faq">
             <div class = "faq__inner">
-                <div class = "faq__title content__title_gradient">FAQ</div>
+                <div id = "faq" class = "faq__title content__title_gradient">FAQ</div>
                 <div class = "faq__content">
                     <button id = "faq-first-btn" data-bs-toggle="collapse" data-bs-target="#faq-first-sp" aria-expanded="false" aria-controls="faq-first-sp" class = "faq__button faq__button-text_visual">Я зможу навчитись онлайн?<div class = "faq__switcher-container"><img id = "faq_switcher-first" src = "img/icons/faq_switcher.svg"></div></button> 
                     <div class = "collapse faq__collapsed faq__colapsed_visual" id = "faq-first-sp" >• Так, це звісно можливо, бо всі уроки створені і прописані так, щоб люди, которі не мають уяви про перманент, могли не тільки вчити теорію, але і практикувати на клієнтах свої отриманні знання</div>    
@@ -1675,8 +1715,14 @@
                     </div>
                 </div>
                 <div class="modal-footer non-border modal-footer-rdbtn">
-                    <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
+
+                    <a href = "#forms">
+                        <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
+                    </a>
+
+                    <a href = "#forms">
                     <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                    </a>
                 </div>
             </div>
             </div>
@@ -1714,8 +1760,15 @@
                     </div>
                 </div>
                 <div class="modal-footer non-border modal-footer-rdbtn">
-                <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
-                <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+
+                <a href = "#forms">
+                    <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
+                </a>
+
+                <a href = "#forms">
+                    <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                </a>
+
                 </div>
             </div>
             </div>
@@ -1759,8 +1812,15 @@
                     </div>
                 </div>
                 <div class="modal-footer non-border modal-footer-rdbtn">
-                <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
-                <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+
+                <a href = "#forms">
+                    <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
+                </a>
+
+                <a href = "#forms">
+                    <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                </a>
+
                 </div>
             </div>
             </div>
@@ -1821,6 +1881,40 @@
             </div>
         </div>
 
+        <div class = "overlay"></div>
+            <div class = "menu menu_visual">
+                <div class = "menu__header">
+                    <img id = "menu-btn-close" draggable="false" src = "img/icons/close-btn.svg">
+                </div>
+                <div class = "menu__content">
+                    <div class = "menu__languages">
+                        <div class = "menu__languages-container">
+                            <div class = "menu_ua light-color">UA</div>
+                            <div class = "menu_en grey-color">ENG</div>
+                            <div class = "menu_ru grey-color">RU</div>
+                        </div>
+                    </div>
+
+                    <div class = "menu__points-container light-color">
+                        <div class = "menu__points-divider menu__divider_m">
+                            <div><a href = "#for-whom">Для кого</a></div>
+                            <div><a href = "#authors">Авторська методика</a></div>
+                            <div><a href = "#methods">Переваги</a></div>
+                            <div><a href = "#stock">Акції</a></div>
+                            <div><a href = "#online">Онлайн</a></div>
+                        </div>
+
+                        <div class = "menu__points-divider">
+                            <div> <a href = "#offline">Офлайн</a></div>
+                            <div><a href = "#history">Відгуки</a></div>
+                            <div><a href = "#author">Автор</a></div>
+                            <div><a href = "#forms">Зв'язатись</a></div>
+                            <div><a href = "#faq">FAQ</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -1829,6 +1923,7 @@
 
     <script src = "js/custom.js"></script>
     <script src = "js/dynamic.js"></script>
+    <script src = "js/menu.js"></script>
 
     </body>
 </html>

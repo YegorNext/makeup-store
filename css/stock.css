@@ -298,6 +298,7 @@
 }
 
 .stock__demo-main{
+    
    width: 100%; height: auto; 
    margin-top: 30px;
 }
@@ -335,6 +336,7 @@
     margin-top: 10px;
 
     box-sizing: border-box;
+    padding-right: 20px;
 }
 
 .stock__desc_m{
@@ -350,7 +352,7 @@
 
 .stock__add-part-two{
     height: auto;
-    margin-left: 100px; margin-top: 13px;
+    margin-left: 72px; margin-top: 13px;
 }
 
 .stock__collaps-price{
@@ -495,4 +497,11 @@
 
 .stock__collaps-content_theme_img-brows{
     background-size: 100% 140px;
+}
+
+
+.stock__part-one-title{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }

@@ -256,7 +256,7 @@ $('#faq-first-btn').on('click', function(){
  controlArrow('#history-first-btn', '#history__arrow-first');
  controlArrow('#history-second-btn', '#history__arrow-second');
  controlArrow('#history-third-btn', '#history__arrow-third');
- controlArrow('#history-fourth-btn', '#history__arrow-forth');
+ controlArrow('#history-fourth-btn', '#history__arrow-fourth');
  controlArrow('#history-fifth-btn', '#history__arrow-fifth');
  controlArrow('#history-six-btn', '#history__arrow-six');
  controlArrow('#history-seven-btn', '#history__arrow-seven');
