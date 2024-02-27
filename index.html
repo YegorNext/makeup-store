@@ -25,6 +25,8 @@
         <link rel = "stylesheet" type="text/css" href = "css/faq.css">
         <link rel = "stylesheet" type="text/css" href = "css/footer.css">
 
+        <link rel = "stylesheet" type="text/css" href = "css/popups.css">
+
         <link rel = "stylesheet" type="text/css" href = "css/tablet.css">
         <link rel = "stylesheet" type="text/css" href = "css/mobile.css">
     </head>
@@ -397,7 +399,7 @@
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <span class = "stock__demo-buy_text_visual">Купити одну Демонстрацію</span>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">Купити одну Демонстрацію</button>
                                     </div>
                                 </div>
                             </div>
@@ -563,7 +565,7 @@
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <span class = "stock__demo-buy_text_visual">Купити одну Демонстрацію</span>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">Купити одну Демонстрацію</button>
                                     </div>
                                 </div>
                             </div>
@@ -652,7 +654,7 @@
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <span class = "stock__demo-buy_text_visual">Купити одну Демонстрацію</span>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalSecond">Купити одну Демонстрацію</button>
                                     </div>
                                 </div>
                             </div>
@@ -738,7 +740,7 @@
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <span class = "stock__demo-buy_text_visual">Купити одну Демонстрацію</span>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalThird">Купити одну Демонстрацію</button>
                                     </div>
                                 </div>
                             </div>
@@ -1634,6 +1636,131 @@
                 </div>
             </div>
         </footer>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalFirst" tabindex="-1" aria-labelledby="modalFirstLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-content-rdbtn">
+                <div class="modal-header non-border modal-header-rdbtn">
+                    
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body non-border modal-body-rdbtn">
+                    <span class = "modal-title">Оберіть демонстрацію</span>
+
+                    <div class = "modal__radio-buttons"> 
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option1" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;Акварель
+                        </label><br>
+                    
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option2" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;Щільне заповнення
+                        </label><br>
+                    
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option3" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;Робота на холодних губах з рубцями
+                        </label><br>
+                    </div>
+                </div>
+                <div class="modal-footer non-border modal-footer-rdbtn">
+                <button id = "buy" type="button" class="modal__button-gradient content__button_visual">КУПИТИ</button>
+                <button type="button" class="modal__button-gradient modal__bordered-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="modalSecond" tabindex="-1" aria-labelledby="modalSecondLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-content-rdbtn">
+                <div class="modal-header non-border modal-header-rdbtn">
+                    
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body non-border modal-body-rdbtn">
+                    <span class = "modal-title">Оберіть демонстрацію</span>
+
+                    <div class = "modal__radio-buttons"> 
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option1" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;Робота з віковою шкірою 45+
+                        </label><br>
+                    
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option2" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;"Annora" - 95% залишку
+                        </label><br>
+                    
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option3" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;Робота на жирній та пористій шкірі
+                        </label><br>
+                    </div>
+                </div>
+                <div class="modal-footer non-border modal-footer-rdbtn">
+                <button id = "buy" type="button" class="modal__button-gradient content__button_visual">КУПИТИ</button>
+                <button type="button" class="modal__button-gradient modal__bordered-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="modalThird" tabindex="-1" aria-labelledby="modalThirdLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-content-rdbtn">
+                <div class="modal-header non-border modal-header-rdbtn">
+                    
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body non-border modal-body-rdbtn">
+                    <span class = "modal-title">Оберіть демонстрацію</span>
+
+                    <div class = "modal__radio-buttons"> 
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option1" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;Стрілка з розтушуванням
+                        </label><br>
+                    
+                        <label class = "modal__radio-text">
+                            <div class = "modal__custom-container">
+                                <div class = "modal__input-container">
+                                    <input type="radio" name="options" value="option2" class = "real-radiobox">
+                                    <span class = "custom-radiobox"></span>
+                                </div>
+                                <span class = "custom-radiobox-text">
+                                    Класична стрілка та фарбування міжвійкового простору, щільне заповнення без набряку
+                                </span>
+                            </div>
+                        </label><br>
+                    
+                        <label class = "modal__radio-text">
+                            <input type="radio" name="options" value="option3" class = "real-radiobox">
+                            <span class = "custom-radiobox"></span>
+                            &nbsp;&nbsp;Міжвійка з вильотом
+                        </label><br>
+                    </div>
+                </div>
+                <div class="modal-footer non-border modal-footer-rdbtn">
+                <button id = "buy" type="button" class="modal__button-gradient content__button_visual">КУПИТИ</button>
+                <button type="button" class="modal__button-gradient modal__bordered-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
