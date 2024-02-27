@@ -710,4 +710,85 @@
     .after-image{
         margin-top: 5px;
     }
+
+    /* Modal Pop - Up */
+    .modal-title{
+        font-size: 16px;
+    }
+
+    .modal__radio-text{
+        font-size: 12px;
+    }
+
+    .modal__tablet-btn{
+        height: 45px; width: 248px;
+
+        font-size: 14px;
+    }
+
+    .modal__input-container{
+        display: flex;
+        align-items: center;
+
+        margin-left: 5px;
+    }
+
+    .modal-footer-rdbtn{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .modal-footer-rdbtn button{
+        margin-bottom: 20px;
+    }
+
+    .modal-content-form, .modal-header-form, .modal-body-form{
+        width: 328px;
+    }
+
+    .modal-input-field{
+        width: 288px; height: 44px;
+    }
+
+    .modal-title_tablet{
+        font-size: 24px;
+        padding-right: 0px;
+    }
+
+    .modal-form_input-margin{
+        margin-bottom: 10px;
+    }
+
+    .modal-dialog{
+        max-width: 100%;
+    }
+
+    .modal__subtitle-params{
+        font-size: 14px;
+    }
+
+    .modal-content-rdbtn{
+        width: 288px;
+    }
+
+    .modal-footer-rdbtn, .modal-body-rdbtn, .modal-header-rdbtn{
+        max-width: 288px;
+    }
+
+    .modal-footer-rdbtn{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .modal-dialog-centered{
+        justify-content: center;
+    }
+
+    .modal__input-container{
+        margin-left: 0px;
+    }
+
+    .custom-radiobox-text{
+        margin-left: 10px;
+    }
 }

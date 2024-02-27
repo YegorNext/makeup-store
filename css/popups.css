@@ -82,10 +82,24 @@
     color: white;
 }
 
-.real-radiobox{
-    opacity: 0;
-    z-index: -1;
+.real-radiobox{ 
+    position: absolute;
+    top: 0; left: 0;
+
     width: 0; height: 0;
+   
+    opacity: 0;
+    z-index: -1; 
+}
+
+.real-checkbox{ 
+    position: absolute;
+    top: 0; left: 0;
+
+    width: 0; height: 0;
+   
+    opacity: 0;
+    z-index: -1; 
 }
 
 .custom-radiobox{
@@ -146,4 +160,128 @@
 .modal__input-container{
     width: auto; height: auto;
     margin-left: 9px;
+}
+
+.modal__subtitle-container{
+    display: flex;
+
+    margin-top: 30px;
+}
+
+.modal__subtitle-params{
+    height: auto;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 12px;
+}
+
+.modal__subtitle_visual{
+    font-family: 'Unbounded';
+
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FCEADA;
+}
+
+.modal-input-field{
+    height: 45px; width: 625px;
+
+    border: none;
+    border-radius: 3px;
+
+    margin-bottom: 10px;
+
+    background-color: #675D55;
+    text-indent: 20px;
+
+    font-family: 'Unbounded';
+    font-size: 18px;
+    font-weight: 400px;
+    color: #ACACAC;
+}
+
+.modal__form-container{
+    margin-top: 20px;
+}
+
+.modal__form-subtitle{
+    width: auto; height: auto;
+    margin-top: 10px;
+}
+
+.modal__form-subtitle_visual{
+    font-family: 'Unbounded';
+    font-size: 18px;
+    font-weight: 400px;
+    color: #F5F5F5;
+}
+
+.modal-form__divider{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-right: 0px;
+}
+
+.modal-form__inputs-container{
+    display: flex;
+
+    margin-top: 20px;
+}
+
+.modal-form__inputs_text{
+    font-family: 'Unbounded';
+    font-size: 16px;
+    font-weight: 300px;
+    color: #FCEADA;
+}
+
+.modal-form_input-margin{
+    margin-right: 10px;
+}
+
+.modal-content-form, .modal-header-form, .modal-body-form{
+    width: 665px;
+}
+
+.modal-footer-form{
+    width: 665px;
+
+    display: flex;
+}
+
+.modal-body-form, .modal-footer-form{
+    padding-right: 20px;
+}
+
+.modal-footer-form{
+    padding-bottom: 40px;
+    justify-content: flex-start;
+
+    margin-top: -25px;
+}
+
+.modal-header-form{
+    padding-bottom: 0px;
+    
+}
+
+.modal-content-form{
+    background: #3A3637;
+}
+
+.modal-form__inputs-container{
+    margin-bottom: 20px;
+}
+
+.modal-window-center{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+    min-height: calc(100% - 1rem);
 }

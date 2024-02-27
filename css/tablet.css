@@ -457,4 +457,46 @@
     .footer-logo__image{
         width: 100px; height: 56px;
     }
+
+    /* Modal Pop - Up */
+    .modal-title{
+        font-size: 18px;
+    }
+
+    .modal__radio-text{
+        font-size: 16px;
+    }
+
+    .modal__tablet-btn{
+        height: 57px;
+        font-size: 14px;
+    }
+
+    .modal__input-container{
+        display: flex;
+        align-items: center;
+
+        margin-left: 5px;
+    }
+
+    .modal-content-form, .modal-header-form, .modal-body-form{
+        width: 594px;
+    }
+
+    .modal-input-field{
+        width: 554px; height: 44px;
+    }
+
+    .modal-title_tablet{
+        font-size: 30px;
+        padding-right: 50px;
+    }
+
+    .modal-form_input-margin{
+        margin-bottom: 10px;
+    }
+
+    .modal-dialog{
+        max-width: 594px;
+    }
 }
