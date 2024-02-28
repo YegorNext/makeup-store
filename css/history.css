@@ -29,14 +29,12 @@
 
     position: relative;   
     
-    overflow: hidden;
 }
 
 .history__content-wrapper{
     width: auto; height: auto;
 
     max-width: 1240px;
-    overflow: hidden;
 
     position: relative;
 }
