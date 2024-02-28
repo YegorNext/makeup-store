@@ -553,6 +553,10 @@
         margin-top: 88px;
     }
 
+    .history__content-wrapper{
+        max-width: 288px;
+    }
+
     .history__inner{
         max-width: 288px;
     }

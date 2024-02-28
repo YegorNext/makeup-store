@@ -9,6 +9,8 @@
     width: 100%; height: auto;
 
     border-radius: 5px;
+
+    overflow: hidden;
 }
 
 
@@ -28,6 +30,15 @@
     position: relative;   
     
     overflow: hidden;
+}
+
+.history__content-wrapper{
+    width: auto; height: auto;
+
+    max-width: 1240px;
+    overflow: hidden;
+
+    position: relative;
 }
 
 .history__subtitle{
@@ -206,6 +217,8 @@
     position: absolute;
     right: 0;
     top: 0;
+
+    z-index: 5;
 
     background: -webkit-linear-gradient(left, #181511 70%, transparent);
     background: linear-gradient(to left, #181511 70%, transparent);
