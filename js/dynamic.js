@@ -4,7 +4,7 @@ let startX;
 
 const dragging = (e) => {
     if (!isDragging) return;
-    dragBox.scrollLeft -= e.type === 'touchmove' ? startX - e.touches[0].clientX : e.movementX;
+    dragBox.scrollLeft -= e.type === 'touchmove' ? -(startX - e.touches[0].clientX) : e.movementX;
     startX = e.type === 'touchmove' ? e.touches[0].clientX : null;
 }
 
@@ -34,7 +34,7 @@ const wdragging = (e) => {
 
     e.preventDefault(); 
 
-    whomBox.scrollLeft -= e.type === 'touchmove' ? startWhomX - e.touches[0].clientX : e.movementX;
+    whomBox.scrollLeft -= e.type === 'touchmove' ? -(startX - e.touches[0].clientX) : e.movementX;
     startWhomX = e.type === 'touchmove' ? e.touches[0].clientX : null;
 }
 
