@@ -1,5 +1,5 @@
 const dragBox = document.querySelector(".history__content-wrap");
-const scrollSpeed = 0.5; // Уменьшите значение, чтобы уменьшить скорость
+const scrollSpeed = 0.8; // Уменьшите значение, чтобы уменьшить скорость
 
 let isDragging = false;
 let startX;
