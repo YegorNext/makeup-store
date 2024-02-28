@@ -25,7 +25,9 @@
     width: 110%; height: auto;
     margin-top: 60px;
 
-    position: relative;    
+    position: relative;   
+    
+    overflow: hidden;
 }
 
 .history__subtitle{
