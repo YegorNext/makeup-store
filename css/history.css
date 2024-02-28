@@ -200,27 +200,30 @@
     margin-bottom: 10px;
 }
 
-.history__overlay-right{
+.history__overlay-right {
     position: absolute;
-    right: 0; top: 0;
-    
+    right: 0;
+    top: 0;
 
-    background: linear-gradient(270deg, #181511 70%, transparent); 
+    background: -webkit-linear-gradient(270deg, #181511 70%, transparent);
+    background: linear-gradient(180deg, #181511 70%, transparent);
 
-    width: 2%; height: 100%;
-
+    width: 2%;
+    height: 100%;
 }
 
-.history__overlay-left{
+.history__overlay-left {
     position: absolute;
-    left: 0; top: 0;
-    
+    left: 0;
+    top: 0;
 
-    background: linear-gradient(90deg, #181511 70%, transparent); 
+    background: -webkit-linear-gradient(90deg, #181511 70%, transparent);
+    background: linear-gradient(90deg, #181511 70%, transparent);
 
-    width: 2%; height: 100%;
-
+    width: 2%;
+    height: 100%;
 }
+
 
 .history_first-block{
     padding-left: 2%;
