@@ -502,4 +502,9 @@
     .modal-dialog{
         max-width: 594px;
     }
+
+    /* Other */
+    .small{
+        font-size: 12px;
+    } 
 }

@@ -1,66 +1,102 @@
-const dragBox = document.querySelector(".history__content-wrap");
-const scrollSpeed = 0.8; // Уменьшите значение, чтобы уменьшить скорость
+const container1 = document.querySelector(".for-whom__elems-wrapper");
+const scrollSpeed1 = 0.8; 
+const scrollInterval1 = 5000;
+const scrollPercentage1 = 20;
+let isScrollingToEnd1 = false;
+let isDragging1 = false;
+let startX1;
+let isAutoScrollScheduled1 = false;
+let scrollTimeout1;
+let scrollIntervalId1;
 
-let isDragging = false;
-let startX;
+function dragging1(e) {
+    if (!isDragging1) return;
+    container1.scrollLeft -= e.type === 'touchmove' ? -(startX1 - e.touches[0].clientX) * scrollSpeed1 : e.movementX;
+    startX1 = e.type === 'touchmove' ? e.touches[0].clientX : null;
 
-const dragging = (e) => {
-    if (!isDragging) return;
-    dragBox.scrollLeft -= e.type === 'touchmove' ? -(startX - e.touches[0].clientX) * scrollSpeed : e.movementX;
-    startX = e.type === 'touchmove' ? e.touches[0].clientX : null;
+    clearTimeout(scrollTimeout1);
+    scrollTimeout1 = setTimeout(() => {
+        isDragging1 = false; 
+        scheduleAutoScroll1();
+    }, 5000);
 }
 
-dragBox.addEventListener('mousedown', (e) => {
-    isDragging = true;
-    startX = null;
+function startAutoScroll1() {
+    isAutoScrollScheduled1 = true;
+    scrollIntervalId1 = setInterval(() => {
+        autoScroll1();
+    }, scrollInterval1);
+}
+
+function stopAutoScroll1() {
+    clearInterval(scrollIntervalId1);
+    isAutoScrollScheduled1 = false;
+}
+
+container1.addEventListener('mousedown', (e) => {
+    isDragging1 = true;
+    startX1 = null;
+
+    clearTimeout(scrollTimeout1);
 });
-document.addEventListener('mouseup', () => isDragging = false);
-dragBox.addEventListener('mousemove', dragging);
-
-dragBox.addEventListener('touchstart', (e) => {
-    isDragging = true;
-    startX = e.touches[0].clientX;
+document.addEventListener('mouseup', () => {
+    isDragging1 = false; 
+    scheduleAutoScroll1();
 });
-dragBox.addEventListener('touchmove', dragging);
-document.addEventListener('touchend', () => isDragging = false);
-/////////
+container1.addEventListener('mousemove', dragging1);
 
+container1.addEventListener('touchstart', (e) => {
+    isDragging1 = true;
+    startX1 = e.touches[0].clientX;
 
-const whomBox = document.querySelector(".for-whom__elems-wrapper");
-const scrollInterval = 5000;
-const scrollPercentage = 20; // Прокрутить на 20% ширины контейнера
-let isScrollingToEnd = false;
+    clearTimeout(scrollTimeout1);
+});
+container1.addEventListener('touchmove', dragging1);
+document.addEventListener('touchend', () => {
+    isDragging1 = false; 
+    scheduleAutoScroll1();
+});
 
-function autoScroll() {
-    if (isScrollingToEnd) {
-        // Если контейнер прокручивается в самый конец, устанавливаем флаг в false и прокручиваем в начало
-        isScrollingToEnd = false;
-        whomBox.scrollTo({
+function scheduleAutoScroll1() {
+    if (!isAutoScrollScheduled1) {
+        startAutoScroll1();
+        scrollTimeout1 = setTimeout(() => {
+            stopAutoScroll1();
+        }, 5000);
+    }
+}
+
+function autoScroll1() {
+    if (isScrollingToEnd1) {
+        isScrollingToEnd1 = false;
+        container1.scrollTo({
             left: 0,
             behavior: 'smooth'
         });
     } else {
-        // Прокручиваем на указанный процент ширины контейнера
-        const scrollAmount = (whomBox.scrollWidth * scrollPercentage) / 100;
-        const newScrollLeft = whomBox.scrollLeft + scrollAmount;
+        const scrollAmount = (container1.scrollWidth * scrollPercentage1) / 100;
+        const newScrollLeft = container1.scrollLeft + scrollAmount;
 
-        if (newScrollLeft >= whomBox.scrollWidth - whomBox.clientWidth) {
-            // Если достигнут конец, устанавливаем флаг в true
-            isScrollingToEnd = true;
-            whomBox.scrollTo({
-                left: whomBox.scrollWidth,
+        if (newScrollLeft >= container1.scrollWidth - container1.clientWidth) {
+            isScrollingToEnd1 = true;
+            container1.scrollTo({
+                left: container1.scrollWidth,
                 behavior: 'smooth'
             });
         } else {
-            whomBox.scrollTo({
+            container1.scrollTo({
                 left: newScrollLeft,
                 behavior: 'smooth'
             });
         }
     }
+    clearTimeout(scrollTimeout1);
+    isAutoScrollScheduled1 = false;
+    scheduleAutoScroll1();
 }
 
-const scrollIntervalId = setInterval(autoScroll, scrollInterval);
+scheduleAutoScroll1();
+
 
 
 /////

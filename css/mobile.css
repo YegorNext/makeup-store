@@ -843,4 +843,9 @@
         text-align: right;
     }
 
+
+    /* Other */
+    .small{
+        font-size: 10px;
+    } 
 }
