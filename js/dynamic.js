@@ -25,32 +25,42 @@ dragBox.addEventListener('touchmove', dragging);
 document.addEventListener('touchend', () => isDragging = false);
 /////////
 
+
 const whomBox = document.querySelector(".for-whom__elems-wrapper");
-let isWhomDragging = false;
-let startWhomX;
+const scrollInterval = 5000;
+const scrollPercentage = 20; // Прокрутить на 20% ширины контейнера
+let isScrollingToEnd = false;
 
-const wdragging = (e) => {
-    if (!isWhomDragging) return;
+function autoScroll() {
+    if (isScrollingToEnd) {
+        // Если контейнер прокручивается в самый конец, устанавливаем флаг в false и прокручиваем в начало
+        isScrollingToEnd = false;
+        whomBox.scrollTo({
+            left: 0,
+            behavior: 'smooth'
+        });
+    } else {
+        // Прокручиваем на указанный процент ширины контейнера
+        const scrollAmount = (whomBox.scrollWidth * scrollPercentage) / 100;
+        const newScrollLeft = whomBox.scrollLeft + scrollAmount;
 
-    e.preventDefault(); 
-
-    whomBox.scrollLeft -= e.type === 'touchmove' ? -(startX - e.touches[0].clientX) : e.movementX;
-    startWhomX = e.type === 'touchmove' ? e.touches[0].clientX : null;
+        if (newScrollLeft >= whomBox.scrollWidth - whomBox.clientWidth) {
+            // Если достигнут конец, устанавливаем флаг в true
+            isScrollingToEnd = true;
+            whomBox.scrollTo({
+                left: whomBox.scrollWidth,
+                behavior: 'smooth'
+            });
+        } else {
+            whomBox.scrollTo({
+                left: newScrollLeft,
+                behavior: 'smooth'
+            });
+        }
+    }
 }
 
-whomBox.addEventListener('mousedown', (e) => {
-    isWhomDragging = true;
-    startWhomX = null;
-});
-document.addEventListener('mouseup', () => isWhomDragging = false);
-whomBox.addEventListener('mousemove', wdragging);
-
-whomBox.addEventListener('touchstart', (e) => {
-    isWhomDragging = true;
-    startWhomX = e.touches[0].clientX;
-});
-whomBox.addEventListener('touchmove', wdragging);
-document.addEventListener('touchend', () => isWhomDragging = false);
+const scrollIntervalId = setInterval(autoScroll, scrollInterval);
 
 
 /////

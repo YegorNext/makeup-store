@@ -25,7 +25,7 @@
     width: 110%; height: auto;
     margin-top: 60px;
 
-    
+    position: relative;    
 }
 
 .history__subtitle{
@@ -199,3 +199,32 @@
 #history-first-btn, #history-second-btn, #history-third-btn, #history-fourth-btn, #history-fifth-btn, #history-six-btn, #history-seven-btn, #history-eigth-btn{
     margin-bottom: 10px;
 }
+
+.history__overlay-right{
+    position: absolute;
+    right: 0; top: 0;
+    
+
+    background: linear-gradient(270deg, #181511 70%, transparent); 
+
+    width: 2%; height: 100%;
+
+}
+
+.history__overlay-left{
+    position: absolute;
+    left: 0; top: 0;
+    
+
+    background: linear-gradient(90deg, #181511 70%, transparent); 
+
+    width: 2%; height: 100%;
+
+}
+
+.history_first-block{
+    padding-left: 2%;
+}
+
+
+
