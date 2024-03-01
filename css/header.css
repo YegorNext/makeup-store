@@ -36,7 +36,7 @@ header{
 
 .header-content__mini-version{
     display: flex;
-    display: none;
+    /*display: none;*/
 }
 
 .header-content__logo-container{
@@ -60,3 +60,5 @@ header{
 
     width: 22px; height: 16px;
 }
+
+

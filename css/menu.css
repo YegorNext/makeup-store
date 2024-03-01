@@ -101,3 +101,41 @@
     overflow-y: hidden;
 }
 
+
+@media screen and (min-width: 1020px){
+    /* Menu */
+    .menu{
+        width: 389px;
+        height: 774px;
+
+        padding-left: 32px;
+    }
+
+    .menu__points-container{
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-top: 15px;
+    }
+
+    .menu_visual{
+        font-size: 18px;
+    }
+
+    .menu__divider_m{
+        margin: 0;
+    }
+
+    .menu__points-divider > div{
+        text-align: right;
+    }
+
+    .header-content__logo{
+        width: 166px; height: 30px;
+    }
+
+    .header-content__menu{
+        width: 28px; height: 21px;
+    }
+
+}
