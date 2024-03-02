@@ -91,8 +91,6 @@
     font-size: 18px;
     font-weight: 400px;
     color: #ACACAC;
-
-
 }
 
 .forms__second-title{
@@ -115,7 +113,7 @@
     justify-content: space-between;
 
     margin-top: 20px;
-    margin-bottom: 60px;
+    
 }
 
 .forms__check-container_text-visual{
@@ -194,3 +192,19 @@ input[type="checkbox"]:checked + .custom-checkbox::before{
     opacity: 1;
 }
 
+
+.forms__error-input{
+    border: 2px solid #CB4D4D;
+}
+
+.forms__error-win{
+    font-family: 'Unbounded';
+    font-size: 18px;
+
+    font-weight: 300;
+
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+    color: #CB4D4D;
+}

@@ -285,3 +285,45 @@
     
     min-height: calc(100% - 1rem);
 }
+
+.modal-complete__title-container{
+    width: auto; height: auto;
+}
+
+.modal-complete__info-container{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.modal-title-complete{
+    font-family: 'Unbounded';
+
+    font-size: 40px;
+    font-weight: 600;
+
+    color: white;
+}
+
+.modal-complete__info-text-container{
+    height: auto;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Unbounded';
+    color: #FCEADA;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    padding-left: 15px;
+}
+
+.modal-win_width{
+    width: 510px;
+}
+
+.modal-footer_padding{
+    padding-bottom: 30px;
+}

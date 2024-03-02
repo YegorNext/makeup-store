@@ -261,3 +261,14 @@ $('#faq-first-btn').on('click', function(){
  controlArrow('#history-six-btn', '#history__arrow-six');
  controlArrow('#history-seven-btn', '#history__arrow-seven');
  controlArrow('#history-eigth-btn', '#history__arrow-eigth');
+
+
+ const detailButtons = document.getElementsByClassName('stock__detail-btn');
+
+ for(let btn of detailButtons){
+     btn.addEventListener('click', function(){
+          if($(this).attr('aria-expanded') == 'true')
+               this.innerHTML = '<u class = "small white">приховати</u>';
+          else this.innerHTML = '<u class = "small white">читати детально</u>';
+     });
+ }

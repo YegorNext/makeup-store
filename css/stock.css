@@ -506,3 +506,43 @@
     align-items: center;
     margin-left: 10px;
 }
+
+.stock__detail-btn{
+    outline: none; border: none;
+    background-color: transparent;
+}
+
+.detail__collapsed{
+    position: relative;
+    top: -20px;
+
+    padding-left: 15px;
+}
+
+.detail__colapsed_visual{
+    font-family: 'Unbounded';
+
+    font-size: 18px;
+    font-weight: 300;
+
+    color: #FCEADA;
+}
+
+.detail__divider{
+    height: auto; 
+    width: fit-content;
+}
+
+.detail__divider div{
+    width: fit-content;
+    margin-bottom: 12px;
+}
+
+.detail__dvd-container{
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+
+    padding-right: 20%;
+}
