@@ -510,6 +510,29 @@
     .pc-info{
         display: none;
     }
+
+    .for-whom__elem-one, .for-whom__elem-two, .for-whom__elem-three, .for-whom__elem-four, .for-whom__elem-five{
+        width: 328px;
+    }
+
+    .for-whom__elems-wrapper, .for-whom__pbox{
+        width: 736px;
+    }
+    
+
+    .for-whom_elem-margin{
+        margin-left: 40x;
+    }
+
+    .for-whom__pbox{
+        margin-left: -40px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0rem !important;
+    
+        right: -40px !important;
+    }
 }
 
 

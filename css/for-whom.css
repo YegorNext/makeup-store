@@ -77,8 +77,30 @@
 
 
 
+.custom-slider-btn{
+    border-radius: 50%;
 
+    height: 11px !important; 
+    width: 11px !important;
 
+}
+
+.carousel-indicators button{
+    border-radius: 50%;
+
+    height: 11px !important; 
+    width: 11px !important;
+
+}
+
+.carousel-indicators .active{
+    background-color: #E0AA3E !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators{
+    opacity: 0.35 !important; 
+}
 
 .width-max{
     width: 100%;

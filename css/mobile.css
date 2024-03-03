@@ -89,7 +89,14 @@
 
     .for-whom__elem-one, .for-whom__elem-two, .for-whom__elem-three, .for-whom__elem-four, .for-whom__elem-five{
         min-width: 288px; min-height: 174px;
+
+        width: 288px;
     }
+    
+    #for-whom-carousel-mobile, .for-whom__elems-wrapper, .for-whom__pbox{
+        width: 288px;
+    }
+ 
 
     .for-whom__elems-wrapper{
         display: flex;
@@ -106,6 +113,7 @@
 
     .for-whom__pbox{
         width: calc(100% + 40px + 10%);
+        margin-left: 0;
     }
 
     /* authors */
@@ -858,8 +866,10 @@
     #for-whom-carousel-tablet{
         display: none;
     }
+ 
+    .carousel-indicators {
+        margin-bottom: 0rem !important;
     
-    .pc-info{
-        display: none;
+        right: 0px !important;
     }
 }
