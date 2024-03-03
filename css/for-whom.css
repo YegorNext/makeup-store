@@ -70,3 +70,35 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.display-flex{
+    display: flex;
+}
+
+
+
+
+
+
+.width-max{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1020px) {
+    #for-whom-carousel-mobile{
+        display: none;
+    }
+
+    #for-whom-carousel-tablet{
+        display: none;
+    }
+    
+    #for-whom-carousel{
+        display: none;
+    }
+
+    .pc-info{
+        display: block;
+    }
+}

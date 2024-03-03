@@ -94,31 +94,119 @@
                 <div class = "for-whom__pbox">
                     
                     <div class = "for-whom__elems-wrapper">
-                        <div class = "for-whom__elem-one for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+
+                        <!-- tablet carousel -->
+                        <div id = "for-whom-carousel-tablet" class = "carousel slide width-max" data-bs-ride = "carousel" >
+
+                            <div class = "carousel-inner tblt-carousel">
+                                <div class = "carousel-item active tablet-item">
+                                    <div class = "items-flex-container">
+                                        <div class="display-flex">
+                                            <div class = "for-whom__elem-one for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                                <img src = "img/icons/finger.png" draggable="false" class = "for-whom__icon"><br>
+                                                Відчуваєте <span class = "for-whom_elem-text_bold">невпевненість</span> 
+                                                під час роботи та <span class = "for-whom_elem-text_bold">боїтесь зіпсувати обличчя клієнту</span>
+                                            </div>
+
+                                            <div class = "for-whom__elem-two for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                                <img src = "img/icons/timer.png" draggable="false" class = "for-whom__icon">
+                                                <br>Проблеми зі <span class = "for-whom_elem-text_bold">швидкістю</span> та <span class = "for-whom_elem-text_bold">симетрією ескізів</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class = "carousel-item tablet-item">
+                                    <div class = "items-flex-container">
+                                        <div class = "display-flex">
+                                            <div class = "for-whom__elem-three for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                                <img src = "img/icons/sphere.png" draggable="false" class = "for-whom__icon">
+                                                <br>Плями, <span class = "for-whom_elem-text_bold">слабкий залишок</span>, відсутність чіткості
+                                            </div>
+
+                                            <div class = "for-whom__elem-four for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                                <img src = "img/icons/palette.png" draggable="false" class = "for-whom__icon">
+                                                <br><span class = "for-whom_elem-text_bold">Слабке розуміння колористики</span> та вибору <span class = "for-whom_elem-text_bold">коректорів</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class = "carousel-item tablet-item">
+                                    <div class = "for-whom__elem-five for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                        <img src = "img/icons/coin.png" draggable="false" class = "for-whom__icon">
+                                        <br>Бажаєте <span class = "for-whom_elem-text_bold">підвищення прайсу на 20-50%</span> через поліпшення навичок і результатів
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-indicators mobile-carousel">
+                                <button type="button" data-bs-target="#for-whom-carousel-tablet" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#for-whom-carousel-tablet" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#for-whom-carousel-tablet" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div> 
+                         </div>
+
+                        <!-- mobile carousel --> 
+                        <div id = "for-whom-carousel-mobile" class = "carousel slide width-max" data-bs-ride = "carousel" >        
+
+                            <div class = "carousel-inner mobile-carousel">
+                                <div class = "carousel-item active mobile-item">
+                                    <div class = "for-whom__elem-one for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                        <img src = "img/icons/finger.png" draggable="false" class = "for-whom__icon"><br>
+                                        Відчуваєте <span class = "for-whom_elem-text_bold">невпевненість</span> 
+                                        під час роботи та <span class = "for-whom_elem-text_bold">боїтесь зіпсувати обличчя клієнту</span>
+                                    </div>
+                                </div>
+
+                                <div class = "carousel-item mobile-item">
+                                    <div class = "for-whom__elem-two for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                        <img src = "img/icons/timer.png" draggable="false" class = "for-whom__icon">
+                                        <br>Проблеми зі <span class = "for-whom_elem-text_bold">швидкістю</span> та <span class = "for-whom_elem-text_bold">симетрією ескізів</span>
+                                    </div>
+                                </div>
+
+                                <div class = "carousel-item mobile-item">
+                                    <div class = "for-whom__elem-three for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                                        <img src = "img/icons/sphere.png" draggable="false" class = "for-whom__icon">
+                                        <br>Плями, <span class = "for-whom_elem-text_bold">слабкий залишок</span>, відсутність чіткості
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-indicators mobile-carousel">
+                                <button type="button" data-bs-target="#for-whom-carousel-mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#for-whom-carousel-mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#for-whom-carousel-mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>                            
+                        </div>
+
+                        <!-- PC INFO -->
+                        <div class = "for-whom__elem-one for-whom_elem-padding for-whom_elem-margin for-whom_elem-text pc-info">
                             <img src = "img/icons/finger.png" draggable="false" class = "for-whom__icon"><br>
                             Відчуваєте <span class = "for-whom_elem-text_bold">невпевненість</span> 
                             під час роботи та <span class = "for-whom_elem-text_bold">боїтесь зіпсувати обличчя клієнту</span>
                         </div>
 
-                        <div class = "for-whom__elem-two for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                        <div class = "for-whom__elem-two for-whom_elem-padding for-whom_elem-margin for-whom_elem-text pc-info">
                             <img src = "img/icons/timer.png" draggable="false" class = "for-whom__icon">
                             <br>Проблеми зі <span class = "for-whom_elem-text_bold">швидкістю</span> та <span class = "for-whom_elem-text_bold">симетрією ескізів</span>
                         </div>
 
-                        <div class = "for-whom__elem-three for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                        <div class = "for-whom__elem-three for-whom_elem-padding for-whom_elem-margin for-whom_elem-text pc-info">
                             <img src = "img/icons/sphere.png" draggable="false" class = "for-whom__icon">
                             <br>Плями, <span class = "for-whom_elem-text_bold">слабкий залишок</span>, відсутність чіткості
                         </div>
 
-                        <div class = "for-whom__elem-four for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                        <div class = "for-whom__elem-four for-whom_elem-padding for-whom_elem-margin for-whom_elem-text pc-info">
                             <img src = "img/icons/palette.png" draggable="false" class = "for-whom__icon">
                             <br><span class = "for-whom_elem-text_bold">Слабке розуміння колористики</span> та вибору <span class = "for-whom_elem-text_bold">коректорів</span>
                         </div>
 
-                        <div class = "for-whom__elem-five for-whom_elem-padding for-whom_elem-margin for-whom_elem-text">
+                        <div class = "for-whom__elem-five for-whom_elem-padding for-whom_elem-margin for-whom_elem-text pc-info">
                             <img src = "img/icons/coin.png" draggable="false" class = "for-whom__icon">
                             <br>Бажаєте <span class = "for-whom_elem-text_bold">підвищення прайсу на 20-50%</span> через поліпшення навичок і результатів
-                        </div>
+                        </div> 
 
                         
                     </div>

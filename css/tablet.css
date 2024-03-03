@@ -75,7 +75,6 @@
 
     .for-whom__pbox{
         flex-wrap: nowrap;
-        overflow: hidden;
     }
 
     .for-whom__elem-one, .for-whom__elem-two, .for-whom__elem-three, .for-whom__elem-four, .for-whom__elem-five{
@@ -89,7 +88,7 @@
         user-select: none;
         cursor: grab;
     
-        overflow-x: hidden;
+        width: 100%;
     }
 
     .for-whom_elem-text{
@@ -507,4 +506,17 @@
     .small{
         font-size: 12px;
     } 
+
+    .pc-info{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+    #for-whom-carousel-mobile{
+        display: none;
+    }
+
+
 }

@@ -85,7 +85,6 @@
 
     .for-whom__pbox{
         flex-wrap: nowrap;
-        overflow: hidden;
     }
 
     .for-whom__elem-one, .for-whom__elem-two, .for-whom__elem-three, .for-whom__elem-four, .for-whom__elem-five{
@@ -99,7 +98,6 @@
         user-select: none;
         cursor: grab;
     
-        overflow-x: hidden;
     }
 
     .for-whom_elem-text {
@@ -848,4 +846,20 @@
     .small{
         font-size: 10px;
     } 
+
+    .for-whom_elem-margin{
+        margin-left: 0;
+    }
+
+    .carousel-inner{
+        width: 110%;
+    }
+
+    #for-whom-carousel-tablet{
+        display: none;
+    }
+    
+    .pc-info{
+        display: none;
+    }
 }
