@@ -879,10 +879,16 @@
     }
 
     .history__content{
-        margin-left: 45px;
+        margin-left: 35px;
     }
 
     .history__title{
-        margin-left: 75px;
+        margin-left: 60px;
+    }
+
+
+    .methods__sp-text-container, .methods__lk-text-container{
+        align-items: start;
+        padding-top: 10px;
     }
 }
