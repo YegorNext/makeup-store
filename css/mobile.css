@@ -226,6 +226,11 @@
 
     .methods__btn-switcher{
         margin-left: 10px;
+        margin-right: 14px;
+    }
+
+    .methods__btn-switcher_size{
+        padding-right: 0px;
     }
 
     
@@ -871,5 +876,13 @@
         margin-bottom: 0rem !important;
     
         right: 0px !important;
+    }
+
+    .history__content{
+        margin-left: 45px;
+    }
+
+    .history__title{
+        margin-left: 75px;
     }
 }

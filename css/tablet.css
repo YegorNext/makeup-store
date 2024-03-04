@@ -533,8 +533,12 @@
     
         right: -40px !important;
     }
-}
 
+    .history__title{
+        margin-left: 5px;
+    }
+}
+                                    
 
 @media screen and (min-width: 640px) {
     #for-whom-carousel-mobile{
