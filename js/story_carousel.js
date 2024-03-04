@@ -6,7 +6,7 @@ let startX;
 
 const dragging = (e) => {
     if (!isDragging) return;
-    dragBox.scrollLeft -= e.type === 'touchmove' ? (startX - e.touches[0].clientX) * scrollSpeed : e.movementX;
+    dragBox.scrollLeft -= e.type === 'touchmove' ? (startX + e.touches[0].clientX) * scrollSpeed : e.movementX;
     startX = e.type === 'touchmove' ? e.touches[0].clientX : null;
 }
 
