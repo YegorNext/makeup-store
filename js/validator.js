@@ -55,8 +55,11 @@ function Main(){
             
 
             if(formCheck(form)){
-                let formData = $(form).serialize();
-                
+                let formData = {};
+		form.find('input').each(function() {
+                    var input = $(this);
+                    formData[input.attr('name')] = input.val();
+                });
 
                 $.ajax({
                     url: 'data-controller/controller.php', // Замените на путь к вашему серверному файлу
@@ -64,9 +67,8 @@ function Main(){
                     data: formData,
                     success: function() {
                        console.log("Form sended");
-                      if(form == $('#modalForm'))
+
                         $('#modalForm').modal('hide');
-                      
                         $('#modalComplete').modal('show');
 
                         formReset(form);

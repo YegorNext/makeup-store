@@ -1,0 +1,197 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.footer__inner{
+
+    max-width: 1240px;
+    width: 100%; height: auto;
+
+    border-radius: 5px;
+}
+
+
+.footer__title{
+    width: 100%;
+    margin-top: 120px;
+
+    font-family: 'Unbounded';
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.footer__content{
+    width: auto; height: auto;
+    margin-top: 60px;
+}
+
+.footer__subtitle{
+    height: auto; width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer__subtitle-text_visual{
+    font-family: 'Unbounded';
+    font-size: 22px;
+
+    font-weight: 500;
+
+    color: #FFFFFF;
+}
+
+.footer__subinfo{
+    height: auto; width: 100%;
+}
+
+.footer__subinfo-text{
+
+}
+
+.footer__subinfo-text_visual{
+    color: #FCEADA;
+    font-size: 18px;
+
+    font-weight: 500;
+}
+
+.footer__subinfo-point{
+    margin-bottom: 12px;
+}
+
+.footer__main-img{
+    width: 100%; height: 1603px; 
+
+    margin-top: 28px;
+
+    background: url("../img/anyasession.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo-container{
+    width: auto; height: 100%;
+}
+
+.footer__contact-container{
+    width: auto; height: 100%;
+}
+
+.footer__contact-title{
+    width: 100%; height: auto;
+
+    font-family: 'Unbounded';
+    font-size: 18px;
+
+    font-weight: 400;
+
+    color: #ACACAC;
+}
+
+.footer__contact-social-icons{
+    width: 108px; height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 12px; 
+    margin-top: 20px;
+}
+
+.footer__contact-tel{
+    font-family: 'Unbounded';
+
+    color: #ACACAC;
+    font-size: 14px;
+
+    margin-bottom: 12px;
+
+    font-weight: 400;
+}
+
+.footer__contact-email{
+    font-family: 'Unbounded';
+
+    color: white;
+    font-size: 14px;
+
+    font-weight: 400;
+}
+
+.footer__personal-title{
+    font-family: 'Unbounded';
+
+    color: #ACACAC;
+    font-size: 14px;
+
+    font-weight: 400;
+}
+
+.footer__docs{
+    font-family: 'Unbounded';
+
+    color: white;
+    font-size: 14px;
+
+    font-weight: 400;
+}
+
+.footer__off{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.footer__privacy{
+    display: inline-block;
+    margin-top: 17px;
+}
+
+.footer__payment{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 32px;
+}
+
+.footer__bottom{
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    width: 100%; height: auto;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.footer__bottom_text-visual{
+    font-family: 'Unbounded';
+
+    color: white;
+    font-size: 14px;
+
+    font-weight: 300;
+}
+
+.grey{
+    color: #ACACAC;
+}
+
+.footer__bottom-rights{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer__container{
+    width: auto; height: auto;
+}
+
+.footer__designer{
+    display: none;
+}
