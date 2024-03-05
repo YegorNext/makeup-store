@@ -1,4 +1,8 @@
 test.html
 data-controller/secret_hidden.json
+<<<<<<< HEAD
 data-controller/secret.json
 .htaccess
+=======
+.htaccess
+>>>>>>> 38f669dfc9d309d7de0a7c60b1e2da5dcaf9e53f
