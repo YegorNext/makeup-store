@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "concat -o output.css css/*.css | uglifycss -o output.min.css"
+    "build:css": "concat css/*.css > css/output.css"
   },
   "author": "Yehor",
   "license": "ISC",
