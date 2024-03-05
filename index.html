@@ -600,7 +600,7 @@
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <button class = "stock__demo-buy_text_visual">Купити одну Демонстрацію</button>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">Купити одну Демонстрацію</button>
                                     </div>
                                 </div>
                             </div>
@@ -1220,39 +1220,38 @@
                     </div>
 
                     <div class = "forms__form-container">
-                        <form class = "firstForm">
-                            <input class = "input-field" placeholder="Ім'я*"><br>
-                            <input class = "input-field" placeholder="Телефон*"><br>
-                            <input class = "input-field" placeholder="Instagram"><br>
-                            <input class = "input-field" placeholder="Коментарі"><br>
+                        <form id = "firstForm" class = "firstForm">
+                            <input class = "input-field" name = "name" placeholder="Ім'я*"><br>
+                            <input class = "input-field" name = "phone" placeholder="Телефон*"><br>
+                            <input class = "input-field" name = "inst" placeholder="Instagram"><br>
+                            <input class = "input-field" name = "comments" placeholder="Коментарі"><br>
 
                             <div class = "forms__second-title forms__second-title-visual">Де вам зручно буде зв'язатись?</div>
                             <div class = "forms__check-container forms__check-container_text-visual">
                                 
                                 <div class = "forms__check-box-divider">
                                     <div class="forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
+                                        <label><input name = "check-tel" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
                                     </div>
                                     <div class = "forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
+                                        <label><input name = "check-inst" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
                                     </div>
                                 </div>
 
                                 <div class = "forms__check-box-divider">
                                     <div class = "forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
+                                        <label><input name = "check-whats" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
                                     </div>
                                     <div class = "forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
+                                        <label><input name = "check-viber" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
                                     </div>
                                 </div>
                             </div>
 
                             <div class = "forms__error-win">
-                                Напишіть свій Instagram, щоб ми зв'язались з вами
                             </div>
 
-                            <button class = "content__button content__button_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">ВІДПРАВИТИ</button>
+                            <button type = "submit" class = "content__button content__button_visual">ВІДПРАВИТИ</button>
                         </form>
                     </div>
                 </div>
@@ -1622,33 +1621,37 @@
 
                     <div class = "forms__form-container">
                         <form id = "secondForm">
-                            <input class = "input-field" placeholder="Ім'я*"><br>
-                            <input class = "input-field" placeholder="Телефон*"><br>
-                            <input class = "input-field" placeholder="Instagram"><br>
-                            <input class = "input-field" placeholder="Коментарі"><br>
+                            <input class = "input-field" name = "name" placeholder="Ім'я*"><br>
+                            <input class = "input-field" name = "phone" placeholder="Телефон*"><br>
+                            <input class = "input-field" name = "inst" placeholder="Instagram"><br>
+                            <input class = "input-field" name = "comments" placeholder="Коментарі"><br>
 
                             <div class = "forms__second-title forms__second-title-visual">Де вам зручно буде зв'язатись?</div>
                             <div class = "forms__check-container forms__check-container_text-visual">
 
                                 <div class = "forms__check-box-divider">
                                     <div class="forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
+                                        <label><input name = "check-inst" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
                                     </div>
                                     <div class = "forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
+                                        <label><input name = "check-tel" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
                                     </div>
                                 </div>
 
                                 <div class = "forms__check-box-divider">
                                     <div class = "forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
+                                        <label><input name = "check-whats" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
                                     </div>
                                     <div class = "forms__check-box">
-                                        <label><input type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
+                                        <label><input name = "check-viber" type = "checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
                                     </div>
                                 </div>
-
                             </div>
+
+
+                            <div class = "forms__error-win">
+                            </div>
+
                             <button class = "content__button content__button_visual">ВІДПРАВИТИ</button>
                         </form>
                     </div>
@@ -2328,11 +2331,11 @@
                         <div class = "modal__subtitle_visual modal__subtitle-params">Я зв'яжуся з вами і ми узгодимо дату навчання</div>
                     </div>
 
-                    <form class = "modal__form-container">
-                        <input class = "modal-input-field" placeholder="Ім'я*"><br>
-                        <input class = "modal-input-field" placeholder="Телефон*"><br>
-                        <input class = "modal-input-field" placeholder="Instagram"><br>
-                        <input class = "modal-input-field" placeholder="Коментарі"><br>
+                    <form id = "modalForm" class = "modal__form-container">
+                        <input class = "modal-input-field" name = "name" placeholder="Ім'я*"><br>
+                        <input class = "modal-input-field" name = "phone" placeholder="Телефон*"><br>
+                        <input class = "modal-input-field" name = "inst" placeholder="Instagram"><br>
+                        <input class = "modal-input-field" Name = "comments" placeholder="Коментарі"><br>
 
                         <div class = "modal__form-subtitle">
                             <div class = "modal__form-subtitle_visual">Де вам зручно буде зв'язатись?</div>
@@ -2340,27 +2343,30 @@
                             <div class = "modal-form__inputs-container">
                                 <div class = "modal-form__divider modal-form__inputs_text">
                                     <div class="forms__check-box modal-form_input-margin">
-                                        <label><input type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
+                                        <label><input name = "check-tel" type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Telegram
                                     </div>
                                     <div class = "forms__check-box modal-form_input-margin">
-                                        <label><input type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
+                                        <label><input name = "check-inst" type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Instagram
                                     </div>
                                 </div>
 
                                 <div class = "modal-form__divider modal-form__inputs_text">
                                     <div class="forms__check-box modal-form_input-margin">
-                                        <label><input type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
+                                        <label><input name = "check-whats" type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;WhatsApp
                                     </div>
                                     <div class = "forms__check-box modal-form_input-margin">
-                                        <label><input type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
+                                        <label><input name = "check-viber" type = "checkbox" class = "real-checkbox"><span class = "custom-checkbox"></span></label>&nbsp;&nbsp;Viber
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class = "forms__error-win">
+                        </div>
                     
                         </div>
                             <div class="modal-footer non-border modal-footer-form">
-                            <button id = "buy" type="button" class="modal__button-gradient content__button_visual" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalComplete">ВІДПРАВИТИ</button>
+                            <button id = "buy" type="submit" class="modal__button-gradient content__button_visual"  data-bs-toggle="modal" >ВІДПРАВИТИ</button>
                         </div>
                     </form>
             </div>
@@ -2411,6 +2417,7 @@
     <script src = "js/dynamic.js"></script>
     <script src = "js/story_carousel.js"></script>
     <script src = "js/menu.js"></script>
+    <script src = "js/validator.js"></script>
 
     </body>
 </html>

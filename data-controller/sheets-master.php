@@ -15,8 +15,9 @@ $spreadsheetId = "1JGlKlSfQ7aiCbNJaCtZnE-rqAhRY70hpvyT_sn_Bls8";
 $range = "Annora_site"; 
 
 $values = [
-    ['Data1', 'Data2', 'Data3'],
-    ['Data4', 'Data5', 'Data6'],
+    ["$name", "$phone", "$inst", 
+    "$comments", "$checkTel", "$checkInst", 
+    "$checkWhats", "$checkViber"]
 ];
 
 $body = new Google_Service_Sheets_ValueRange([

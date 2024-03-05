@@ -15,3 +15,34 @@ function scrollCarousels(){
 }
 
 const intervalTablet = setInterval(scrollCarousels, 5000);
+
+
+////
+const modals = [ $('#modalFirst'), $('#modalSecond'), $('#modalThird')  ]; 
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+function closeOpenedModel(){
+    for(let modal of modals){
+        modal.hide();
+    }
+
+    var modalBackdrops = document.getElementsByClassName('modal-backdrop');
+    for (let backdrop of modalBackdrops) {
+      backdrop.style.display = 'none';
+    }
+}
+
+for (let anchor of anchors){
+    anchor.addEventListener("click", function(event){
+        event.preventDefault();
+
+        closeMenu();
+        closeOpenedModel();
+        
+        const blockID = anchor.getAttribute('href');
+        document.querySelector('' + blockID).scrollIntoView({
+            behavior: "smooth",
+            block: 'start'
+        }); 
+    });
+}
