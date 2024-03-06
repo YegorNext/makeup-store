@@ -564,6 +564,39 @@
     .history__title{
         margin-left: 5px;
     }
+
+    .display-history{
+        margin-left: 150px;
+    }
+
+
+    .history-indicators{
+        margin-right: 75px !important;
+    }
+
+    .history-item{
+        min-height: 570px;
+        height: auto;
+    }
+
+    #history-carousel-tablet{
+        display: none;
+    }
+
+    .display-history{
+        margin-left: 173px;
+    }
+    .history-indicators {
+        margin-right: 27px !important;
+      }
+
+    .carousel-inner{
+        height: 570px !important;
+    }
+
+    .history-item{
+        height: 570px;
+    }
 }
                                     
 

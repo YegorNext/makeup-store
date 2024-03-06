@@ -914,4 +914,21 @@
         align-items: start;
         padding-top: 10px;
     }
+
+    #history-carousel-tablet{
+        display: none;
+    }
+
+    .carousel-inner{
+        height: 500px !important;
+    }
+
+    .display-history {
+        margin-left: 50px;
+      }
+
+      .history-indicators {
+        margin-right: 150px !important;
+      }
+
 }
