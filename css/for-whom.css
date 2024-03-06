@@ -107,6 +107,10 @@
 }
 
 
+#for-whom-carousel-tablet, #for-whom-carousel-mobile{
+    height: 250px !important;
+}
+
 @media screen and (min-width: 1020px) {
     #for-whom-carousel-mobile{
         display: none;
@@ -114,6 +118,7 @@
 
     #for-whom-carousel-tablet{
         display: none;
+        
     }
     
     #for-whom-carousel{
