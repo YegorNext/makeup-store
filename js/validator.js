@@ -58,7 +58,15 @@ function Main(){
                 let formData = {};
 		form.find('input').each(function() {
                     var input = $(this);
-                    formData[input.attr('name')] = input.val();
+                    
+		    // Проверка, является ли поле чекбоксом
+    		    if (input.attr('type') === 'checkbox') {
+        	    // Добавление значения "on" к formData, если чекбокс отмечен
+        	         formData[input.attr('name')] = input.is(':checked') ? 'on' : 'off';
+    		    } else {
+        	      // Для остальных полей добавление обычного значения
+        	    formData[input.attr('name')] = input.val();
+ 		}
                 });
 
                 $.ajax({

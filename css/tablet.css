@@ -1,4 +1,19 @@
 @media screen and (max-width: 1020px) {
+     /* Fast-fixes */ 
+  
+    .detail__dvd-container{
+        padding-right: 0%;
+    }
+
+    .detail__divider div{
+       
+        margin-right: 50px;
+    }
+
+    .mobile-fix, .mob-fix{
+	width: 300px !important;
+    }
+
     /* header */
     header{
         margin-top: 30px;
