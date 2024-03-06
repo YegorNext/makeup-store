@@ -931,4 +931,8 @@
         margin-right: 150px !important;
       }
 
+#for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
+    height: 250px !important;
+}
+
 }

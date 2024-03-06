@@ -597,6 +597,10 @@
     .history-item{
         height: 570px;
     }
+
+   #for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
+    height: 250px !important;
+}
 }
                                     
 
@@ -605,5 +609,7 @@
         display: none;
     }
 
-
+   #for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
+    height: 250px !important;
+}
 }

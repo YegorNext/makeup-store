@@ -107,7 +107,7 @@
 }
 
 
-#for-whom-carousel-tablet, #for-whom-carousel-mobile{
+#for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
     height: 250px !important;
 }
 
