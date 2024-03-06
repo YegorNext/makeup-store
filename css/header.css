@@ -1,20 +1,24 @@
 
 .header-container{
-    position: fixed; 
-    background-color: #181511;
+    position: relative;
+    height: 90px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%; height: auto;
 }
 
 
 header{
+    position: fixed;
+    z-index: 999;
+
+    background-color: #181511;
+
     
-
-    display: flex;
-    justify-content: space-around;
-    
-
-
-    margin-top: 45px;
-    margin-bottom: 45px;
+    height: 100px;  width: 100%;
 }
 
 .header-content{
@@ -22,7 +26,7 @@ header{
     max-width: 1240px;
     width: 100%; height: auto;
 
-
+    margin-top: 45px;
 }
 
 .header-content__logo{

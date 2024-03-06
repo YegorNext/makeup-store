@@ -15,9 +15,16 @@
     }
 
     /* header */
-    header{
+    
+    /*header{   DELETED
         margin-top: 30px;
+    }*/
+
+    header{
+        height: 62px;
     }
+
+
 
     .header-content__full-version {
       display: none;
@@ -29,9 +36,14 @@
     
     .header-content{
         max-width: 696px;
+        margin-top: 20px;
     }
 
     /* content */
+    .content{
+        margin-top: 69px;
+    }
+    
     .content__inner{
         max-width: 696px;
     }
