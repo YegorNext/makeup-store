@@ -598,6 +598,10 @@
         height: 570px;
     }
 
+    .content__button_visual {
+        font-size: 16px;
+    }
+
    #for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
     height: 250px !important;
 }
