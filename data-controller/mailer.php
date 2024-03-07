@@ -14,7 +14,7 @@ try {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'yegor.d2015@gmail.com'; 
-    $mail->Password = 'woivqqgs'; 
+    $mail->Password = 'bvkyzypxqgazodys'; 
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
     
@@ -33,7 +33,7 @@ try {
                        </p>
                        <p>
                            <font size = '3'>
-                               Instagram: <i>@$inst</i>
+                               Instagram: <i>$inst</i>
                             </font>
                        </p>
                        <p> <font size = '3'>Comments: <i>$comments</i></font> </p>";
