@@ -11,4 +11,5 @@ $checkInst =  isset($_POST['check-inst']) ? $_POST['check-inst'] : "NONE";
 $checkWhats =  isset($_POST['check-whats']) ? $_POST['check-whats'] : "NONE";
 $checkViber =  isset($_POST['check-viber']) ? $_POST['check-viber'] : "NONE";
 
+include 'mailer.php';
 require 'sheets-master.php';
