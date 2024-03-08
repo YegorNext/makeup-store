@@ -267,39 +267,41 @@
 
 
 
-@media screen and (min-width: 1020px){
-    #history-carousel-mobile{
+@media screen and (min-width: 1020px) {
+ 
+   #history-carousel-mobile {
         display: none;
     }
 
-    .history-inner{
+    .history-inner {
         width: 1200px;
     }
 
-    .history-item{
+    .history-item {
         min-height: 643px;
         height: auto;
     }
 
-    .history__story-card{
+    .history__story-card {
         margin-right: 15px !important;
     }
 
-    .display-history{
+    .display-history {
         margin: 0;
     }
 
-    .history-item-last{
+    .history-item-last {
         position: relative;
         right: 200px;
     }
 
-    .items-flex-contaiener, .display-history, .carousel-inner{
+    .items-flex-contaiener,
+    .display-history,
+    .carousel-inner {
         height: auto !important;
     }
 
-
-    #history-carousel-tblt{
+    #history-carousel-tblt {
         display: none;
     }
 }

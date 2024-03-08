@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const tabletCarouselElement = document.querySelector('#for-whom-carousel-tablet');
   const mobileCarouselElement = document.querySelector('#for-whom-carousel-mobile');
 
-  const tabletCarouselHistoryElement = document.querySelector('#history-carousel-tablet');
+  const widthCarouselHistoryElement = document.querySelector('#history-carousel-tablet');
   const mobileCarouselHistoryElement = document.querySelector('#history-carousel-mobile');
+  const tabletCarouselHistoryElement = document.querySelector('#history-carousel-tblt');
 
   const carouselTablet = new bootstrap.Carousel(tabletCarouselElement, {
     interval: 5000,
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
       wrap: true
   });
 
-  const carouselHistoryTablet = new bootstrap.Carousel(tabletCarouselHistoryElement, {
+  const carouselHistoryWidth = new bootstrap.Carousel(widthCarouselHistoryElement, {
     interval: 5000,
     wrap: true
   });
@@ -26,12 +27,18 @@ document.addEventListener('DOMContentLoaded', function() {
       wrap: true
   });
 
+  const carouselHistoryTablet = new bootstrap.Carousel(tabletCarouselHistoryElement, {
+    interval: 5000,
+    wrap: true
+  });
+
 
 
     carouselTablet.cycle();
     carouselMobile.cycle();
-    carouselHistoryTablet.cycle();
+    carouselHistoryWidth.cycle();
     carouselHistoryMobile.cycle();
+    carouselHistoryTablet.cycle();
 
   const modals = [ $('#modalFirst'), $('#modalSecond'), $('#modalThird')  ]; 
 const anchors = document.querySelectorAll('a[href*="#"]');
