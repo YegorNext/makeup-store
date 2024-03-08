@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+
+# Redirect /en to /index-en.html
+RewriteRule ^en$ /index-en.html [L]
+
+# Redirect /ru to /index-ru.html
+RewriteRule ^ru$ /index-ru.html [L]
+
+# Redirect /ua to /index.html
+RewriteRule ^ua$ /index.html [L]

@@ -57,7 +57,7 @@ for (let anchor of anchors){
 
         closeMenu();
         closeOpenedModel();
-        
+
         const blockID = anchor.getAttribute('href');
         document.querySelector('' + blockID).scrollIntoView({
             behavior: "smooth",
@@ -65,3 +65,12 @@ for (let anchor of anchors){
         }); 
     });
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var myVideo = document.getElementById("story-video");
+
+    if (myVideo.played.length === 0) {
+        myVideo.play();
+    }
+});

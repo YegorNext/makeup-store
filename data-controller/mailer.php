@@ -13,18 +13,18 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'yegor.d2015@gmail.com'; 
-    $mail->Password = 'bvkyzypxqgazodys'; 
+    $mail->Username = 'annorapermanent@gmail.com'; 
+    $mail->Password = 'qnhzuhqzilqpamlc'; 
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
     
     // Налаштування відправника та отримувача
-    $mail->setFrom('yegor.d2015@gmail.com', 'ANNORA-SITE-NOTIFIER'); 
-    $mail->addAddress('yegor.d2015@gmail.com'); 
+    $mail->setFrom('annorapermanent@gmail.com', 'ANNORA-SITE-NOTIFIER'); 
+    $mail->addAddress('annorapermanent@gmail.com'); 
     
     // Ваші дані для листа
     $mail->isHTML(true);
-    $mail->Subject = "SITE NOTIFIER | $name";
+    $mail->Subject = "SITE NOTIFIER";
     $mail->Body = "<h1>$name - $phone</h1>
                        <p>
                         <font size = '3'>
