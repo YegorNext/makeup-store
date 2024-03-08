@@ -113,7 +113,7 @@
         flex-wrap: nowrap;
     
         user-select: none;
-        cursor: grab;
+        
     
         width: 100%;
     }
@@ -365,6 +365,11 @@
         max-width: 696px;
     }
 
+    .history__content{
+        width: 100%;
+    }
+
+
     .history__collapsed{
         font-size: 12px;
     }
@@ -384,6 +389,43 @@
     .history__story_visual{
         font-size: 12px;
     }
+
+    .history__story-card{
+        width: 320px;
+    }
+
+    .history__bottom-images img{
+        width: 86px; height: 111px;
+    }
+
+    .display-history{
+        margin-left: 0 !important;
+    }
+
+    #history-carousel-tblt .items-flex-contaiener{
+        padding-right: 50px;
+    }
+
+    .history__card-wrapper{
+        width: 350px;
+    }
+
+    .history-item{
+        height: auto;
+        min-height: 577px !important;
+    }
+
+    .carousel-inner {
+        max-height: 900px !important;
+        height: auto !important;
+
+        width: 110%;
+    }
+
+    #history-carousel-tblt .carousel-inner{
+        width: 700px;
+    }
+
 
     /* why */
     
@@ -561,59 +603,41 @@
         right: -40px !important;
     }
 
-    .history__title{
-        margin-left: 5px;
-    }
-
-    .display-history{
-        margin-left: 150px;
-    }
-
-
     .history-indicators{
         margin-right: 75px !important;
-    }
-
-    .history-item{
-        min-height: 570px;
-        height: auto;
     }
 
     #history-carousel-tablet{
         display: none;
     }
 
-    .display-history{
-        margin-left: 173px;
-    }
     .history-indicators {
         margin-right: 27px !important;
       }
 
-    .carousel-inner{
-        height: 570px !important;
-    }
-
-    .history-item{
-        height: 570px;
-    }
 
     .content__button_visual {
         font-size: 16px;
     }
 
    #for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
-    height: 250px !important;
-}
+        height: 250px !important;
+    }
+
+
 }
                                     
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 641px) {
     #for-whom-carousel-mobile{
         display: none;
     }
 
    #for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
-    height: 250px !important;
-}
+        height: 250px !important;
+    }
+
+    #history-carousel-mobile{
+        display: none;
+    }
 }

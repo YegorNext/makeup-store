@@ -67,7 +67,6 @@
 }
 
 .history__content-wrap:hover{
-    cursor: grab;
 }
 
 .history__story-card{
@@ -249,12 +248,6 @@
 }
 
 
-.history-item{
-    min-height: 512px;
-    height: auto;
-}
-
-
 .display-history{
     display: flex;
     margin-left: 50px;
@@ -299,5 +292,14 @@
     .history-item-last{
         position: relative;
         right: 200px;
+    }
+
+    .items-flex-contaiener, .display-history, .carousel-inner{
+        height: auto !important;
+    }
+
+
+    #history-carousel-tblt{
+        display: none;
     }
 }
