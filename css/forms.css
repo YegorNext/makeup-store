@@ -1,7 +1,7 @@
 .forms{
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 .forms__inner{
@@ -29,6 +29,12 @@
 
     margin-top: 120px;
 
+    padding: 0px 120px;
+
+}
+
+.forms__content-title img{
+    padding-right: 10px;
 }
 
 .forms__title_size_h2{

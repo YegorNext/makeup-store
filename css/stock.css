@@ -1,7 +1,7 @@
 .stock{
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 .stock__inner{
@@ -525,7 +525,7 @@
 }
 
 .stock__spoiler_m{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .stock__collaps-content_theme_img-brows{

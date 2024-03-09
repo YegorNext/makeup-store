@@ -1,7 +1,6 @@
 .master{
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
 }
 
 .master__inner{

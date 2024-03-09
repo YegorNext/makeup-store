@@ -1009,8 +1009,11 @@
         }
 
         .methods__ph-container, .methods__lk-container, .methods__wm-container, .methods__sp-container{
-            display: flex;
-            align-items: center;
+            padding-top: 15px;
+        }
+
+        .methods__wm-container{
+            padding-top: 20px;
         }
 
         .methods__ph-text-container{
