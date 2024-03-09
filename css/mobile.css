@@ -1119,6 +1119,12 @@
         .margin_s_t20{
             margin: 0;
         }
+
+        
+    .forms__title{
+        padding: 0;
+    }
+
     .menu{
         top: -25px;
     }
