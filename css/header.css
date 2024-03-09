@@ -11,6 +11,10 @@
 }
 
 
+#logo{
+    width: 74px; height: 14px;
+}
+
 header{
     position: fixed;
     z-index: 999;
