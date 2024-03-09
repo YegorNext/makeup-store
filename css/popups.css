@@ -65,22 +65,35 @@
     width: 249px; height: 57px;
 }
 
-.modal__bordered-btn{
-    font-weight: 300; font-size: 14px;
 
+.modal__bordered-btn{
+    position: relative;
     background: none;
+    border: none;
+
+
     color: #F5F5F5;
     text-align: center;
 
-    border: 2px solid;
-    border-image: linear-gradient(120deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 25%, rgba(249,242,149,1) 75%, rgba(184,138,68,1) 100%);
-    border-image-slice: 1; 
-    border-radius: 5px;
-
     font-family: 'Unbounded';
-
-    color: white;
+    font-weight: 300; font-size: 14px;
 }
+
+.modal__bordered-btn::before{
+   content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 5px; 
+  padding: 2px; 
+  background:linear-gradient(120deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 25%, rgba(249,242,149,1) 75%, rgba(184,138,68,1) 100%); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;    
+          
+}
+
 
 .real-radiobox{ 
     position: absolute;

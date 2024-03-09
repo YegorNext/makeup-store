@@ -22,6 +22,7 @@ header{
 }
 
 .header-content{
+    position: relative;
 
     max-width: 1240px;
     width: 100%; height: auto;

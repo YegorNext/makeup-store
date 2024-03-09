@@ -7,10 +7,22 @@
 
     .detail__dvd-container{
 	padding-right: 4px;
+    display: block;
     }
 
     .detail__divider div{
-	width: 120px;
+	    width: fit-content;
+        font-size: 12px;
+
+        margin-right: 0;
+    }
+
+    .stock__detail-btn{
+        padding: 0;
+    }
+
+    .detail__divider:last-child{
+        width: 190px;
     }
 
   
@@ -78,7 +90,7 @@
     }
 
     .content__button{
-        width: 200px; height: 45px;
+        width: 248px; height: 45px;
         font-size: 14px;
     }
 
@@ -166,6 +178,8 @@
     .authors__sub_t-bold{
         font-size: 14px;
     }
+
+    
 
     .authors__image{
         width: 100%; height: 385px;
@@ -423,7 +437,7 @@
     }
 
     .stock__collaps-content{
-        background-size: 100% 75px;
+        background-size: 100% 40px;
     }
     .stock__price-sub-container{
         text-align: center;
@@ -644,6 +658,10 @@
 
     .why{
         margin-top: 88px;
+    }
+
+    .why__main-img{
+        border-radius: 7px;
     }
     
     .why__inner{

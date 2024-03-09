@@ -44,6 +44,42 @@
         <header>
             <div class = "header-container">
                 <div class = "header-content">
+                    
+                    <!-- MENU -->
+                    <div class = "overlay"></div>
+                    <div class = "menu menu_visual">
+                        <div class = "menu__header">
+                            <img id = "menu-btn-close" draggable="false" src = "img/icons/close-btn.svg">
+                        </div>
+                        <div class = "menu__content">
+                            <div class = "menu__languages">
+                                <div class = "menu__languages-container">
+                                    <div class = "menu_ua light-color">UA</div>
+                                    <div class = "menu_en grey-color"><a href = "/en">ENG</a></div>
+                                    <div class = "menu_ru grey-color"><a href = "/ru">RU</a></div>
+                                </div>
+                            </div>
+
+                            <div class = "menu__points-container light-color">
+                                <div class = "menu__points-divider menu__divider_m">
+                                    <div><a href = "#for-whom">Для кого</a></div>
+                                    <div><a href = "#authors">Авторська методика</a></div>
+                                    <div><a href = "#methods">Переваги</a></div>
+                                    <div><a href = "#stock">Акції</a></div>
+                                    <div><a href = "#online">Онлайн</a></div>
+                                </div>
+
+                                <div class = "menu__points-divider">
+                                    <div> <a href = "#offline">Офлайн</a></div>
+                                    <div><a href = "#history">Відгуки</a></div>
+                                    <div><a href = "#why">Автор</a></div>
+                                    <div><a href = "#forms">Зв'язатись</a></div>
+                                    <div><a href = "#faq">FAQ</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MENU ENDS -->
 
                     <!--
                     <div class = "header-content__full-version">
@@ -392,10 +428,10 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">5 - брови<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">3 - губи<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">4 - повіки<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__collaps_demo-padding">
+                                        <div><img src ="img/icons/yes.svg">5 - брови</div>
+                                        <div><img src = "img/icons/yes.svg">3 - губи</div>
+                                        <div><img src = "img/icons/yes.svg">4 - повіки</div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
@@ -403,57 +439,62 @@
                                             Уроки:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;
-                                            
-                                            <button 
-                                                type="button" 
-                                                data-bs-toggle="collapse" 
-                                                data-bs-target="#detail-first-btn" 
-                                                aria-expanded="false" 
-                                                aria-controls="detail-first-btn" 
-                                                class = "stock__detail-btn">
+                                            <div class = "stock__itext-container">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
 
-                                                <u class = "small white">читати детально</u>
-                                            </button><br><br>
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-first-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-first-btn" 
+                                                    class = "stock__detail-btn">
+
+                                                    <u class = "small white">читати детально</u>
+                                                </button><br><br>
+                                            </div>
+                                            
+          
                                             
                                             <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-first-btn" >
                                                 
                                                 <div class = "detail__dvd-container">
                                                     <div class = "detail__divider">
-                                                        <div>• Обладнання</div>
-                                                        <div>• Постановка руки</div>
-                                                        <div>• Вольтаж</div>
-                                                        <div>• Штрихи</div>
-                                                        <div>• Лініїї</div>
-                                                        <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                        <div>• Робота у практичному зошиті</div>
+                                                        <div><div>•</div> Обладнання</div>
+                                                        <div><div>•</div> Постановка руки</div>
+                                                        <div><div>•</div> Вольтаж</div>
+                                                        <div><div>•</div> Штрихи</div>
+                                                        <div><div>•</div> Лініїї</div>
+                                                        <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                        <div><div>•</div> Робота у практичному зошиті</div>
                                                     </div>
 
                                                     <div class = "detail__divider">
-                                                        <div>• Екскізи</div>
-                                                        <div>• Робота на рубцях</div>
-                                                        <div>• Відпрацювання штрихів та ліній</div> 
-                                                        <div class = "mob-fix">• Матеріалознавство</div>
-                                                        <div>• Колористика</div>
-                                                        <div>• Перекриття</div>
+                                                        <div><div>•</div> Екскізи</div>
+                                                        <div><div>•</div> Робота на рубцях</div>
+                                                        <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                        <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                        <div><div>•</div> Колористика</div>
+                                                        <div><div>•</div> Перекриття</div>
                                                     </div>
                                                 </div>
                                             </div>    
 
                                             
-                                            &nbsp;<img src = "img/icons/yes.svg">Видалення ремувером<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Секрети закріплення ескізу<br><br>   
+                                            <div class = "stock__itext-container"><img src = "img/icons/yes.svg"><div class = "flex-align-self">Видалення ремувером</div></div>
+                                            <div class = "stock__itext-container"><img src = "img/icons/yes.svg"><div class = "flex-align-self">Секрети закріплення ескізу</div></div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class = "display-flex"><div>•</div> <div class = "padding_s_l7">Огляд програм для гарної обробки</div></div>
+                                                <div class = "stock__desc_m display-flex"><div>•</div> <div class = "padding_s_l7">Детальна ретуш на проблемній шкірі</div></div>
+                                                <div class = "stock__desc_m display-flex"><div>•</div> <div class = "padding_s_l7">Правильна робота зі світлом</div></div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -461,9 +502,9 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex"><div>•</div> <div class = "padding_s_l7">Зошити, згоди</div></div>
+                                                <div class = "stock__desc_m display-flex"><div>•</div> <div class = "padding_s_l7">Посібники з роботи з трьома зонами</div></div>
+                                                <div class = "stock__desc_m display-flex"><div>•</div> <div class = "padding_s_l7">Сертифікат</div></div>
                                             </div>
                                         </div>
                                     </div>
@@ -476,7 +517,7 @@
                                         </a>
 
                                         <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                            <button class = "stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
                                         </a>
                                     </div>
                                 </div>
@@ -506,67 +547,94 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації 3-ох технік:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">Акварель<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Щільне заповнення<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Робота на холодних губах з рубцями<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__collaps_demo-padding_bc">
+                                        <div class = "display-flex"><img src ="img/icons/yes.svg"><div class = "flex-align-self">Акварель</div></div>
+                                        <div class = "display-flex"><img src = "img/icons/yes.svg"><div class = "flex-align-self">Щільне заповнення</div></div>
+                                        <div class = "display-flex"><img src = "img/icons/yes.svg"><div class  = "flex-align-self">Робота на холодних губах з рубцями</div></div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
-                                            Уроки:
+                                            ЗМІСТ:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-second-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-second-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex"><img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-second-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-second-btn" 
+                                                    class = "stock__detail-btn">
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                         
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-second-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Робота на первинній анестезії, без набряку<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Щільне заповнення в 2 проходи<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Секрети закріплення ескізу<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Правила постановки рук на губах<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Ідеальний прокрас слизової<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Робота на первинній анестезії, без набряку</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Щільне заповнення в 2 проходи</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Секрети закріплення ескізу</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Правила постановки рук на губах</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Ідеальний прокрас слизової</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Огляд програм для гарної обробки</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Детальна ретуш на проблемній шкірі</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Правильна робота зі світлом</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -574,9 +642,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7"> Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -601,12 +678,12 @@
                                         </a>
                                         
                                         <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                            <button class = "stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
                                         </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">Купити одну Демонстрацію</button>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">КУПИТИ ОДНУ ДЕМОНСТРАЦІЮ</button>
                                     </div>
                                 </div>
                             </div>
@@ -640,10 +717,19 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">5 - брови<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">3 - губи<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">4 - повіки<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__collaps_demo-padding">
+                                        <div class = "display-flex">
+                                            <img src ="img/icons/yes.svg">
+                                            <div class = "flex-align-self">5 - брови</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">3 - губи</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">4 - повіки</div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
@@ -651,53 +737,73 @@
                                             Уроки:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-third-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-third-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-third-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-third-btn" 
+                                                    class = "stock__detail-btn">
+
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                         
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-third-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Видалення ремувером<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Секрети закріплення ескізу<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Видалення ремувером</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Секрети закріплення ескізу</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7" >Огляд програм для гарної обробки</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Детальна ретуш на проблемній шкірі</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Правильна робота зі світлом</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -705,9 +811,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -720,7 +835,7 @@
                                         </a>
 
                                         <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                            <button class = "stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
                                         </a>
                                     </div>
                                 </div>
@@ -748,67 +863,104 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації 3-ох технік:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">Акварель<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Щільне заповнення<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Робота на холодних губах з рубцями<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__collaps_demo-padding_bc">
+                                        <div class = "display-flex">
+                                            <img src ="img/icons/yes.svg">
+                                            <div class = "flex-align-self">Акварель</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Щільне заповнення</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Робота на холодних губах з рубцями</div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
-                                            Уроки:
+                                            ЗМІСТ:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-fourth-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-fourth-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-fourth-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-fourth-btn" 
+                                                    class = "stock__detail-btn">
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                         
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-fourth-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Робота на первинній анестезії, без набряку<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Щільне заповнення в 2 проходи<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Секрети закріплення ескізу<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Правила постановки рук на губах<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Ідеальний прокрас слизової<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Робота на первинній анестезії, без набряку</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Щільне заповнення в 2 проходи</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Секрети закріплення ескізу</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Правила постановки рук на губах</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Ідеальний прокрас слизової</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Огляд програм для гарної обробки</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Детальна ретуш на проблемній шкірі</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Правильна робота зі світлом</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -816,9 +968,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -843,12 +1004,12 @@
                                         </a>
 
                                         <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                            <button class = "stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
                                         </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">Купити одну Демонстрацію</button>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalFirst">КУПИТИ ОДНУ ДЕМОНСТРАЦІЮ</button>
                                     </div>
                                 </div>
                             </div>
@@ -875,67 +1036,109 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації 4-ох технік:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">Робота з віковою шкірою 45+<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">"Annora" - 95% залишку<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Робота на жирній та пористій шкірі<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font flex-wrap">
+                                        
+                                            <div class = "stock__demo-points-container">
+                                                <div class = "display-flex">
+                                                    <img src ="img/icons/yes.svg">
+                                                    <div class = "flex-align-self">Робота з віковою шкірою 45+</div>
+                                                </div>
+                                                <div class = "display-flex">
+                                                    <img src = "img/icons/yes.svg">
+                                                    <div class = "flex-align-self">"Annora" - 95% залишку</div>
+                                                </div>
+                                            </div>
+
+                                            <div class = "margin_s_t20 display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Робота на жирній та пористій шкірі</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
-                                            Уроки:
+                                            ЗМІСТ:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-fifth-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-fifth-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
+                                                
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-fifth-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-fifth-btn" 
+                                                    class = "stock__detail-btn">
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                         
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-fifth-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Секрети, які дають залишок 90% по загоєню<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Підбір правильного вольтажу для димки з пікселів<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Перехресний штрих, у чому його особливість<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Правильні налаштування апарата, голки та зчіпки зі шкірою<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Створення та закріплення чіткого ескізу трьома видами штрихів та ліній<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Секрети, які дають залишок 90% по загоєню</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Підбір правильного вольтажу для димки з пікселів</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Перехресний штрих, у чому його особливість</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Правильні налаштування апарата, голки та зчіпки зі шкірою</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Створення та закріплення чіткого ескізу трьома видами штрихів та ліній</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class  = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class="display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Огляд програм для гарної обробки</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Детальна ретуш на проблемній шкірі</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Правильна робота зі світлом</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -943,9 +1146,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -970,12 +1182,12 @@
                                         </a>
                                         
                                         <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                            <button class = "stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
                                         </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalSecond">Купити одну Демонстрацію</button>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalSecond">КУПИТИ ОДНУ ДЕМОНСТРАЦІЮ</button>
                                     </div>
                                 </div>
                             </div>
@@ -1001,65 +1213,96 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації 4-ох технік:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">Стрілка з розташуванням<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Класична стрілка та фарбування міжвійкового простору, щільне заповнення без набряку<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Міжвійка з вильотом<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__demo-main_none-flex">
+                                        <div class = "display-flex">
+                                            <img src ="img/icons/yes.svg">
+                                            <div class = "flex-align-self">Стрілка з розташуванням</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Класична стрілка та фарбування міжвійкового простору, щільне заповнення без набряку</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Міжвійка з вильотом</div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
-                                            Уроки:
+                                            ЗМІСТ:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-six-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-six-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-six-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-six-btn" 
+                                                    class = "stock__detail-btn">
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                         
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-six-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Виконання зафарбування під спеціальним кутом для швидкого проникнення пігменту (закріплення повік)<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Технічне виконання роботи, постановка рук<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Підбір апарату та спеціальної конфігурації голок<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Виконання зафарбування під спеціальним кутом для швидкого проникнення пігменту (закріплення повік)</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Технічне виконання роботи, постановка рук</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Підбір апарату та спеціальної конфігурації голок</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class  = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Огляд програм для гарної обробки</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Детальна ретуш на проблемній шкірі</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Правильна робота зі світлом</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -1067,9 +1310,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7  ">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1093,12 +1345,12 @@
                                             <button class = "content__button content__button_visual stock__buy-btn_modifed">КУПИТИ БЛОК</button>
                                         </a>
                                         <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                            <button class = "stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
                                         </a>
                                     </div>
 
                                     <div class = "stock__demo-buy">
-                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalThird">Купити одну Демонстрацію</button>
+                                        <button class = "stock__demo-buy_text_visual" type="button" data-bs-toggle="modal" data-bs-target="#modalThird">КУПИТИ ОДНУ ДЕМОНСТРАЦІЮ</button>
                                     </div>
                                 </div>
                             </div>
@@ -1125,64 +1377,91 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрація:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">Видалення ремуверами Color Expert та AB від компанії Tinel<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Класична стрілка та фарбування міжвійкового простору, щільне заповнення без набряку<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Міжвійка з вильотом<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__demo-main_none-flex">
+                                        <div class = "display-flex">
+                                            <img src ="img/icons/yes.svg">
+                                            <div class = "flex-align-self">Видалення ремуверами Color Expert та AB від компанії Tinel</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Класична стрілка та фарбування міжвійкового простору, щільне заповнення без набряку</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Міжвійка з вильотом</div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
-                                            Уроки:
+                                            ЗМІСТ:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                                type="button" 
-                                                data-bs-toggle="collapse" 
-                                                data-bs-target="#detail-seven-btn" 
-                                                aria-expanded="false" 
-                                                aria-controls="detail-seven-btn" 
-                                                class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-seven-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-seven-btn" 
+                                                    class = "stock__detail-btn">
 
-                                                <u class = "small white">читати детально</u>
-                                            </button><br><br>
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                             
                                             <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-seven-btn" >
                                                 
                                                 <div class = "detail__dvd-container">
                                                     <div class = "detail__divider">
-                                                        <div>• Обладнання</div>
-                                                        <div>• Постановка руки</div>
-                                                        <div>• Вольтаж</div>
-                                                        <div>• Штрихи</div>
-                                                        <div>• Лініїї</div>
-                                                        <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                        <div>• Робота у практичному зошиті</div>
+                                                        <div><div>•</div> Обладнання</div>
+                                                        <div><div>•</div> Постановка руки</div>
+                                                        <div><div>•</div> Вольтаж</div>
+                                                        <div><div>•</div> Штрихи</div>
+                                                        <div><div>•</div> Лініїї</div>
+                                                        <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                        <div><div>•</div> Робота у практичному зошиті</div>
                                                     </div>
 
                                                     <div class = "detail__divider">
-                                                        <div>• Екскізи</div>
-                                                        <div>• Робота на рубцях</div>
-                                                        <div>• Відпрацювання штрихів та ліній</div> 
-                                                        <div class = "mob-fix">• Матеріалознавство</div>
-                                                        <div>• Колористика</div>
-                                                        <div>• Перекриття</div>
+                                                        <div><div>•</div> Екскізи</div>
+                                                        <div><div>•</div> Робота на рубцях</div>
+                                                        <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                        <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                        <div><div>•</div> Колористика</div>
+                                                        <div><div>•</div> Перекриття</div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Три техніка видалення неякісного татуажу, або парманенту без набряку та опіків<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Видалення будь-яких кольорів за 1-3 послуги<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Технічні особливості видалення<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">З нашими уроками ви зможете приміняти ремувери інших торгових марок<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Три техніка видалення неякісного татуажу, або парманенту без набряку та опіків</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Видалення будь-яких кольорів за 1-3 послуги</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Технічні особливості видалення</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">З нашими уроками ви зможете приміняти ремувери інших торгових марок</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Огляд програм для гарної обробки</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -1190,9 +1469,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1205,7 +1493,7 @@
                                         </a>
 
                                         <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
+                                            <button class = "stock__buy-btn_bordered">КУПИТИ В РОЗСТРОЧКУ</button>
                                         </a>
                                     </div>
                                 </div>
@@ -1290,10 +1578,19 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації онлайн по 1-ій обраній зоні:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">5 - брови<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">3 - губи<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">4 - повіки<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__collaps_demo-padding">
+                                        <div class = "display-flex">
+                                            <img src ="img/icons/yes.svg">
+                                            <div class = "flex-align-self">5 - брови</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">3 - губи</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">4 - повіки</div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
@@ -1301,45 +1598,66 @@
                                             Наповнення МК:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-eigth-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-eigth-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
+                                            
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-eigth-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-eigth-btn" 
+                                                    class = "stock__detail-btn">
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
-                                        
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
+
+                                    
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-eigth-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">1 демонстраційна модель<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">відпрацювання на 2-ох моделях<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">2 дні навчання<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Розбір помилок у роботі<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Розкриття технічних особливостей роботи на обраній зоні пм<br><br>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">1 демонстраційна модель</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">відпрацювання на 2-ох моделях</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">2 дні навчання</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Розбір помилок у роботі</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Розкриття технічних особливостей роботи на обраній зоні пм</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
@@ -1353,7 +1671,10 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1373,9 +1694,7 @@
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-buy">
-                                        <a href = "#forms">
-                                            <button class = "content__button content__button_visual stock__buy-btn_modifed">ЗАПИСАТИСЬ НА МК</button>
-                                        </a>
+                                        <button class = "content__button content__button_visual stock__buy-btn_modifed" type="button" data-bs-toggle="modal" data-bs-target="#modalForm">ЗАПИСАТИСЬ НА КУРС</button>
                                     </div>
                                 </div>
                             </div>
@@ -1411,10 +1730,19 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Демонстрації онлайн:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">5 - брови<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">3 - губи<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">4 - повіки<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__collaps_demo-padding">
+                                        <div class = "display-flex">
+                                            <img src ="img/icons/yes.svg">
+                                            <div class = "flex-align-self">5 - брови</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">3 - губи</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">4 - повіки</div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
@@ -1422,54 +1750,76 @@
                                             Наповнення курсу:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-nine-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-nine-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
-                                        
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-nine-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-nine-btn" 
+                                                    class = "stock__detail-btn">
+
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-nine-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class  = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class  = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Теорія очна<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Відпрацювання на моделях, кожна зона 2 моделі<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Стартовий набір майстра перманентного макіяжу<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія очна</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Відпрацювання на моделях, кожна зона 2 моделі</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Стартовий набір майстра перманентного макіяжу</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png">&nbsp;&nbsp;Інста-позиціонування
+                                                <img src = "img/icons/gift.png"><div class = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної<br>&nbsp;&nbsp;обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш<br>&nbsp;&nbsp;на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Огляд програм для гарної обробки</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Детальна ретуш на проблемній шкірі</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Правильна робота зі світлом</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -1477,9 +1827,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з<br>&nbsp;&nbsp;трьома зонами</div>
-                                                <div class = "stock__desc_m">• 2 Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">2 Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1518,10 +1877,19 @@
                                         <div class = "stock__demo-title stock__collaps-demo_title_font">
                                             Структура курсу:
                                         </div>
-                                        <div class = "stock__demo-main stock__collaps-demo_main_font">
-                                        &nbsp;<img src ="img/icons/yes.svg">Будова шкіри та її фізіологія<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Пігмент на шкірі<br><br>
-                                        &nbsp;<img src = "img/icons/yes.svg">Різновиди ремуверів<br><br>
+                                        <div class = "stock__demo-main stock__collaps-demo_main_font stock__collaps_demo-padding_bc">
+                                        <div class = "display-flex">
+                                            <img src ="img/icons/yes.svg">
+                                            <div class = "flex-align-self">Будова шкіри та її фізіологія</div>
+                                        </div>
+                                        <div class = "display-flex">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Пігмент на шкірі</div>
+                                        </div>
+                                        <div class = "flex-align-self">
+                                            <img src = "img/icons/yes.svg">
+                                            <div class = "flex-align-self">Різновиди ремуверів</div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-main">
@@ -1529,55 +1897,80 @@
                                             Зміст:
                                         </div>
                                         <div class = "stock__main-content stock__collaps-demo_main_font">
-                                            &nbsp;<img src ="img/icons/yes.svg">Теорія(12 уроків)&nbsp;&nbsp;<button 
-                                            type="button" 
-                                            data-bs-toggle="collapse" 
-                                            data-bs-target="#detail-ten-btn" 
-                                            aria-expanded="false" 
-                                            aria-controls="detail-ten-btn" 
-                                            class = "stock__detail-btn">
+                                            <div class = "display-flex">
+                                                <img src ="img/icons/yes.svg">
+                                                <div class = "flex-align-self">Теорія(12 уроків)</div>
+                                                <button 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#detail-ten-btn" 
+                                                    aria-expanded="false" 
+                                                    aria-controls="detail-ten-btn" 
+                                                    class = "stock__detail-btn">
 
-                                            <u class = "small white">читати детально</u>
-                                        </button><br><br>
+                                                    <u class = "small white">читати детально</u>
+                                                </button>
+                                            </div>
                                         
                                         <div class = "collapse detail__collapsed detail__colapsed_visual" id = "detail-ten-btn" >
                                             
                                             <div class = "detail__dvd-container">
                                                 <div class = "detail__divider">
-                                                    <div>• Обладнання</div>
-                                                    <div>• Постановка руки</div>
-                                                    <div>• Вольтаж</div>
-                                                    <div>• Штрихи</div>
-                                                    <div>• Лініїї</div>
-                                                    <div>• Промальовування екскізу на клієнті(демонстрація)</div>
-                                                    <div>• Робота у практичному зошиті</div>
+                                                    <div><div>•</div> Обладнання</div>
+                                                    <div><div>•</div> Постановка руки</div>
+                                                    <div><div>•</div> Вольтаж</div>
+                                                    <div><div>•</div> Штрихи</div>
+                                                    <div><div>•</div> Лініїї</div>
+                                                    <div><div>•</div> Промальовування екскізу на клієнті(демонстрація)</div>
+                                                    <div><div>•</div> Робота у практичному зошиті</div>
                                                 </div>
 
                                                 <div class = "detail__divider">
-                                                    <div>• Екскізи</div>
-                                                    <div>• Робота на рубцях</div>
-                                                    <div>• Відпрацювання штрихів та ліній</div> 
-                                                    <div class = "mob-fix">• Матеріалознавство</div>
-                                                    <div>• Колористика</div>
-                                                    <div>• Перекриття</div>
+                                                    <div><div>•</div> Екскізи</div>
+                                                    <div><div>•</div> Робота на рубцях</div>
+                                                    <div><div>•</div> Відпрацювання штрихів та ліній</div> 
+                                                    <div class = "mob-fix"><div>•</div> Матеріалознавство</div>
+                                                    <div><div>•</div> Колористика</div>
+                                                    <div><div>•</div> Перекриття</div>
                                                 </div>
                                             </div>
                                         </div>
-                                            &nbsp;<img src = "img/icons/yes.svg">Робота з неодимовим лазером<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Підбір щільності енергії та техніки для будь якого кольору пігменту<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Швидке видалення і без опіків, невдалих робіт та перекриттів<br><br>
-                                            &nbsp;<img src = "img/icons/yes.svg">Робота із шильдою<br><br>   
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Робота з неодимовим лазером</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Підбір щільності енергії та техніки для будь якого кольору пігменту</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Швидке видалення і без опіків, невдалих робіт та перекриттів</div>
+                                            </div>
+                                            <div class = "display-flex">
+                                                <img src = "img/icons/yes.svg">
+                                                <div class = "flex-align-self">Робота із шильдою</div>
+                                            </div>   
                                         </div>
                                     </div>
                                     <div class = "stock__collaps-add">
                                         <div class = "stock__add-part-one">
                                             <div class = "stock__part-one-title stock__collaps-demo_main_font white">
-                                                <img src = "img/icons/gift.png"><div>Інста-позиціонування</div>
+                                                <img src = "img/icons/gift.png"><div class = "padding_s_l7">Інста-позиціонування</div>
                                             </div>
                                             <div class = "stock__part-one-desc stock__collaps-demo_main_font">
-                                                <div>• Огляд програм для гарної обробки</div>
-                                                <div class = "stock__desc_m">• Детальна ретуш на проблемній шкірі</div>
-                                                <div class = "stock__desc_m">• Правильна робота зі світлом</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Огляд програм для гарної обробки</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Детальна ретуш на проблемній шкірі</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Правильна робота зі світлом</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class = "stock__add-part-two">
@@ -1585,9 +1978,18 @@
                                                 Методичні матеріали
                                             </div>
                                             <div class = "stock__part-two-desc stock__collaps-demo_main_font">
-                                                <div>• Зошити, згоди</div>
-                                                <div class = "stock__desc_m">• Посібники з роботи з трьома зонами</div>
-                                                <div class = "stock__desc_m">• Сертифікат</div>
+                                                <div class = "display-flex">
+                                                    <div>•</div>
+                                                    <div class="flex-align-self padding_s_l7">Зошити, згоди</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div> 
+                                                    <div class = "flex-align-self padding_s_l7">Посібники з роботи з трьома зонами</div>
+                                                </div>
+                                                <div class = "stock__desc_m display-flex">
+                                                    <div>•</div>
+                                                    <div class = "flex-align-self padding_s_l7">Сертифікат</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1779,9 +2181,9 @@
                                                             </div>
 
                                                             <div class = "history__bottom-images">
-                                                                <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                                <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                                <div><img draggable="false" src = "img/danielasemenova_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                                <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work1.png"><br></div>
+                                                                <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work2.png"><br></div> 
+                                                                <div><img draggable="false" src = "img/danielasemenova_work3.png"><br></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1833,9 +2235,9 @@
                                                             </div>
 
                                                             <div class = "history__bottom-images">
-                                                                <div><img draggable="false" src = "img/Litvinova_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                                <div><img draggable="false" src = "img/Litvinova_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                                <div><img draggable="false" src = "img/Litvinova_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                                <div><img draggable="false" src = "img/Litvinova_work1.png"><br></div>
+                                                                <div><img draggable="false" src = "img/Litvinova_work2.png"><br></div> 
+                                                                <div><img draggable="false" src = "img/Litvinova_work3.png"><br></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1887,9 +2289,9 @@
                                                             </div>
 
                                                             <div class = "history__bottom-images">
-                                                                <div><img draggable="false" src = "img/Kononenko_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                                <div><img draggable="false" src = "img/Kononenko_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                                <div><img draggable="false" src = "img/Kononenko_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                                <div><img draggable="false" src = "img/Kononenko_work1.png"><br></div>
+                                                                <div><img draggable="false" src = "img/Kononenko_work2.png"><br></div> 
+                                                                <div><img draggable="false" src = "img/Kononenko_work3.png"><br></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1994,9 +2396,9 @@
                                                             </div>
 
                                                             <div class = "history__bottom-images">
-                                                                <div><img draggable="false" src = "img/Mazyrik_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                                <div><img draggable="false" src = "img/Mazyrik_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                                <div><img draggable="false" src = "img/Mazyrik_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                                <div><img draggable="false" src = "img/Mazyrik_work1.png"><br></div>
+                                                                <div><img draggable="false" src = "img/Mazyrik_work2.png"><br></div> 
+                                                                <div><img draggable="false" src = "img/Mazyrik_work3.png"><br></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2049,9 +2451,9 @@
                                                             </div>
 
                                                             <div class = "history__bottom-images">
-                                                                <div><img draggable="false" src = "img/matsan_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                                <div><img draggable="false" src = "img/matsan_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                                <div><img draggable="false" src = "img/matsan_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                                <div><img draggable="false" src = "img/matsan_work1.png"><br></div>
+                                                                <div><img draggable="false" src = "img/matsan_work2.png"><br></div> 
+                                                                <div><img draggable="false" src = "img/matsan_work3.png"><br></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2102,9 +2504,9 @@
                                                             </div>
 
                                                             <div class = "history__bottom-images">
-                                                                <div><img draggable="false" src = "img/yana.zapara_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                                <div><img draggable="false" src = "img/yana.zapara_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                                <div><img draggable="false" src = "img/yana.zapara_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                                <div><img draggable="false" src = "img/yana.zapara_work1.png"><br></div>
+                                                                <div><img draggable="false" src = "img/yana.zapara_work2.png"><br></div> 
+                                                                <div><img draggable="false" src = "img/yana.zapara_work3.png"><br></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2280,9 +2682,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/Litvinova_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/Litvinova_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/Litvinova_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/Litvinova_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/Litvinova_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/Litvinova_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2328,9 +2730,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/Kononenko_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/Kononenko_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/Kononenko_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/Kononenko_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/Kononenko_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/Kononenko_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2430,9 +2832,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/Mazyrik_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/Mazyrik_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/Mazyrik_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/Mazyrik_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/Mazyrik_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/Mazyrik_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2486,9 +2888,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/matsan_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/matsan_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/matsan_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/matsan_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/matsan_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/matsan_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2533,9 +2935,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/yana.zapara_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/yana.zapara_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/yana.zapara_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/yana.zapara_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/yana.zapara_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/yana.zapara_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2651,9 +3053,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/danielasemenova_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work1.png"><br></div>
+                                                            <div class = "m_15"><img draggable="false" src = "img/danielasemenova_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/danielasemenova_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2699,9 +3101,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/Litvinova_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/Litvinova_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/Litvinova_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/Litvinova_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/Litvinova_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/Litvinova_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2755,9 +3157,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/Kononenko_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/Kononenko_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/Kononenko_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/Kononenko_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/Kononenko_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/Kononenko_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2850,9 +3252,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/Mazyrik_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/Mazyrik_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/Mazyrik_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/Mazyrik_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/Mazyrik_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/Mazyrik_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2905,9 +3307,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/matsan_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/matsan_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/matsan_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/matsan_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/matsan_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/matsan_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2952,9 +3354,9 @@
                                                         </div>
 
                                                         <div class = "history__bottom-images">
-                                                            <div><img draggable="false" src = "img/yana.zapara_work1.png"><br><span class = "white-color align-center">До</span></div>
-                                                            <div><img draggable="false" src = "img/yana.zapara_work2.png"><br><span class = "white-color align-center">Після</span></div> 
-                                                            <div><img draggable="false" src = "img/yana.zapara_work3.png"><br><span class = "white-color align-center">Зараз</span></div>
+                                                            <div><img draggable="false" src = "img/yana.zapara_work1.png"><br></div>
+                                                            <div><img draggable="false" src = "img/yana.zapara_work2.png"><br></div> 
+                                                            <div><img draggable="false" src = "img/yana.zapara_work3.png"><br></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -3074,19 +3476,19 @@
 
                     <div class = "modal__radio-buttons"> 
                         <label class = "modal__radio-text">
-                            <input type="radio" name="options" value="option1" class = "real-radiobox" checked>
+                            <input type="radio" name="options2" value="option1" class = "real-radiobox" checked>
                             <span class = "custom-radiobox"></span>
                             &nbsp;&nbsp;Акварель
                         </label><br>
                     
                         <label class = "modal__radio-text">
-                            <input type="radio" name="options" value="option2" class = "real-radiobox">
+                            <input type="radio" name="options2" value="option2" class = "real-radiobox">
                             <span class = "custom-radiobox"></span>
                             &nbsp;&nbsp;Щільне заповнення
                         </label><br>
                     
                         <label class = "modal__radio-text">
-                            <input type="radio" name="options" value="option3" class = "real-radiobox">
+                            <input type="radio" name="options2" value="option3" class = "real-radiobox">
                             <span class = "custom-radiobox"></span>
                             &nbsp;&nbsp;Робота на холодних губах з рубцями
                         </label><br>
@@ -3119,7 +3521,7 @@
 
                     <div class = "modal__radio-buttons"> 
                         <label class = "modal__radio-text">
-                            <input type="radio" name="options" value="option1" class = "real-radiobox" checked>
+                            <input type="radio" name="options" value="option1" class = "real-radiobox" checked="true">
                             <span class = "custom-radiobox"></span>
                             &nbsp;&nbsp;Робота з віковою шкірою 45+
                         </label><br>
@@ -3165,7 +3567,7 @@
 
                     <div class = "modal__radio-buttons"> 
                         <label class = "modal__radio-text">
-                            <input type="radio" name="options" value="option1" class = "real-radiobox" checked>
+                            <input type="radio" name="options3" value="option1" class = "real-radiobox" checked>
                             <span class = "custom-radiobox"></span>
                             &nbsp;&nbsp;Стрілка з розтушуванням
                         </label><br>
@@ -3173,7 +3575,7 @@
                         <label class = "modal__radio-text">
                             <div class = "modal__custom-container">
                                 <div class = "modal__input-container">
-                                    <input type="radio" name="options" value="option2" class = "real-radiobox">
+                                    <input type="radio" name="options3" value="option2" class = "real-radiobox">
                                     <span class = "custom-radiobox"></span>
                                 </div>
                                 <span class = "custom-radiobox-text">
@@ -3183,7 +3585,7 @@
                         </label><br>
                     
                         <label class = "modal__radio-text">
-                            <input type="radio" name="options" value="option3" class = "real-radiobox">
+                            <input type="radio" name="options3" value="option3" class = "real-radiobox">
                             <span class = "custom-radiobox"></span>
                             &nbsp;&nbsp;Міжвійка з вильотом
                         </label><br>
@@ -3288,39 +3690,8 @@
             </div>
         </div>
 
-        <div class = "overlay"></div>
-            <div class = "menu menu_visual">
-                <div class = "menu__header">
-                    <img id = "menu-btn-close" draggable="false" src = "img/icons/close-btn.svg">
-                </div>
-                <div class = "menu__content">
-                    <div class = "menu__languages">
-                        <div class = "menu__languages-container">
-                            <div class = "menu_ua light-color">UA</div>
-                            <div class = "menu_en grey-color"><a href = "/en">ENG</a></div>
-                            <div class = "menu_ru grey-color"><a href = "/ru">RU</a></div>
-                        </div>
-                    </div>
+        
 
-                    <div class = "menu__points-container light-color">
-                        <div class = "menu__points-divider menu__divider_m">
-                            <div><a href = "#for-whom">Для кого</a></div>
-                            <div><a href = "#authors">Авторська методика</a></div>
-                            <div><a href = "#methods">Переваги</a></div>
-                            <div><a href = "#stock">Акції</a></div>
-                            <div><a href = "#online">Онлайн</a></div>
-                        </div>
-
-                        <div class = "menu__points-divider">
-                            <div> <a href = "#offline">Офлайн</a></div>
-                            <div><a href = "#history">Відгуки</a></div>
-                            <div><a href = "#why">Автор</a></div>
-                            <div><a href = "#forms">Зв'язатись</a></div>
-                            <div><a href = "#faq">FAQ</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
