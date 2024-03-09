@@ -5,7 +5,13 @@
 	margin-top: 10px;
     }
 
+    .methods__btn-switcher{
+        padding-top: 20px;
+        display:block;
+    }
+
     .detail__dvd-container{
+
 	padding-right: 4px;
     display: block;
     }
