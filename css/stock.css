@@ -366,6 +366,14 @@
     margin-left: 72px; margin-top: 22px;
 }
 
+.margin_s_a{
+    margin-bottom: 15px;
+}
+
+.d-flex{
+    display: flex;
+}
+
 .stock__collaps-price{
     display: flex;
     justify-content: center;
@@ -603,6 +611,10 @@
     padding-left: 7px;
 }
 
+.flex-align-self, .display-flex{
+    width: fit-content;
+}
+
 @media screen and (min-width: 1020px){
     .stock__demo-main{
         display: flex;
@@ -618,10 +630,12 @@
     }
 
     .stock__collaps_demo-padding{
-        padding-right: 590px;
+        padding-right: 550px;
     }
 
     .stock__collaps_demo-padding_bc{
         padding-right: 150px;
     }
+
+
 }

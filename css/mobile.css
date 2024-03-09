@@ -25,6 +25,7 @@
         width: 190px;
     }
 
+
   
 
     /* header */
@@ -202,6 +203,7 @@
 
     .methods__title{
         font-size: 24px;
+        margin-bottom: 20px;
     }
 
     .methods__spoiler_align{
@@ -421,10 +423,14 @@
         background-size: 100% 250px;
     }
 
-    .stock__demo-buy_text_visual{
-        font-size: 12px;
+    .stock__demo-buy{
+        
 
-        margin-top: 20px;
+        margin-top: 20px !important;
+    }
+
+    .stock__demo-buy_text_visual{
+        font-size: 11px;
     }
 
     
@@ -530,7 +536,7 @@
     }
 
     .forms__form-container{
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     /* master */
@@ -961,4 +967,156 @@
         height: 250px !important;
     }
 
+
+
+        /* Fixes */
+        .content{
+            margin-bottom: 0px;
+        }
+
+        .authors{
+            margin-top: 65px;
+        }
+
+        .authors__button_m{
+            margin-bottom: 30px;
+        }
+
+        .for-whom__pbox{
+            margin-top: 40px;
+        }
+    
+        .methods, .stock, .online, .forms, .master, .offline, .history, .faq__title{
+            margin-top: 88px;
+        }
+
+        .why{
+            margin-top: 68px;
+        }
+
+
+    
+        .stock__spoiler_m{
+            margin-top: 20px;
+        }
+
+        .stock__content{
+            margin-top: 40px;
+        }
+
+        .methods__ph-container img, .methods__lk-container img, .methods__wm-container img, .methods__sp-container  img{
+            width: 35px; height: 35px;
+        }
+
+        .methods__ph-container, .methods__lk-container, .methods__wm-container, .methods__sp-container{
+            display: flex;
+            align-items: center;
+        }
+
+        .methods__ph-text-container{
+            padding-top: 15px;
+            padding-left: 0px;
+        }
+        .methods__lk-text-container, .methods__sp-text-container{
+            padding-left: 0;
+        }
+
+        .methods__sp-text-container{
+            padding-top: 20px;
+        }
+
+        .methods__wm-text-container, .methods__lk-text-container{
+            padding-top: 17px;
+            padding-left: 0;
+        }
+
+        .methods__spoiler_align{
+            padding-left: 23px;
+            margin-top: 20px;
+        }
+    
+        .forms__title, .faq__content{
+            margin-top: 40px;
+        }
+    
+        .forms__subtitle_m{
+            padding-left: 13px;
+        }
+    
+        .methods__spoilers{
+            margin-top: 0px;
+        }
+
+        .forms__content-title{
+            justify-content: start;
+            padding-left: 0px;
+        }
+
+        .forms__content-title > img{
+            width: 36px; height: 36px;
+        }
+        .forms__content{
+            margin-top: 40px;
+        }
+    
+        .master__content, .offline__content, .why__content {
+            margin-top: 40px;
+        }
+    
+
+        .master__subtitle, .offline__subtitle{
+            margin-bottom: 40px;
+        }
+    
+        .offline__title, .history__title, .why__title{
+            margin-top: 0px;
+        }
+    
+        .why__main-img{
+            border-radius: 7px;
+        }
+
+        .methods__button_m{
+            margin-top: 40px;
+        }
+
+        .online__content{
+            margin-top: 40px;
+        }
+
+        .forms__title_size_h2{
+            text-align: left;
+        }
+
+        .faq__title{
+            margin-top: 0px;
+        }
+
+        .content__select{
+            background-position-x: -80px;
+        }
+
+        .stock__collaps-add{
+            padding-left: 28px;
+        }
+
+        .stock__part-one-title{
+            margin-left: 0;
+        }
+
+        .adaptive{
+            margin-left: -30px;
+        }
+
+        .stock__demo-points-container{
+            padding-right: 0;
+            display: block;
+        }
+
+        .margin_s_t20{
+            margin: 0;
+        }
+    .menu{
+        top: -25px;
+    }
 }

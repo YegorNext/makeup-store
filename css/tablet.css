@@ -7,7 +7,11 @@
 
     .detail__divider div{
        
-        margin-right: 50px;
+        margin-right: 0px;
+    }
+
+    .detail__divider{
+        margin-right: -26px;
     }
 
     .mobile-fix, .mob-fix{
@@ -79,7 +83,7 @@
     }
 
     .content__button{
-        width: 218px; height: 45px;
+        width: 248px; height: 45px;
     }
 
     .content__button_m{
@@ -102,6 +106,7 @@
 
     .for-whom__pbox{
         flex-wrap: nowrap;
+        margin-top: 50px;
     }
 
     .for-whom__elem-one, .for-whom__elem-two, .for-whom__elem-three, .for-whom__elem-four, .for-whom__elem-five{
@@ -219,17 +224,39 @@
         font-weight: 600;
     }
 
+   
 
     .stock_spoiler_align{
         height: 145px;
     }
 
+
+    .detail__dvd-container{
+        margin-bottom: 15px;
+    }
+
+    .stock__collaps-buy{
+        padding: 0;
+        margin-top: 40px;
+    }
     .stock__button_theme_img{
         background-size: 100% 100%;
     }
 
+    .display-flex img{
+        width: 29px; height: 26px;
+    }
+
     .stock__collaps-content_theme_img{
         background-size: 100% 200px;
+    }
+
+    .stock__collaps-content{
+        padding-bottom: 40px;
+    }
+
+    .detail__colapsed_visual{
+        font-size: 16px;
     }
 
     .stock__swticher-container{
@@ -260,12 +287,52 @@
         font-size: 24px;
     }
 
+    .stock__demo-main, .stock__main-content{
+        margin-top: 20px;
+    }
+
+    .stock__part-one-title img{
+        width: 34px; height: 34px;
+    }
+
+    .stock__collaps-main{
+        margin-top: 30px;
+    }
+
+    .stock__collaps-price_between{
+        padding-left: 70px;
+         padding-right: 70px;
+    }
+
+    .stock__part-two-desc{
+        margin-top: 15px;
+    }
+
+    .stock__add-part-two{
+        margin-top: 8px;
+    }
+
+    .stock__part-one-desc{
+        margin-left: 47px;
+    }
+
+    .stock__collaps-info{
+        padding-left: 35px;
+        padding-right: 31px;
+    }
+
+    .stock__collaps-price{
+        margin-top: 40px;
+    }
+
     .stock__buy-btn_modifed{
         font-size: 14px;
     }
 
     .stock__buy-btn_bordered{
         font-size: 14px;
+
+        width: 248px; height: 45px;
     }
 
     .stock__collaps-content_theme_img-brows, .stock__collaps-content_theme_img-lips, .stock__collaps-content_theme_img-eyes {
@@ -624,6 +691,51 @@
         height: 250px !important;
     }
 
+    /* Fixes */
+    .content{
+        margin-bottom: 100px;
+    }
+
+    .methods, .stock, .online, .forms, .master, .offline, .history, .why, .faq__title{
+        margin-top: 100px;
+    }
+
+    .stock__spoiler_m{
+        margin-top: 30px;
+    }
+
+    .forms__title, .faq__content{
+        margin-top: 40px;
+    }
+
+    .forms__subtitle_m{
+        padding-left: 13px;
+    }
+
+    .forms__content-title{
+        justify-content: start;
+        padding-left: 13px;
+    }
+
+    .master__content, .offline__content, .why__content {
+        margin-top: 50px;
+    }
+
+    .forms__form-container{
+        margin-bottom: 40px;
+    }
+
+    .offline__title, .history__title, .why__title{
+        margin-top: 0px;
+    }
+
+    .why__main-img{
+        border-radius: 7px;
+    }
+
+    .menu{
+        top: -20px;
+    }
 
 }
                                     
