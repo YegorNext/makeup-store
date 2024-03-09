@@ -1125,6 +1125,14 @@
         padding: 0;
     }
 
+    .forms__subtitle_m{
+        padding-left: 0;
+    }
+
+    .forms__content-title img{
+        padding-right: 0;
+    }
+
     .menu{
         top: -25px;
     }
