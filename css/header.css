@@ -10,11 +10,6 @@
     width: 100%; height: auto;
 }
 
-
-#logo{
-    width: 74px; height: 14px;
-}
-
 header{
     position: fixed;
     z-index: 999;
@@ -36,6 +31,7 @@ header{
 
 .header-content__logo{
     margin-right: 20px;
+    width: 100px; height: 18px;
 }
 
 .header-content__full-version > div{
