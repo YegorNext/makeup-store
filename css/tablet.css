@@ -746,6 +746,20 @@
         display:block;
     }
 
+    .methods__ph-container, .methods__lk-container, 
+    .methods__wm-container, .methods__sp-container,
+    .methods__ph-text-container, .methods__lk-text-container, 
+    .methods__wm-text-container, .methods__sp-text-container{
+        padding: 0;
+
+        display: flex; align-items: center;
+    }
+
+
+    .methods__ph-text-container, .methods__lk-text-container, 
+    .methods__wm-text-container, .methods__sp-text-container{
+        padding-left: 10px;
+    }
 }
                                     
 
