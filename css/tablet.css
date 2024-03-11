@@ -747,6 +747,11 @@
         align-items: center;
 
     }   
+
+    .button-fix{
+        display: flex;
+        margin-top: 3px;
+    }
     
     .methods__ph-container, .methods__lk-container, 
     .methods__wm-container, .methods__sp-container,
@@ -785,7 +790,12 @@
     .methods__wm_m{
         height: 40px !important;
         width: 28px !important;
-    }    
+    }
+    
+    .forms__content-title > img{
+        width: 46px; height: 46px;
+        padding-right: 0;
+    }
 }
                                     
 

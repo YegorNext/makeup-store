@@ -262,6 +262,26 @@ $('#faq-first-btn').on('click', function(){
  controlArrow('#history-seven-btn', '#history__arrow-seven');
  controlArrow('#history-eigth-btn', '#history__arrow-eigth');
 
+ 
+ controlArrow('#history-nine-btn', '#history__arrow-nine');
+ controlArrow('#history-ten-btn', '#history__arrow-ten');
+ controlArrow('#history-eleven-btn', '#history__arrow-eleven');
+ controlArrow('#history-twelve-btn', '#history__arrow-twelve');
+ controlArrow('#history-thirteen-btn', '#history__arrow-thirteen');
+ controlArrow('#history-fourteen-btn', '#history__arrow-fourteen');
+ controlArrow('#history-fifteen-btn', '#history__arrow-fifteen');
+ controlArrow('#history-sixteen-btn', '#history__arrow-sixteen');
+
+ controlArrow('#history-seventeen-btn', '#history__arrow-seventeen');
+ controlArrow('#history-eighteen-btn', '#history__arrow-eighteen');
+ controlArrow('#history-nineteen-btn', '#history__arrow-nineteen');
+ controlArrow('#history-twenty-btn', '#history__arrow-twenty');
+ controlArrow('#history-twentyone-btn', '#history__arrow-twentyone');
+ controlArrow('#history-twentytwo-btn', '#history__arrow-twentytwo');
+ controlArrow('#history-twentythree-btn', '#history__arrow-twentythree');
+ controlArrow('#history-twentyfour-btn', '#history__arrow-twentyfour');
+
+
 
  const detailButtons = document.getElementsByClassName('stock__detail-btn');
 

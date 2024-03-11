@@ -218,3 +218,8 @@ input[type="checkbox"]:checked + .custom-checkbox::before{
 
     color: #CB4D4D;
 }
+
+.forms__content-title > img{
+    width: 56px; height: 56px;
+    padding-right: 0;
+}
