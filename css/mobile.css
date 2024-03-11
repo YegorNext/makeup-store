@@ -1149,4 +1149,10 @@
         display: flex;
         align-items: center;
     }
+
+    .authors_ic-size{
+        width: 70px; height: 70px;
+    }
+
+
 }

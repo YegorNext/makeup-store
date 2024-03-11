@@ -57,6 +57,7 @@
         height: 406px;
 
         background-position: center;
+        background-image: url('../img/anyas_photo-tablet.png');
     }
 
     .content__title{
@@ -773,6 +774,18 @@
     .stock__main-content img {
         width: 29px; height: 26px;
     }
+
+    .methods__lk-container img, 
+    .methods__sp-container img,
+    .methods__ph-container img,
+    .methods__wm-container img{
+        width: 37px; height: 37px;
+    }
+
+    .methods__wm_m{
+        height: 40px !important;
+        width: 28px !important;
+    }    
 }
                                     
 

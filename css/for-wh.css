@@ -111,6 +111,14 @@
     height: 250px !important;
 }
 
+.for-whom__pbox img{
+    height: 73px; width: 73px;
+}
+
+.authors_ic-size{
+    width: 70px; height: 70px;
+}
+
 @media screen and (min-width: 1101px) {
     #for-whom-carousel-mobile{
         display: none;
