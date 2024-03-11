@@ -1021,7 +1021,23 @@
             padding: 0;
 
             display: flex; align-items: center;
+
+            width: fit-content; height: fit-content;
         }
+
+        .methods__ph-text-container, .methods__lk-text-container, 
+        .methods__wm-text-container, .methods__sp-text-container{
+            padding-left: 10px;
+        }
+
+        .methods__btn-content{
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+        }
+
+
 
         .methods__spoiler_align{
             padding-left: 23px;
