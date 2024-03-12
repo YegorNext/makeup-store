@@ -119,6 +119,10 @@
     width: 70px; height: 70px;
 }
 
+.methods__wm_m{
+    margin-right: 5px; 
+}
+
 @media screen and (min-width: 1101px) {
     #for-whom-carousel-mobile{
         display: none;
@@ -137,3 +141,5 @@
         display: block;
     }
 }
+
+
