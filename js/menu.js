@@ -10,8 +10,8 @@ var isEnabled = false;
 function showMenu(){
     isEnabled = true;
 
-    $(overlay).fadeIn(5).addClass('show-menu');
-    $(menuUI).fadeIn(5).addClass('show-menu');
+    $(overlay).fadeIn(100).addClass('show-menu');
+    $(menuUI).fadeIn(100).addClass('show-menu');
     
     $('html').addClass('overflow-y');
 }
