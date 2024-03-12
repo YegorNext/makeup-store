@@ -642,6 +642,10 @@
     margin-top: 3px;
 }
 
+.photo-replaced{
+    width: 90% !important;
+}
+
 @media screen and (min-width: 1100px){
     .stock__demo-main{
         display: flex;
