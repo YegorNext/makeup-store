@@ -18,6 +18,11 @@
 	width: 300px !important;
     }
 
+    .modal__subtitle-container img{
+      width: 36px; height: 36px;
+
+    }
+
     /* header */
     
     /*header{   DELETED
@@ -790,6 +795,8 @@
     .methods__wm_m{
         height: 40px !important;
         width: 28px !important;
+
+        margin-right:10px;
     }
     
     .forms__content-title > img{

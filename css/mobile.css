@@ -32,7 +32,10 @@
     }
 
 
-  
+    .modal__subtitle-container img{
+      width: 36px; height: 36px;
+
+    }  
 
     /* header */
     /*header{
@@ -1126,6 +1129,11 @@
             margin: 0;
         }
 
+    .methods__wm_m{
+       margin-right: 5px;
+    }
+
+
         
     .forms__title{
         padding: 0;
@@ -1154,5 +1162,9 @@
         width: 70px; height: 70px;
     }
 
+
+    .authors_ic-size {
+        width: 58px;
+    }
 
 }

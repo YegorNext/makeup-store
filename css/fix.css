@@ -1,0 +1,55 @@
+.methods__btn-switcher_size{
+    padding-right: 0px !important;
+}
+
+@media screen and (min-width: 1020px){
+    .methods__btn-switcher{
+	margin-left: 7px;
+    }
+
+.methods__ph-text-container, .methods__lk-text-container, .methods__wm-text-container, .methods__sp-text-container {
+  display: block !important;
+
+  height: fit-content !important;
+  width: fit-content !important;
+}
+
+.methods__ph-text-container > div,
+.methods__lk-text-container > div,
+.methods__wm-text-container > div,
+.methods__sp-text-container > div{
+    margin-top: 25px;
+}
+
+.methods__wm-text-container > div{
+    margin-top: 20px;
+}
+
+.methods__ph-container, .methods__lk-container, .methods__wm-container, .methods__sp-container{
+  display: block !important;
+
+}
+
+.methods__ph-container > img,
+.methods__lk-container > img,
+.methods__wm-container > img,
+.methods__sp-container > img{
+  margin-top: 8px;
+}
+
+.modal__subtitle-container img{
+ width: 46px; height: 46px;
+
+}
+
+.methods__wm_m{
+ margin-top:5px !important;
+}
+}
+
+
+
+
+
+
+
