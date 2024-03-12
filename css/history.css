@@ -209,31 +209,17 @@
     display: block;
 }
 
-#history-first-btn, 
-#history-second-btn, 
-#history-third-btn, 
-#history-fourth-btn, 
-#history-fifth-btn, 
-#history-six-btn, 
-#history-seven-btn, 
-#history-eigth-btn,
-#history-nine-btn,
-#history-ten-btn,
-#history-eleven-btn,
-#history-twelve-btn,
-#history-thirteen-btn,
-#history-fourteen-btn,
-#history-fifteen-btn,
-#history-sixteen-btn,
-#history-seventeen-btn,
-#history-eighteen-btn,
-#history-nineteen-btn,
-#history-twenty-btn,
-#history-twentyone-btn,
-#history-twentytwo-btn,
-#history-twentythree-btn,
-#history-twentyfour-btn{
+.history__btn-wrapper{
+    height: 23px;
+    
+}
+
+.history__btn-wrapper button{
     margin-bottom: 10px;
+}
+
+.history__btn-wrapper img{
+    cursor: pointer;
 }
 
 .history__overlay-right {

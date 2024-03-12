@@ -36,17 +36,30 @@ $('#spoiler-sp-btn').on('click', function(){
 
 });
 
+function stopAllVideos(){
+     $('video:not([autoplay])').each(function() {
+          this.pause();
+     });   
+}
+
 $('#spoiler-st-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-dbl').addClass('expand');
+         
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-dbl').removeClass('expand');
+
+         video.pause();
     }
 
 });
@@ -54,90 +67,129 @@ $('#spoiler-st-btn').on('click', function(){
 
 $('#spoiler-lp-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-lp').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-lp').removeClass('expand');
+
+         video.pause();
     }
 
 });
 
 $('#spoiler-one-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
+
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-one').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-one').removeClass('expand');
+
+         video.pause();
     }
 
 });
 
 $('#spoiler-two-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-two').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-two').removeClass('expand');
+
+         video.pause();
     }
 
 });
 
 $('#spoiler-three-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
+
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-three').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-three').removeClass('expand');
+
+         video.pause();
     }
 
 });
 
 $('#spoiler-four-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-four').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-four').removeClass('expand');
+
+         video.pause();
     }
 
 });
 
 $('#spoiler-five-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
+
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-five').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-five').removeClass('expand');
+
+         video.pause();
     }
 
 });
@@ -145,45 +197,63 @@ $('#spoiler-five-btn').on('click', function(){
 
 $('#spoiler-six-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-six').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-six').removeClass('expand');
+
+         video.pause();
     }
 
 });
 
 $('#spoiler-seven-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-seven').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-seven').removeClass('expand');
+
+         video.pause();
     }
 
 });
 
 $('#spoiler-eight-btn').on('click', function(){
     var expanded = $(this).attr('aria-expanded');
+    var video = $(this).parent().find('video').get(0);
 
     if(expanded == 'true'){
          $(this).addClass('hide-angels');
          $('#switcher-eight').addClass('expand');
+
+         stopAllVideos();
+         video.play();
     }
 
     if(expanded == 'false'){
          $(this).removeClass('hide-angels');
          $('#switcher-eight').removeClass('expand');
+         
+         video.pause();
     }
 
 });
@@ -247,8 +317,18 @@ $('#faq-first-btn').on('click', function(){
      $(controller).on('click', function(){
           var expanded = $(this).attr('aria-expanded');
      
-          if(expanded == 'true') $(element).addClass('show');
-          if(expanded == 'false') $(element).removeClass('show');
+          if(expanded == 'true' && !$(element).hasClass('show')){
+                $(element).addClass('show');
+                $(this).find('u').text('');
+          }
+          else{
+               $(element).removeClass('show');
+               $(this).find('u').text('читати повний відгук');
+         }
+     });
+
+     $(element).on('click', function(){          
+          $(controller).click();
      });
  }
 

@@ -10,16 +10,16 @@ var isEnabled = false;
 function showMenu(){
     isEnabled = true;
 
-    $(overlay).addClass('show-menu');
-    $(menuUI).addClass('show-menu');
+    $(overlay).fadeIn(5).addClass('show-menu');
+    $(menuUI).fadeIn(5).addClass('show-menu');
     
     $('html').addClass('overflow-y');
 }
 
 function closeMenu(){
     if(isEnabled){
-        $(overlay).removeClass('show-menu');
-        $(menuUI).removeClass('show-menu');
+        $(overlay).fadeOut(50).removeClass('show-menu');
+        $(menuUI).fadeOut(50).removeClass('show-menu');
 
         $('html').removeClass('overflow-y');
         

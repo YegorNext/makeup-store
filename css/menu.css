@@ -11,6 +11,9 @@
     padding-left: 85px;
 
     display: none;
+
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
 
@@ -39,7 +42,8 @@
 
     display: none;
 
-    
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
 
@@ -96,6 +100,7 @@
 
 .show-menu{
     display: block;
+    opacity: 1;
 }
 
 #menu-btn-close, #menu-icon{
