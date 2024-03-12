@@ -14,3 +14,10 @@ a, a:hover, a:visited, a:focus {
 }
 
 
+.carousel.slide{
+    cursor: grab;
+}
+
+.carousel-indicators{
+    cursor: pointer;
+}
