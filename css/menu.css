@@ -103,6 +103,11 @@
     opacity: 1;
 }
 
+.show-overlay{
+    display: block;
+    opacity: 0.8;
+}
+
 #menu-btn-close, #menu-icon{
     cursor: pointer;
 }
