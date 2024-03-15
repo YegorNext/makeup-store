@@ -191,7 +191,7 @@
     }
 
     .methods__collapsed-content{
-        height: 130px; width: 333px;
+        height: 144px; width: 333px;
     }
 
     .methods__collapsed-content_sp{
@@ -213,7 +213,7 @@
     }
 
     .methods__ph-spoiler-content_text{
-        padding-left: 48px;
+        padding-left: 78px;
         padding-right: 33px;
     }
 
