@@ -1235,3 +1235,9 @@
     }
 
 }
+
+@media screen and (min-width: 500px) and (max-width: 640px){
+    .for-whom_elem-text{
+        font-size: 18px;
+    }
+}
