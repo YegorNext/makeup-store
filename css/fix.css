@@ -47,14 +47,3 @@
  margin-top:5px !important;
 }
 }
-
-
-@media screen and (max-width: 640px) {
-  .content__select {
-    background-position-x: -48px !important;
-  }
-}
-
-
-
-

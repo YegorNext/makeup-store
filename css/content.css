@@ -178,3 +178,8 @@
 .authors__image{
     margin-left: 40px;
 }
+
+
+.content__addinfo_flex{
+    display: flex;
+}

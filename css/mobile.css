@@ -53,7 +53,9 @@
     }
     
     .header-content{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
+
         margin-top: 25px;
     }
 
@@ -63,45 +65,67 @@
     }
 
     .content__inner{
-        max-width: 288px;
+        min-width: 288px; width: 90%;
         flex-wrap: wrap;
 
         justify-content: center;
     }
 
     .content__select{
-        max-width: 288px;
-        height: 406px;
+        min-width: 288px; width: 100%;
+        max-width: none;
+
+        height: 120vw;
 
         background-position: right;
     }
 
     .content__title{
-        font-size: 30px;
-        margin-top: 20px; 
-        margin-left: 16px;
+        font-size: 8vw;
+
+        margin-top: 20px; margin-left: 16px;
+
+        min-width: 272px;
     }
     
     .content__addinfo{
         margin-left: 16px;
-        margin-top: 120px;
+        margin-top: 39.5vw;
+
+        display: block;
+    }
+
+    .content__addinfo_flex{
+        display: flex;
     }
 
     .content__addinfo_sm{
-        font-size: 24px;
+        font-size: 7vw;
+
+        display: block;
+        height: 100%;
     }
 
     .content__addinfo_lg{
-        font-size: 10px;
+        font-size: 3.2vw;
     }
 
     .content__select_l_m{
         margin-left: 16px;
     }
 
+
+    
     .content__button{
-        width: 248px; height: 45px;
+        width: 200px; height: 45px;
+
         font-size: 14px;
+    }
+
+    .mobile-select-btn{
+        width: 60vw; height: 13vw;
+
+        font-size: 4vw;
     }
 
     .content__button_m{
@@ -110,9 +134,14 @@
 
     .content__stories{
         margin-top: 20px;
-        width: 288px; height: 406px;
+
+        min-width: 288px;
+        width: 100%; height: 120vw;
     }
 
+    #story-video{
+        object-fit: cover;
+    }
 
    /* for-whom */
     .for-whom{
@@ -120,7 +149,8 @@
     }
 
    .for-whom__inner{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
     }
 
     .for-whom__title{
@@ -135,11 +165,11 @@
     .for-whom__elem-one, .for-whom__elem-two, .for-whom__elem-three, .for-whom__elem-four, .for-whom__elem-five{
         min-width: 288px; min-height: 174px;
 
-        width: 288px;
+        width: 93%;
     }
     
     #for-whom-carousel-mobile, .for-whom__elems-wrapper, .for-whom__pbox{
-        width: 288px;
+        width: 90%;
     }
  
 
@@ -161,7 +191,7 @@
 
     /* authors */
     .authors__inner{
-        max-width: 288px;
+        max-width: 90%;
     }
 
     .authors__sub_icon{
@@ -207,7 +237,8 @@
 
     /* methods */
     .methods__inner{
-        max-width: 288px;
+        min-width: 90%;
+        width: 90%;
     }
 
     .methods__title{
@@ -216,11 +247,13 @@
     }
 
     .methods__spoiler_align{
-        width: 288px; height: 80px;
+        min-width: 288px; height: 80px;
+        
+        width: 112%;
     }
 
     .methods__wm_m{
-        width: 57px; height: 58px;
+        width: 8vw !important; height: 9vw !important;
     }
 
     .methods__wm-container{
@@ -232,7 +265,9 @@
     }
 
     .methods__collapsed-content{
-        height: 130px; width: 288px;
+        height: 130px;
+
+        min-width: 288px; width: 100%;
     }
 
     .methods__collapsed-content_sp{
@@ -270,6 +305,10 @@
         padding-right: 33px;
     }
 
+    .methods__ph-spoiler{
+        width: 90%;
+    }
+
     .methods__btn-switcher{
         margin-left: 10px;
         margin-right: 14px;
@@ -288,7 +327,8 @@
    }
    
    .stock__inner{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
     }
 
     .stock__title{
@@ -300,7 +340,9 @@
     }
 
     .stock_spoiler_align{
-        height: 60px;
+        min-height: 60px;
+
+        height: 16vw;
     }
 
     .stock__mobile{
@@ -425,7 +467,7 @@
     .stock__buy-btn_bordered{
         font-size: 14px;
         
-        margin-top: 20px;
+        
     }
 
     .stock__collaps-content_theme_img-brows, .stock__collaps-content_theme_img-lips, .stock__collaps-content_theme_img-eyes {
@@ -476,7 +518,8 @@
     }
 
     .online__inner{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
     }
     
     .online__title{
@@ -493,7 +536,7 @@
     }
 
     .forms__inner{
-        max-width: 320px;
+        max-width: 90%;
     }
 
     .forms__title_size_h2{
@@ -517,8 +560,11 @@
         font-size: 14px;
     }
 
+    #firstForm, #secondForm{
+        width: 100%;
+    }
     .input-field{
-        width: 288px;
+        width: 94%;
 
     }
 
@@ -550,7 +596,8 @@
 
     /* master */
     .master__inner{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
     }
     
     .master__title{
@@ -577,7 +624,8 @@
     }
 
     .offline__inner{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
     }
     
     .stock__spoiler_m{
@@ -615,12 +663,21 @@
     }
 
     .history__content-wrapper{
-        max-width: 450px;
+        max-width: 288px;
+    }
+
+    .history__mobile-wrapper{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
     }
 
     .history__inner{
-        width: 288px;
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
+
+        max-width: none;
     }
 
     .history-item{
@@ -680,7 +737,8 @@
     }
     
     .why__inner{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
     }
 
     .why__title{
@@ -698,7 +756,7 @@
     }
 
     .why__main-img{
-        height: 400px;
+        height: 120vw;
     }
 
     /* faq */
@@ -711,7 +769,8 @@
     }
 
     .faq__inner{
-        max-width: 288px;
+        min-width: 288px;
+        width: 90%;
     }
 
     .faq__title{
@@ -741,11 +800,16 @@
     }
     /* footer */
     .footer__inner{
-        max-width: 288px;  
+        min-width: 288px;
+        width: 90%;  
     }
 
     .footer__title{
         font-size: 24px;
+    }
+
+    .footer__payment{
+        padding-right: 40%;
     }
 
     .footer__subtitle-text_visual{
@@ -1013,8 +1077,13 @@
             margin-top: 40px;
         }
 
+        .stock-btn{
+            width: 248px;
+            margin-bottom: 10px;
+        }
+
         .methods__ph-container img, .methods__lk-container img, .methods__wm-container img, .methods__sp-container  img{
-            width: 35px; height: 35px;
+            width: 9vw; height: 9vw;
         }
 
         .methods__ph-container, .methods__lk-container, 
@@ -1045,6 +1114,8 @@
         .methods__spoiler_align{
             padding-left: 23px;
             margin-top: 20px;
+
+            width: 112%;
         }
     
         .forms__title, .faq__content{
