@@ -1241,7 +1241,12 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 640px){
-    .for-whom_elem-text{
+    .for-whom_elem-text, .methods__ph-spoiler-content_text, .methods__spoilers_text-m{
         font-size: 18px;
+    }
+
+    .methods__ph-spoiler-content_text {
+        padding-left: 79px;
+        padding-right: 19px;
     }
 }
