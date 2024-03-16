@@ -271,7 +271,9 @@
     }
 
     .methods__collapsed-content_sp{
-        height: 180px; width: 288px;
+        height: 180px; 
+        
+        min-width: 288px; width: 100%;
     }
 
     .methods__collapsed-content_ex{
@@ -298,6 +300,8 @@
     .methods__anim-set_m{
         position: relative;
         top: -5px;
+
+        width: 112%;
     }
 
     .methods__ph-spoiler-content_text{
@@ -385,7 +389,7 @@
     }
 
     .stock__collaps-title-photo{
-        height: 130px;
+        height: 45vw;
     }
 
     .stock__collaps-title{
