@@ -17,6 +17,7 @@
     font-weight: 600;
 }
 
+
 .methods__spoilers{
     width: auto; height: auto;
     margin-top: 20px;
@@ -24,6 +25,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.methods__spoilers h5{
+    margin: 0;
+    font-size: 18px; font-weight: 300;
 }
 
 .methods__button_m{
@@ -168,24 +174,14 @@
 }
 
 
-
-
-.methods__ph-container, .methods__lk-container, 
-.methods__wm-container, .methods__sp-container,
-.methods__ph-text-container, .methods__lk-text-container, 
-.methods__wm-text-container, .methods__sp-text-container{
-    display: flex; align-items: center;
-
-    height: auto; width: fit-content;
-}
-
 .methods__wm-text-container, 
 .methods__sp-text-container,
 .methods__lk-text-container,
 .methods__ph-text-container{
-    height: 100%; width: 100%;
-    box-sizing: border-box;
+    display: flex !important;
+    align-items: center;
 
+    box-sizing: border-box;
     padding-left: 10px;
 }
 
@@ -196,4 +192,9 @@
 
 .justify-end{
     justify-content: flex-end;
+}
+
+.forms__content-title img{
+    padding-right: 10px;
+    margin-left: 0;
 }

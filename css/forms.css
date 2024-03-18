@@ -33,8 +33,14 @@
 
 }
 
+.forms__content-title h5{
+    font-weight: 400;
+    padding-left: 10px;
+}
+
 .forms__content-title img{
     padding-right: 10px;
+    margin-left: 30px;
 }
 
 .forms__title_size_h2{

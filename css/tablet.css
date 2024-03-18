@@ -23,6 +23,11 @@
 
     }
 
+    .forms__content-title img{
+        padding-right: 10px;
+        margin-left: 0;
+    }
+
     /* header */
     
     /*header{   DELETED
@@ -217,6 +222,11 @@
         padding-right: 33px;
     }
 
+
+    .methods__spoilers h5{
+        font-weight: 300;
+  font-size: 14px;
+    }
    /* stock */
    
    .stock__inner{
