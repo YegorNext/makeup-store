@@ -38,9 +38,12 @@
     }  
 
     /* header */
-    /*header{
-        margin-top: 30px;
-    }*/
+    header{
+        height: auto;
+    }
+    .header-container{
+        margin-bottom: 20px;
+    }
 
     
 
@@ -117,9 +120,9 @@
 
     
     .content__button{
-        width: 200px; height: 45px;
+        width: 62.5vw; height: 15vw;
 
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     .mobile-select-btn{
@@ -154,7 +157,7 @@
     }
 
     .for-whom__title{
-        font-size: 24px;
+        font-size: 7.5vw;
         margin-top: 0px;
     }
 
@@ -181,7 +184,7 @@
     }
 
     .for-whom_elem-text {
-        font-size: 12px;
+        font-size: 3.75vw;
     }
 
     .for-whom__pbox{
@@ -199,7 +202,7 @@
     }
 
     .authors__title{
-        font-size: 24px;
+        font-size: 7.5vw;
     }
 
     .authors__content{
@@ -216,7 +219,7 @@
     }
 
     .authors__sub_t-bold{
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     
@@ -242,7 +245,7 @@
     }
 
     .methods__title{
-        font-size: 24px;
+        font-size: 7.5vw;
         margin-bottom: 20px;
     }
 
@@ -338,7 +341,7 @@
 
     .stock__title{
         font-family: 'Unbounded';
-        font-size: 24px;
+        font-size: 7.5vw;
     
         font-weight: 600;
         margin-top: 0px;
@@ -371,7 +374,7 @@
     }
 
     .stock__btn-title-text{
-        font-size: 18px;
+        font-size: 5.65vw;
         font-weight: 500;
 
         padding-right: 20px;
@@ -408,7 +411,7 @@
     }
 
     .stock__demo-main img{
-        height: 16px; width: 16px;
+        height: 5vw; width: 5vw;
         margin-top: 0px;
     }
 
@@ -421,7 +424,7 @@
     }
 
     .stock__main-content img{
-        height: 16px; width: 16px;
+        height: 5vw; width: 5vw;
     }
 
     .stock__main-content{
@@ -441,7 +444,7 @@
     }
 
     .stock__part-one-title img{
-        height: 24px; width: 24px;
+        height: 8vw; width: 8vw;
     }
 
     .stock__title-mobile{
@@ -449,7 +452,7 @@
     }
 
     .stock__collaps-demo_title_font{
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     .stock__part-two-desc{
@@ -458,20 +461,24 @@
     }
 
     .stock__collaps-demo_main_font{
-        font-size: 12px;
+        font-size: 3.75vw;
     }
 
     .stock__price_visual{
-        font-size: 18px;
+        font-size: 5.6vw;
     }
 
     .stock__buy-btn_modifed{
-        font-size: 14px;
+        font-size: 4.4vw;
+    }
+
+    .stock__price_striked{
+        font-size: 5.6vw;
     }
 
     .stock__buy-btn_bordered{
-        font-size: 14px;
-        
+        font-size: 4.4vw;
+        width: 78.4vw; height: 16vw;
         
     }
 
@@ -486,12 +493,12 @@
     }
 
     .stock__demo-buy_text_visual{
-        font-size: 11px;
+        font-size: 3.5vw;
     }
 
     
     .stock__price-desc{
-        font-size: 12px;
+        font-size: 3.85vw;
     }
 
     .stock__collaps-price_between{
@@ -531,7 +538,7 @@
     
     .online__title{
         font-family: 'Unbounded';
-        font-size: 24px;
+        font-size: 7.5vw;
 
         margin-top: 0px;
     }
@@ -547,13 +554,13 @@
     }
 
     .forms__title_size_h2{
-        font-size: 24px;
+        font-size: 6.5vw;
     }
 
     .forms__content-title_text-visual{
         display: flex;
 
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     .forms__content-title{
@@ -564,7 +571,7 @@
     }
 
     .forms__second-title-visual{
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     #firstForm, #secondForm{
@@ -576,7 +583,7 @@
     }
 
     .forms__check-container_text-visual{
-        font-size: 12px;
+        font-size: 3.75vw;
     }
 
     .forms__check-box{
@@ -608,7 +615,7 @@
     }
     
     .master__title{
-        font-size: 24px;
+        font-size: 7.5vw;
         margin-top: 0px;
     }
 
@@ -622,7 +629,7 @@
 
     .master__subtitle-text_visual{
         display: flex;
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     /* offline */
@@ -640,7 +647,7 @@
     }
 
     .offline__title{
-        font-size: 24px;
+        font-size: 7.5vw;
         margin-top: 0px;
     }
 
@@ -653,11 +660,21 @@
     }
 
     .offline__subtitle-text_visual{
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     .offline__subtitle{
         width: 320px;
+    }
+
+    .offline__subtitle img{   
+        height: 17vw;
+        width: 17vw;
+    }
+
+    .master__subtitle img{
+        height: 17vw;
+        width: 17vw;
     }
 
     .offline__subtitle{
@@ -665,6 +682,9 @@
         width: 100%;
     }
 
+    input[type="checkbox"]{
+        position: absolute;
+    }
     /* history */
     .history{
         margin-top: 88px;
@@ -705,7 +725,7 @@
     }
 
     .history__title{
-        font-size: 24px;
+        font-size: 7.5vw;
         margin-top: 0px;
     }
 
@@ -754,17 +774,22 @@
     }
 
     .why__title{
-        font-size: 24px;
+        font-size: 7.5vw;
         margin-top: 0px;
     }
 
     .why__subtitle-text_visual{
-        font-size: 18px;
+        font-size: 5.7vw;
     }
 
     .why__subinfo-text_visual{
         font-family: 'Unbounded';
-        font-size: 14px;
+        font-size: 4.4vw;
+    }
+
+    .why__subinfo img{
+        width: 14.5vw;
+        height: 14.5vw;
     }
 
     .why__main-img{
@@ -786,7 +811,7 @@
     }
 
     .faq__title{
-        font-size: 24px;
+        font-size: 7.5vw;
         margin-top: 0px;
     }
 
@@ -800,7 +825,7 @@
 
     
     .faq__button-text_visual{
-        font-size: 14px;
+        font-size: 4.4vw;
     }
 
     .faq__button{
@@ -808,7 +833,7 @@
     }
 
     .faq__colapsed_visual{
-        font-size: 12px;
+        font-size: 3.75vw;
     }
     /* footer */
     .footer__inner{
@@ -823,6 +848,10 @@
     .footer__payment{
         padding-right: 40%;
     }
+    .footer__payment img{
+        width: 12.5vw;
+        height: 5vw;
+    }
 
     .footer__subtitle-text_visual{
         font-size: 16px;
@@ -833,11 +862,11 @@
     }
 
     .footer__contact-title{
-        font-size: 12px;
+        font-size: 3.75vw;
     }
 
     .footer__contact-tel{
-        font-size: 10px;
+        font-size: 3.1vw;
     }
 
     .footer__contact-email{
@@ -845,22 +874,22 @@
     }
 
     .footer__personal-title{
-        font-size: 10px;
+        font-size: 3.1vw;
     }
 
     .footer__docs{
-        font-size: 10px;
+        font-size: 3.1vw;
 
         margin-top: 5px;
     }
 
     .footer__bottom_text-visual{
-        font-size: 10px;
+        font-size: 3.1vw;
     }
 
     .footer-logo__image{
         display: block;
-        width: 100px; height: 56px;
+        width: 100px; height: 18vw;
     }
 
     .footer__main{
@@ -1004,7 +1033,7 @@
 
     /* Other */
     .small{
-        font-size: 10px;
+        font-size: 3vw;
     } 
 
     .for-whom_elem-margin{
@@ -1090,7 +1119,7 @@
         }
 
         .stock-btn{
-            width: 248px;
+            width: 78vw;
             margin-bottom: 10px;
         }
 
@@ -1148,7 +1177,7 @@
         }
 
         .forms__content-title > img{
-            width: 36px; height: 36px;
+            width: 11.5vw; height: 11.5vw;
         }
         .forms__content{
             margin-top: 40px;
@@ -1238,12 +1267,7 @@
     }
 
     .authors_ic-size{
-        width: 70px; height: 70px;
-    }
-
-
-    .authors_ic-size {
-        width: 58px;
+        width: 19vw; height: 22vw;
     }
 
     .stock__collaps-content{
@@ -1269,6 +1293,16 @@
      
     .methods__ph-spoiler-content_text {
         padding: 0 15px 20px calc(9vw + 32px) !important;
+    }
+
+    .header-content__logo{
+        width: 31.5vw;
+        height: 5.5vw;
+    }
+
+    .header-content__menu{
+        width: 7.2vw;
+        height: 5vw;
     }
 }
 
@@ -1347,5 +1381,37 @@
     .history__card-img {
         height: 23vw;
         width: 23vw;
+      }
+}
+
+@media screen and (min-width: 530px) and (max-width: 640px){
+    header {
+        height: 12vw;
+      }
+}
+
+@media screen and (min-width: 320px) and (max-width: 340px){
+    .stock__button_theme_img-brows {
+        background-position: 100% 0vw;
+      }
+
+      .stock__button_theme_img-lips {
+        background-position: 100% -2vw;
+      }
+}
+
+@media screen and (min-width: 340px) and (max-width: 355px){
+    .stock__button_theme_img-brows {
+        background-position: 100% -1vw;
+      }
+}
+
+@media screen and (min-width: 0px) and (max-width: 319px){
+    .stock__button_theme_img-brows {
+        background-position: 100% 0vw;
+      }
+
+      .stock__button_theme_img-lips {
+        background-position: 100% 0vw;
       }
 }
