@@ -304,11 +304,11 @@
         width: 112%;
     }
 
-    .methods__ph-spoiler-content_text{
+    /*.methods__ph-spoiler-content_text{
         padding-left: 61px;
         padding-right: 33px;
         padding-bottom: 30px;
-    }
+    }*/
 
     .methods__ph-spoiler{
         width: 90%;
@@ -1265,6 +1265,11 @@
      .history__card-img{
         height: 28vw; width: 28vw;
      }
+
+     
+    .methods__ph-spoiler-content_text {
+        padding: 0 15px 20px calc(9vw + 32px) !important;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 640px){
@@ -1272,10 +1277,11 @@
         font-size: 18px;
     }
 
-    .methods__ph-spoiler-content_text {
+    /*.methods__ph-spoiler-content_text {
         padding-left: 68px;
         padding-right: 19px;
-    }
+    }*/
+
 
       .stock__button_theme_img-lips{  
         background-position: 100% -3vw;   
