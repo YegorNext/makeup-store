@@ -1349,3 +1349,29 @@
         width: 23vw;
       }
 }
+
+@media screen and (min-width: 320px) and (max-width: 340px){
+    .stock__button_theme_img-brows {
+        background-position: 100% 0vw;
+      }
+
+      .stock__button_theme_img-lips {
+        background-position: 100% -2vw;
+      }
+}
+
+@media screen and (min-width: 340px) and (max-width: 355px){
+    .stock__button_theme_img-brows {
+        background-position: 100% -1vw;
+      }
+}
+
+@media screen and (min-width: 0px) and (max-width: 319px){
+    .stock__button_theme_img-brows {
+        background-position: 100% 0vw;
+      }
+
+      .stock__button_theme_img-lips {
+        background-position: 100% 0vw;
+      }
+}
