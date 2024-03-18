@@ -222,7 +222,7 @@
     
 
     .authors__image{
-        width: 100%; height: 385px;
+        width: 100%; height: 140vw;
         margin-left: auto;
 
         background-image: url('../img/anyawork_mobile.png');
@@ -282,11 +282,11 @@
 
 
     .mobile__t-spoiler_m{
-        height: 174px;
+        height: auto;
     }
 
     .mobile__t-spoiler_m_s{
-        height: 234px;
+        height: auto;
     }
 
     .mobile__t-spoiler_f{
@@ -307,6 +307,7 @@
     .methods__ph-spoiler-content_text{
         padding-left: 61px;
         padding-right: 33px;
+        padding-bottom: 30px;
     }
 
     .methods__ph-spoiler{
@@ -570,7 +571,7 @@
         width: 100%;
     }
     .input-field{
-        width: 94%;
+        width: 98%;
 
     }
 
@@ -670,7 +671,11 @@
     }
 
     .history__content-wrapper{
-        max-width: 288px;
+       /* max-width: 288px; */
+    }
+
+    .history__card-wrapper{
+        width: 90vw;
     }
 
     .history__mobile-wrapper{
@@ -689,7 +694,7 @@
 
     .history-item{
         height: auto;
-        min-height: 505px !important;
+        min-height: 177vw !important;
     }
 
     .carousel-inner {
@@ -709,7 +714,7 @@
     }
 
     .history__story_visual{
-        font-size: 10px;
+        font-size: 3.5vw;
     }
 
     .history__content-wrap{
@@ -717,16 +722,16 @@
     }
 
     .history__story-card{
-        width: 288px;
+        width: 90vw;
         margin-right: 0;
     }
     
     .history__bottom-images img{
-        width: 75px; height: 100px;
+        width: 23.5vw; height: 37vw;
     }
 
     .history__collapsed{
-        font-size: 10px;
+        font-size: 3.5vw;
     }
 
     #history-carousel-tblt{
@@ -1252,6 +1257,10 @@
   .stock__button_theme_img-lips{
         background-position: 100% -3vw;
      }
+
+     .stock__basic-content{
+        background-size: 100% 12vw;
+     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 640px){
@@ -1273,4 +1282,38 @@
      }
 }
 
+@media screen and (min-width: 320px) and (max-width: 360px){
+    .history-item {
+        height: auto;
+        min-height: 176vw !important;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px){
+    .history-item {
+        height: auto;
+        min-height: 161vw !important;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 460px){
+    .history-item {
+        height: auto;
+        min-height: 156vw !important;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 540px){
+    .history-item {
+        height: auto;
+        min-height: 146vw !important;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 640px){
+    .history-item {
+        height: auto;
+        min-height: 138vw !important;
+    }
+}
 
