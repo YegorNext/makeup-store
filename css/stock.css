@@ -385,11 +385,20 @@
 }
 
 .margin_s_a{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .d-flex{
     display: flex;
+}
+
+.button-fix{
+    position: relative;
+    top:7px;
+}
+
+.stock__add-part-two li{
+    margin-bottom: 8px;
 }
 
 .stock__collaps-price{
@@ -645,6 +654,44 @@
 .photo-replaced{
     width: 90% !important;
 }
+
+.detail__dvd-container li{
+    margin-bottom: 12px;
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+.stock__collaps-add ul>li, .detail__dvd-container li, .stock__add-part-two li{
+    display: flex;
+}
+.stock__collaps-add ul > li::before, .detail__dvd-container li::before, .stock__add-part-two li::before{
+    padding-right: 10px;
+}
+
+.stock__add-part-two ul{
+    padding-left: 14px;
+}
+
+.stock__collaps-add ul>li::before, .detail__dvd-container li::before, .stock__add-part-two li::before{
+    content: '•'; 
+    font-size: 13px; 
+    display: block; 
+    width: 1em; 
+
+    position: relative;
+    top:1px;
+}
+
+.stock__collaps-add li{
+    margin-bottom: 12px;
+}
+
+.detail__dvd-container li{
+    font-size: 18px;
+}
+
 
 @media screen and (min-width: 1100px){
     .stock__demo-main{
