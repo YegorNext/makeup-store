@@ -443,7 +443,7 @@
     }
 
     .stock__add-part-two{
-        margin-left: 0;
+        margin-left: 0 !important;
         margin-top: 20px;
     }
 
