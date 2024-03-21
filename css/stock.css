@@ -392,11 +392,6 @@
     display: flex;
 }
 
-.button-fix{
-    position: relative;
-    top:7px;
-}
-
 .stock__add-part-two li{
     margin-bottom: 8px;
 }
@@ -660,7 +655,7 @@
 }
 
 ul{
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 .stock__collaps-add ul>li, .detail__dvd-container li, .stock__add-part-two li{

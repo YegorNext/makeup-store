@@ -2,6 +2,10 @@
     padding-right: 0px !important;
 }
 
+.detail__dvd-container .detail__divider:first-child ul {
+    margin-bottom: 0px !important;
+}
+
 @media screen and (min-width: 1101px){
   .methods__btn-switcher{
 	  margin-left: 7px;
