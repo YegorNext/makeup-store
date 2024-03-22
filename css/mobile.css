@@ -518,9 +518,6 @@
         text-align: center;
     }
 
-    .stock__button_theme_img-lips{
-	background-position: 0 -1vw;
-    }
 
     .stock__collaps-buy{
         display: flex;
@@ -1272,14 +1269,6 @@
         background-size: 100% 16vw;
     }
 
-     .stock__button_theme_img-brows{
-        background-position: 100% -2vw;
-     }
-
-  .stock__button_theme_img-lips{
-        background-position: 100% -3vw;
-     }
-
      .stock__basic-content{
         background-size: 100% 12vw;
      }
@@ -1316,17 +1305,82 @@
         font-size: 12px;
     }
 
+    /* img-path */ 
+    .stock__button_theme_img{
+        background-image: url("../img/mobile/Girl_1.png");
+    }
+    
+    .stock__collaps-content_theme_img{
+        background-image: url("../img/mobile/Girl_2.png");
+    }
+    
+    
+    .stock__button_theme_img-lips{
+        background-image: url("../img/mobile/lips_1.png");
+        background-size: 100% 19vw;
+    }
+    
+    .stock__collaps-content_theme_img-lips{
+        background-image: url("../img/mobile/lips_2.png");
+    }
+    
+    .stock__button_theme_img-brows{
+        background-image: url("../img/mobile/brow_1.png");
+        background-size: 100% 19vw;
+    }
+    
+    .stock__collaps-content_theme_img-brows{
+        background-image: url("../img/mobile/brow_2.png");
+    }
+    
+    .stock__button_theme_img-eyes{
+        background-image: url("../img/mobile/eyes_1.png");
+    }
+    
+    .stock__collaps-content_theme_img-eyes{
+        background-image: url("../img/mobile/eyes_2.png");
+    }
+    
+    .stock__button_theme_img-remover{
+        background-image: url("../img/mobile/remover_1.png");
+    }
+    
+    .stock__collaps-content_theme_img-remover{
+        background-image: url("../img/mobile/remover_2.png");
+    }
+    
+    .stock__button_theme_img-mk{
+        background-image: url("../img/mobile/mk_1.png");
+        background-size: 100% 19vw;
+    }
+    
+    .stock__collaps-content_theme_img-mk{
+        background-image: url("../img/mobile/mk_2.png");
+    }
+    
+    .stock__button_theme_img-base{
+        background-image: url("../img/mobile/base_1.png");
+        background-size: 100% 19vw;
+    }
+    
+    
+    .stock__collaps-content_theme_img-base{
+        background-image: url("../img/mobile/base_2.png");
+    }
+    
+    
+    .stock__button_theme_img-rmv{
+        background-image: url("../img/mobile/rmv_1.png");
+        background-size: 100% 19vw;
+    }
+    
+    
+    .stock__collaps-content_theme_img-rmv{
+        background-image: url("../img/mobile/rmv_2.png");
+    }
+
 }
 
-@media screen and (min-width: 400px) and (max-width: 640px){
-      .stock__button_theme_img-lips{  
-        background-position: 100% -3vw;   
-     }
-
-     .stock__button_theme_img-brows{
-        background-position: 100% -2vw;
-     }
-}
 
 @media screen and (min-width: 320px) and (max-width: 360px){
     .history-item {
@@ -1386,39 +1440,36 @@
       }
 }
 
-@media screen and (min-width: 320px) and (max-width: 340px){
-    .stock__button_theme_img-brows {
-        background-position: 100% 0vw;
-      }
 
-      .stock__button_theme_img-lips {
-        background-position: 100% -2vw;
-      }
+@media screen and (min-width: 330px) and (max-width: 350px){
+    .stock__button_theme_img-rmv, 
+    .stock__button_theme_img-base,
+    .stock__button_theme_img-mk,
+    .stock__button_theme_img-eyes,
+    .stock__button_theme_img-brows,
+    .stock__button_theme_img-lips{
+        background-position-y: -1vw;
+    }
 }
 
-@media screen and (min-width: 340px) and (max-width: 355px){
-    .stock__button_theme_img-brows {
-        background-position: 100% -1vw;
-      }
+@media screen and (min-width: 350px) and (max-width: 370px){
+    .stock__button_theme_img-rmv, 
+    .stock__button_theme_img-base,
+    .stock__button_theme_img-mk,
+    .stock__button_theme_img-eyes,
+    .stock__button_theme_img-brows,
+    .stock__button_theme_img-lips{
+        background-position-y: -2vw;
+    }
 }
 
-@media screen and (min-width: 0px) and (max-width: 319px){
-    .stock__button_theme_img-brows {
-        background-position: 100% 0vw;
-      }
-
-      .stock__button_theme_img-lips {
-        background-position: 100% 0vw;
-      }
-}
-
-
-@media screen and (min-width: 320px) and (max-width: 330px){
-    .stock__button_theme_img-brows {
-        background-position: 100% 0vw;
-      }
-                                                                                                                                                                                             .stock__button_theme_img-lips {                                                                                                                                                          background-position: 100% 0vw;
-     .stock__button_theme_img-lips {
-       background-position: 100% 0vw;
-     }
+@media screen and (min-width: 371px) and (max-width: 640px){
+    .stock__button_theme_img-rmv, 
+    .stock__button_theme_img-base,
+    .stock__button_theme_img-mk,
+    .stock__button_theme_img-eyes,
+    .stock__button_theme_img-brows,
+    .stock__button_theme_img-lips{
+        background-position-y: -3vw;
+    }
 }

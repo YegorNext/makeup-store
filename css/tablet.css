@@ -350,14 +350,26 @@
 
         width: 248px; height: 45px;
     }
-
-    .stock__collaps-content_theme_img-brows, .stock__collaps-content_theme_img-lips, .stock__collaps-content_theme_img-eyes {
-        background-size: 100% 250px;
+    .stock__button_theme_img-lips, 
+    .stock__button_theme_img-brows,
+    .stock__button_theme_img-mk,
+    .stock__button_theme_img-base,
+    .stock__button_theme_img-rmv{
+        background-size: 100% 145px;
     }
 
-    .stock__collaps-content_theme_img-brows{
-        background-size: 100% 120px;
+    .stock__collaps-content_theme_img-brows, 
+    .stock__collaps-content_theme_img-lips, 
+    .stock__collaps-content_theme_img-eyes,
+    .stock__collaps-content_theme_img, 
+    .stock__collaps-content_theme_img-remover, 
+    .stock__collaps-content_theme_img-mk,
+    .stock__collaps-content_theme_img-base,
+    .stock__collaps-content_theme_img-rmv {
+        background-size: 100% 133px;
     }
+
+
 
     .stock__demo-buy_text_visual{
         font-size: 14px;
