@@ -684,6 +684,26 @@ ul{
     font-size: 18px;
 }
 
+.stock__flag-point{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.stock__flag-point img{
+    height: 28px; width: 28px;
+}
+
+.stock__flag-description{
+    margin-left: 5px;
+
+    font-size: 10px;
+
+    font-family: 'Unbounded';
+    font-weight: 300;
+    line-height: 14.2px;
+
+    color: #FCEADA;
+}
 
 @media screen and (min-width: 1100px){
     .stock__demo-main{
@@ -707,5 +727,8 @@ ul{
         padding-right: 150px;
     }
 
+    .stock__flag-point{
+        display: none;
+    }
 
 }

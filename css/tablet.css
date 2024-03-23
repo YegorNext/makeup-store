@@ -931,4 +931,9 @@
     #history-carousel-mobile{
         display: none;
     }
+
+    
+    .stock__flag-point{
+        display: none;
+    }
 }
