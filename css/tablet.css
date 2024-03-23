@@ -268,6 +268,8 @@
         height: 145px;
     }
 
+    
+
 
     .detail__dvd-container{
         margin-bottom: 15px;
@@ -908,6 +910,11 @@
     .forms__content-title > img{
         width: 46px; height: 46px;
         padding-right: 0;
+    }
+
+    .modal-dialog-centered{
+        justify-content: center;
+        width: 100%;
     }
 }
                                     

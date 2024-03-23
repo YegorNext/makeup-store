@@ -990,6 +990,7 @@
 
     .modal-dialog-centered{
         justify-content: center;
+        width: 100%;
     }
 
     .modal__input-container{
