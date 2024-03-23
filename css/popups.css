@@ -354,3 +354,16 @@
     padding-bottom: 30px;
 }
 
+.modal__error{
+    display: none;
+    width: auto;
+
+    font-family: 'Unbounded';
+    color: #CB4D4D;
+    font-size: 16px;
+    font-weight: 300;
+
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+

@@ -916,6 +916,10 @@
         justify-content: center;
         width: 100%;
     }
+
+    .modal__error{
+        font-size: 14px;
+    }
 }
                                     
 

@@ -3465,7 +3465,7 @@
 
                     <div class = "modal__radio-buttons"> 
                         <label class = "modal__radio-text">
-                            <input type="radio" name="options2" value="option1" class = "real-radiobox" checked>
+                            <input type="radio" name="options2" value="option1" class = "real-radiobox">
                             <span class = "custom-radiobox"></span>
                             &nbsp;&nbsp;Акварель
                         </label><br>
@@ -3483,6 +3483,11 @@
                         </label><br>
                     </div>
                 </div>
+
+                <div class = "modal__error"> 
+                    Оберіть демонстрацію яку бажаєте
+                </div>
+
                 <div class="modal-footer non-border modal-footer-rdbtn">
 
                     <a href = "https://secure.wayforpay.com/button/b20b48464c0ac">
@@ -3490,7 +3495,7 @@
                     </a>
 
                     <a href = "https://secure.wayforpay.com/button/b43940c5b13c6">
-                    <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                    <button id = "buyr" type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
                     </a>
                 </div>
             </div>
@@ -3528,14 +3533,19 @@
                         </label><br>
                     </div>
                 </div>
+
+                <div class = "modal__error"> 
+                    Оберіть демонстрацію яку бажаєте
+                </div>
+
                 <div class="modal-footer non-border modal-footer-rdbtn">
 
                 <a href = "https://secure.wayforpay.com/button/b3fdc70c61997">
-                    <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
+                    <button id = "buySecond" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
                 </a>
 
                 <a href = "https://secure.wayforpay.com/button/baf72e31d498e">
-                    <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                    <button id = "buyrSecond"  type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
                 </a>
 
                 </div>
@@ -3580,14 +3590,19 @@
                         </label><br>
                     </div>
                 </div>
+
+                <div class = "modal__error"> 
+                    Оберіть демонстрацію яку бажаєте
+                </div>
+
                 <div class="modal-footer non-border modal-footer-rdbtn">
 
                 <a href = "https://secure.wayforpay.com/button/b2c5059403289">
-                    <button id = "buy" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
+                    <button id = "buyThird" type="button" class="modal__button-gradient content__button_visual modal__tablet-btn">КУПИТИ</button>
                 </a>
 
                 <a href = "https://secure.wayforpay.com/button/b236b5aae7ca4">
-                    <button type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
+                    <button id = "buyrThird" type="button" class="modal__button-gradient modal__bordered-btn modal__tablet-btn">КУПИТИ В РОЗСТРОЧКУ</button>
                 </a>
 
                 </div>
@@ -3693,6 +3708,8 @@
     <script src = "js/test-script.js"></script>
     <script src = "js/menu.js"></script>
     <script src = "js/validator.js"></script>
+    <script src = "js/modalChecker.js"></script>
+
 
     </body>
 </html>

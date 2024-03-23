@@ -206,7 +206,7 @@
 
 
 .show{
-    display: block;
+    display: block !important;
 }
 
 .history__btn-wrapper{

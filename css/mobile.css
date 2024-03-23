@@ -1456,6 +1456,14 @@
         border-radius:5px;
     }
 
+    .modal__error{
+        font-size: 12px;
+        padding-right: 50px;
+    }
+
+    #modalFirst button, #modalSecond button, #modalThird button{
+        margin-right: 20px;
+    }
 }
 
 
