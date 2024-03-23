@@ -23,6 +23,17 @@
     width: auto; height: auto;
     margin-top: 60px;
 }
+.authors_ic-size{
+    width: 61px;
+}
+
+.authors__sub_t-bold{
+    font-size: 18px;
+
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
 
 
 

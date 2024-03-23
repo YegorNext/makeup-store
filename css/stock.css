@@ -335,6 +335,10 @@
     margin-top: 30px;
 }
 
+.stock__main-content img, .stock__demo-main img{
+ margin-right: 5px;
+}
+
 .white{
     color: #F5F5F5;
 }
@@ -400,7 +404,7 @@
 .stock__collaps-price_between{
     justify-content: space-around;
 
-    padding-left: 115px; padding-right: 115px;
+    padding: 0 280px 0;
 }
 
 .stock__price_visual{

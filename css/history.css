@@ -257,6 +257,10 @@
     padding-right: 150px;
 }
 
+.history__btn-wrapper u{
+    font-weight: 200;
+}
+
 
 .display-history{
     display: flex;

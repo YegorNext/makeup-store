@@ -224,6 +224,9 @@
 
     .authors__sub_t-bold{
         font-size: 14px;
+
+        margin-top: 5px;
+        margin-bottom: 0;
     }
 
     
@@ -360,7 +363,7 @@
     }
 
     .stock_spoiler_align{
-        min-height: 60px;
+        min-height: 66px;
 
         height: 16vw;
     }
@@ -451,12 +454,16 @@
     }
 
     .stock__add-part-two{
-        margin-left: 0 !important;
+        margin-left: 29px !important;
         margin-top: 20px;
     }
 
     .stock__part-one-title img{
         height: 24px; width: 24px;
+    }
+
+    .authors__sub_margin{
+        padding-right: 10px;
     }
 
     .stock__title-mobile{
@@ -530,6 +537,10 @@
     .stock__collaps-add{
         display: block;
         margin-top: 30px;
+    }
+
+    .stock__price_striked{
+        font-size: 12px;
     }
     /* online */
     .online{
@@ -965,11 +976,11 @@
     }
 
     .modal-content-rdbtn{
-        width: 288px;
+        width: 328px;
     }
 
     .modal-footer-rdbtn, .modal-body-rdbtn, .modal-header-rdbtn{
-        max-width: 288px;
+        max-width: 328px;
     }
 
     .modal-footer-rdbtn{
@@ -1317,7 +1328,7 @@
     
     .stock__button_theme_img-lips{
         background-image: url("../img/mobile/lips_1.png");
-        background-size: 100% 19vw;
+        background-size: 100% 20.6vw;
     }
     
     .stock__collaps-content_theme_img-lips{
@@ -1326,7 +1337,7 @@
     
     .stock__button_theme_img-brows{
         background-image: url("../img/mobile/brow_1.png");
-        background-size: 100% 19vw;
+        background-size: 100% 20.56vw;
     }
     
     .stock__collaps-content_theme_img-brows{
@@ -1335,6 +1346,7 @@
     
     .stock__button_theme_img-eyes{
         background-image: url("../img/mobile/eyes_1.png");
+        background-size: 100% 20.7vw;
     }
     
     .stock__collaps-content_theme_img-eyes{
@@ -1351,7 +1363,7 @@
     
     .stock__button_theme_img-mk{
         background-image: url("../img/mobile/mk_1.png");
-        background-size: 100% 19vw;
+        background-size: 100% 20.65vw;
     }
     
     .stock__collaps-content_theme_img-mk{
@@ -1360,7 +1372,7 @@
     
     .stock__button_theme_img-base{
         background-image: url("../img/mobile/base_1.png");
-        background-size: 100% 19vw;
+        background-size: 100% 20.65vw;
     }
     
     
@@ -1371,12 +1383,49 @@
     
     .stock__button_theme_img-rmv{
         background-image: url("../img/mobile/rmv_1.png");
-        background-size: 100% 19vw;
+        background-size: 100% 20.6vw;
     }
     
     
     .stock__collaps-content_theme_img-rmv{
         background-image: url("../img/mobile/rmv_2.png");
+    }
+
+
+    .modal-title-complete{
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+
+    .modal-complete__title-container{
+        margin-top: 4px;
+    }
+
+    .modal-complete__info-container img{
+        width: 36px; height: 36px;
+    }
+
+    .modal-complete__info-text-container{
+        font-size: 14px;
+    }
+
+    .forms__error-win{
+        font-size: 12px;
+    }
+
+    .forms__check-container{
+        margin-bottom: 14px;
+    }
+    
+    .history__bottom-title{
+        font-size: 14px !important;
+        font-weight: 400;
+
+    }
+
+    .history__bottom-images img{
+        border-radius:5px;
     }
 
 }
@@ -1441,29 +1490,29 @@
 }
 
 
-@media screen and (min-width: 330px) and (max-width: 350px){
+@media screen and (min-width: 338px) and (max-width: 355px){
     .stock__button_theme_img-rmv, 
     .stock__button_theme_img-base,
     .stock__button_theme_img-mk,
-    .stock__button_theme_img-eyes,
     .stock__button_theme_img-brows,
-    .stock__button_theme_img-lips{
+    .stock__button_theme_img-lips,
+    .stock__button_theme_img-eyes{
         background-position-y: -1vw;
     }
 }
 
-@media screen and (min-width: 350px) and (max-width: 370px){
+@media screen and (min-width: 355px) and (max-width: 370px){
     .stock__button_theme_img-rmv, 
     .stock__button_theme_img-base,
     .stock__button_theme_img-mk,
-    .stock__button_theme_img-eyes,
     .stock__button_theme_img-brows,
-    .stock__button_theme_img-lips{
+    .stock__button_theme_img-lips,
+    .stock__button_theme_img-eyes{
         background-position-y: -2vw;
     }
 }
 
-@media screen and (min-width: 371px) and (max-width: 640px){
+@media screen and (min-width: 371px) and (max-width: 400px){
     .stock__button_theme_img-rmv, 
     .stock__button_theme_img-base,
     .stock__button_theme_img-mk,
@@ -1473,3 +1522,20 @@
         background-position-y: -3vw;
     }
 }
+
+
+@media screen and (min-width: 400px) and (max-width: 640px){
+    .stock__button_theme_img-brows,
+    .stock__button_theme_img-mk,
+    .stock__button_theme_img-base,
+    .stock__button_theme_img-rmv{
+        background-position-y: -4.2vw;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 640px){
+    .stock__button_theme_img-eyes{
+        background-position-y: -4vw;
+    }
+}
+

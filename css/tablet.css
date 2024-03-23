@@ -160,12 +160,32 @@
         margin-bottom: 30px;
     }
 
+    .authors__sub-two{
+        margin-left: 30px;
+    }
+
     .authors__sub-three{
         padding-right: 105px;
     }
 
+    .authors__sub-one .for-whom_elem-text{
+
+    }
+
     .authors__sub_t-bold{
         font-size: 18px;
+
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+
+    .authors__sub-one .authors__sub_margin{
+        width: 250px;
+    }
+
+    .authors__sub-two .authors__sub_margin{
+        width: 160px;
     }
 
     .authors__image{
@@ -240,7 +260,9 @@
         font-weight: 600;
     }
 
-   
+    .margin_s_t20{
+        margin-top: 0px;
+    }
 
     .stock_spoiler_align{
         height: 145px;
@@ -311,6 +333,10 @@
         width: 34px; height: 34px;
     }
 
+    .stock__part-one-title{
+        margin-left: 0;
+    }
+
     .stock__collaps-main{
         margin-top: 30px;
     }
@@ -369,7 +395,22 @@
         background-size: 100% 133px;
     }
 
+    .modal-title-complete{
+        font-size: 30px;
+        font-weight: 500;
+    }
 
+    .modal-complete__info-container img{
+        width: 36px; height: 36px;
+    }
+
+    .modal-complete__info-text-container{
+        font-size: 16px;
+    }
+
+    .modal-win_width{
+        width: 410px;
+    }
 
     .stock__demo-buy_text_visual{
         font-size: 14px;
@@ -748,7 +789,7 @@
 
 
     .content__button_visual {
-        font-size: 16px;
+        font-size: 14px;
     }
 
    #for-whom-carousel-tablet, #for-whom-carousel-mobile, .fix{
@@ -844,6 +885,10 @@
 
     .stock__main-content img {
         width: 29px; height: 26px;
+    }
+
+    .stock__demo-points-container{
+        display: block;
     }
 
     .methods__lk-container img, 

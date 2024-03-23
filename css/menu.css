@@ -154,3 +154,22 @@
     }
 
 }
+
+
+@media screen and (max-height: 500px){
+    .menu{
+        height: 320px;
+    }
+
+    .menu_visual{
+        font-size: 13px;
+    }
+
+    .menu__points-container{
+        margin-top: 30px;
+    }
+    
+    .menu__content{
+        margin-top: 25px;
+    }
+}

@@ -337,6 +337,20 @@
     width: 510px;
 }
 
+.modal-title-complete{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.modal-complete__info-container img{
+    width: 36px; height: 36px;
+}
+
+.modal-complete__info-text-container{
+    font-size: 18px;
+}
+
 .modal-footer_padding{
     padding-bottom: 30px;
 }
+
