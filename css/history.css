@@ -19,7 +19,6 @@
     width: 100%;
     margin-top: 120px;
 
-    font-family: 'Unbounded';
     font-size: 50px;
     font-weight: 600;
 }
@@ -46,7 +45,6 @@
 }
 
 .history__subtitle-text_visual{
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 400;
@@ -79,7 +77,6 @@
     padding: 20px;
     box-sizing: border-box;
 
-    font-family: 'Unbounded';
     font-size: 14px;
 
     font-weight: 300;
@@ -192,7 +189,6 @@
 }
 
 .history__colapsed_visual{
-    font-family: 'Unbounded';
     font-size: 14px;
     font-weight: 300;
 }

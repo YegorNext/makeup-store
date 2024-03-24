@@ -15,7 +15,6 @@
     width: 100%;
     margin-top: 120px;
 
-    font-family: 'Unbounded';
     font-size: 50px;
     font-weight: 600;
 }
@@ -31,7 +30,6 @@
 }
 
 .faq__subtitle-text_visual{
-    font-family: 'Unbounded';
     font-size: 22px;
 
     font-weight: 500;
@@ -43,9 +41,6 @@
     height: auto; width: 100%;
 }
 
-.faq__subinfo-text{
-
-}
 
 .faq__subinfo-text_visual{
     color: #FCEADA;
@@ -59,7 +54,6 @@
 }
 
 .faq__button-text_visual{
-    font-family: 'Unbounded';
 
     font-size: 18px;
     font-weight: 500px;
@@ -92,7 +86,6 @@
 }
 
 .faq__colapsed_visual{
-    font-family: 'Unbounded';
 
     font-size: 18px;
     font-weight: 300;

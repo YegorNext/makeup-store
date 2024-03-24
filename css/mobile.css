@@ -366,7 +366,6 @@
     }
 
     .stock__title{
-        font-family: 'Unbounded';
         font-size: 24px;
     
         font-weight: 600;
@@ -580,7 +579,6 @@
     }
     
     .online__title{
-        font-family: 'Unbounded';
         font-size: 24px;
 
         margin-top: 0px;
@@ -720,10 +718,6 @@
         margin-top: 88px;
     }
 
-    .history__content-wrapper{
-       /* max-width: 288px; */
-    }
-
     .history__card-wrapper{
         width: 90vw;
     }
@@ -813,7 +807,6 @@
     }
 
     .why__subinfo-text_visual{
-        font-family: 'Unbounded';
         font-size: 14px;
     }
 

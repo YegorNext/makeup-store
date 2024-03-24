@@ -41,7 +41,6 @@
 }
 
 .content__title{
-    font-family: 'Unbounded';
     font-size: 70px;
 
     font-weight: 500;
@@ -80,7 +79,6 @@
 }
 
 .content__addinfo_sm{
-    font-family: 'Unbounded';
     font-size: 50px;
 
     font-weight: 600;
@@ -91,7 +89,6 @@
     margin-top: 5px;
     margin-left: 10px;
 
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 200;
@@ -116,7 +113,6 @@
 .content__button_visual {
     border: none;
     text-align: center;
-    font-family: 'Unbounded';
     font-size: 18px;
     font-weight: 400;
     color: #1a1918;
