@@ -75,7 +75,7 @@
    }
 
    #modalFirst .modal-footer button, #modalSecond .modal-footer button, #modalThird .modal-footer button{
-        margin-right: 20px !important;
+        margin-right: 0px !important;
    }
 
    #modalFirst .btn-close, #modalSecond .btn-close, #modalThird .btn-close{
@@ -84,5 +84,64 @@
 
    #buyrFirst, #buyrSecond, #buyrThird{
      margin-bottom: 0px !important;
+   }
+
+   #modalFirst .modal__radio-text, #modalSecond .modal__radio-text, #modalThird .modal__radio-text{
+       display:flex;
    }  
+
+   #modalFirst .modal__radio-text .custom-radiobox + span, 
+   #modalSecond .modal__radio-text .custom-radiobox + span, 
+   #modalThird .modal__radio-text .custom-radiobox +span{
+       display:flex;
+       align-items: center;
+       margin-left: 6px;
+   }
+
+   #modalSecond .modal__radio-text .custom-radiobox + span{
+       width: 210px;
+   }
+
+   #modalFirst .modal__radio-buttons,
+   #modalSecond .modal__radio-buttons,
+   #modalThird .modal__radio-buttons{
+       padding-left: 0px !important;
+       /*margin-left: 19px !important;*/
+   }
+
+   #modalFirst .modal-title,
+   #modalSecond .modal-title,
+   #modalThird .modal-title{
+      /*margin-left: 19px !important;*/
+   }
+
+   .custom-radiobox-text{
+      margin-left: 6px;
+      width: 210px; 
+   }
+
+   .modal__error{
+      margin-left: 35px;
+   }
+
+  #modalFirst .modal-content, #modalFirst .modal-header, #modalFirst .modal-body, #modalFirst .modal-footer,
+  #modalSecond .modal-content, #modalSecond .modal-header, #modalSecond .modal-body, #modalSecond .modal-footer,
+  #modalThird .modal-content, #modalThird .modal-header, #modalThird .modal-body, #modalThird .modal-footer,
+  #modalFirst  .modal-content-rdbtn,
+  #modalSecond  .modal-content-rdbtn,
+  #modalThird  .modal-content-rdbtn{
+        width: 288px;
+    }
+}
+
+
+@media screen and (max-width: 1101px){
+  #modalFirst .modal-content, #modalFirst .modal-header, #modalFirst .modal-body, #modalFirst .modal-footer,
+  #modalSecond .modal-content, #modalSecond .modal-header, #modalSecond .modal-body, #modalSecond .modal-footer,
+  #modalThird .modal-content, #modalThird .modal-header, #modalThird .modal-body, #modalThird .modal-footer,
+  #modalFirst  .modal-content-rdbtn,
+  #modalSecond  .modal-content-rdbtn,
+  #modalThird  .modal-content-rdbtn{
+        width: 556px !important;
+   }
 }
