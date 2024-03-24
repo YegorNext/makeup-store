@@ -249,11 +249,24 @@
      } 
 
        .stock__part-one-desc{
-     margin-left: 59px !important;
+     margin-left: 49px !important;
    }
 
    .stock__part-two-desc{
-       margin-left: 5px;
+       margin-left: 0px;
+    }
+
+    .stock__part-one-title{
+       margin-left: 0px !important;
+    }
+
+    .stock__add-part-two ul{
+       padding-left: 10px !important;
+    }
+
+    .button-fix{
+       margin-top: 0px !important;
+       align-items:center !important;
     }
  }
   
