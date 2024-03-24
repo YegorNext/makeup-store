@@ -10,7 +10,6 @@
 }
 
 .stock__title{
-    font-family: 'Unbounded';
     font-size: 50px;
 
     font-weight: 600;
@@ -56,7 +55,6 @@
 
     border-radius: 7px;
     
-    font-family: 'Unbounded';
     color: #F5F5F5;
 
     font-size: 18px;
@@ -69,7 +67,6 @@
 
     box-sizing: border-box;
 
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 300;
@@ -245,7 +242,6 @@
     border-bottom-left-radius: 0px;
     border-top-right-radius: 0px;
 
-    font-family: 'Unbounded';
     color: #DADADA;
 
     font-size: 18px;
@@ -303,7 +299,6 @@
 }
 
 .stock__collaps-demo_title_font{
-    font-family: 'Unbounded';
     color: #F5F5F5;
 
     font-size: 18px;
@@ -311,7 +306,6 @@
 }
 
 .stock__collaps-demo_main_font{
-    font-family: 'Unbounded';
     color: #FCEADA;
 
     font-size: 24px;
@@ -408,7 +402,6 @@
 }
 
 .stock__price_visual{
-    font-family: 'Unbounded';
     color: #F5F5F5;
 
     font-size: 35px;
@@ -429,7 +422,6 @@
 }
 
 .stock__demo-buy_text_visual{
-    font-family: 'Unbounded';
     color: #F5F5F5;
 
     font-size: 18px;
@@ -459,7 +451,6 @@
 }
 
 .stock__price_striked{
-    font-family: 'Unbounded';
     color: #CB4D4D;
 
     font-size: 20px;
@@ -528,7 +519,6 @@
 }
 
 .stock__btn-title-text_visual{
-    font-family: 'Unbounded';
     
     color: white;
     
@@ -546,11 +536,6 @@
 .stock__spoiler_m{
     margin-top: 30px;
 }
-
-.stock__collaps-content_theme_img-brows{
-   /* background-size: 100% 140px;*/
-}
-
 
 .stock__part-one-title{
     display: flex;
@@ -571,7 +556,6 @@
 }
 
 .detail__colapsed_visual{
-    font-family: 'Unbounded';
 
     font-size: 18px;
     font-weight: 300;
@@ -698,7 +682,6 @@ ul{
 
     font-size: 10px;
 
-    font-family: 'Unbounded';
     font-weight: 300;
     line-height: 14.2px;
 

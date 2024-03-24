@@ -44,7 +44,6 @@
 }
 
 .forms__title_size_h2{
-    font-family: 'Unbounded';
     font-size: 50px;
 
     font-weight: 600;
@@ -71,7 +70,6 @@
 }
 
 .forms__content-title_text-visual{
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 400;
@@ -103,7 +101,6 @@
     background-color: #675D55;
     text-indent: 20px;
 
-    font-family: 'Unbounded';
     font-size: 18px;
     font-weight: 400px;
     color: #ACACAC;
@@ -116,7 +113,6 @@
 }
 
 .forms__second-title-visual{
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 400;
@@ -133,7 +129,6 @@
 }
 
 .forms__check-container_text-visual{
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 300;
@@ -215,7 +210,6 @@ input[type="checkbox"]:checked + .custom-checkbox::before{
 }
 
 .forms__error-win{
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 300;

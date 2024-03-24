@@ -168,10 +168,6 @@
         padding-right: 105px;
     }
 
-    .authors__sub-one .for-whom_elem-text{
-
-    }
-
     .authors__sub_t-bold{
         font-size: 18px;
 
@@ -254,7 +250,6 @@
     }
 
     .stock__title{
-        font-family: 'Unbounded';
         font-size: 36px;
     
         font-weight: 600;
@@ -267,8 +262,6 @@
     .stock_spoiler_align{
         height: 145px;
     }
-
-    
 
 
     .detail__dvd-container{
@@ -460,7 +453,6 @@
     }
     
     .online__title{
-        font-family: 'Unbounded';
         font-size: 36px;
     }
 

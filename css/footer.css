@@ -17,7 +17,6 @@ footer{
     width: 100%;
     margin-top: 120px;
 
-    font-family: 'Unbounded';
     font-size: 50px;
     font-weight: 600;
 }
@@ -33,7 +32,6 @@ footer{
 }
 
 .footer__subtitle-text_visual{
-    font-family: 'Unbounded';
     font-size: 22px;
 
     font-weight: 500;
@@ -45,9 +43,6 @@ footer{
     height: auto; width: 100%;
 }
 
-.footer__subinfo-text{
-
-}
 
 .footer__subinfo-text_visual{
     color: #FCEADA;
@@ -87,7 +82,6 @@ footer{
 .footer__contact-title{
     width: 100%; height: auto;
 
-    font-family: 'Unbounded';
     font-size: 18px;
 
     font-weight: 400;
@@ -106,7 +100,6 @@ footer{
 }
 
 .footer__contact-tel{
-    font-family: 'Unbounded';
 
     color: #ACACAC;
     font-size: 14px;
@@ -117,7 +110,6 @@ footer{
 }
 
 .footer__contact-email{
-    font-family: 'Unbounded';
 
     color: white;
     font-size: 14px;
@@ -126,7 +118,6 @@ footer{
 }
 
 .footer__personal-title{
-    font-family: 'Unbounded';
 
     color: #ACACAC;
     font-size: 14px;
@@ -135,7 +126,6 @@ footer{
 }
 
 .footer__docs{
-    font-family: 'Unbounded';
 
     color: white;
     font-size: 14px;
@@ -175,7 +165,6 @@ footer{
 }
 
 .footer__bottom_text-visual{
-    font-family: 'Unbounded';
 
     color: white;
     font-size: 14px;
