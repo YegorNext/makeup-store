@@ -44,3 +44,45 @@
   margin-top:5px !important;
   }
 }
+
+@media screen and (max-width: 640px){
+  .stock__add-part-two{
+      margin-left: 0px !important;
+  }
+
+  .master__inner .stock__add-part-two{
+      margin-left: 32px !important;
+  } 
+
+  .stock__flag-point{
+      margin-top: 30px;
+  }
+
+  .stock__price-desc{
+      margin-top: 4px;
+   }
+
+  .master__inner .stock__add-part-two
+      padding-left: 30px;
+  }
+
+  .master__inner .stock__collaps-add{
+      padding-left: 0px !important;
+  }
+
+   #modalFirst .modal-dialog, #modalSecond .modal-dialog, #modalThird .modal-dialog{
+        margin: 0 !important;
+   }
+
+   #modalFirst .modal-footer button, #modalSecond .modal-footer button, #modalThird .modal-footer button{
+        margin-right: 20px !important;
+   }
+
+   #modalFirst .btn-close, #modalSecond .btn-close, #modalThird .btn-close{
+       margin-right: 0 !important;
+   }
+
+   #buyrFirst, #buyrSecond, #buyrThird{
+     margin-bottom: 0px !important;
+   }  
+}
