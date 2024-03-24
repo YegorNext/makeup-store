@@ -1,3 +1,5 @@
 test.html
 data-controller/secret_hidden.json
 data-controller/secret.json
+tools/styles.css
+tools/uglifycss/output.css
