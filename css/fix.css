@@ -62,10 +62,6 @@
       margin-top: 4px;
    }
 
-  .master__inner .stock__add-part-two
-      padding-left: 30px;
-  }
-
   .master__inner .stock__collaps-add{
       padding-left: 0px !important;
   }
@@ -135,7 +131,7 @@
 }
 
 
-@media screen and (max-width: 1101px){
+@media screen and (max-width: 1101px) and (min-width: 641px){
   #modalFirst .modal-content, #modalFirst .modal-header, #modalFirst .modal-body, #modalFirst .modal-footer,
   #modalSecond .modal-content, #modalSecond .modal-header, #modalSecond .modal-body, #modalSecond .modal-footer,
   #modalThird .modal-content, #modalThird .modal-header, #modalThird .modal-body, #modalThird .modal-footer,
@@ -144,4 +140,96 @@
   #modalThird  .modal-content-rdbtn{
         width: 556px !important;
    }
+
+   #modalFirst label, #modalSecond label, #modalThird label{
+    display: block;
+   }
+
+   #modalFirst .modal__input-container,
+   #modalSecond .modal__input-container,
+   #modalThird .modal__input-container{
+    height: 20px;
+   }
+
+   .custom-radiobox-text{
+    margin-left: 6px;
+    width: 440px; 
+   }
+
+   #modalFirst .modal__radio-text, #modalSecond .modal__radio-text, #modalThird .modal__radio-text{
+    display:flex;
+}  
+
+    #modalFirst .modal__radio-text .custom-radiobox + span, 
+    #modalSecond .modal__radio-text .custom-radiobox + span, 
+    #modalThird .modal__radio-text .custom-radiobox +span{
+        display:flex;
+        align-items: center;
+        margin-left: 6px;
+    }
+
+    #modalFirst .modal__radio-buttons,
+    #modalSecond .modal__radio-buttons,
+    #modalThird .modal__radio-buttons{
+        padding-left: 0px !important;
+        margin-left: 10px !important;
+    }
+ 
+    #modalFirst .modal-title,
+    #modalSecond .modal-title,
+    #modalThird .modal-title{
+       margin-left: 10px !important;
+    }
 }
+
+@media screen and (min-width: 1101px){
+    #modalFirst .modal-content, #modalFirst .modal-header, #modalFirst .modal-body, #modalFirst .modal-footer,
+    #modalSecond .modal-content, #modalSecond .modal-header, #modalSecond .modal-body, #modalSecond .modal-footer,
+    #modalThird .modal-content, #modalThird .modal-header, #modalThird .modal-body, #modalThird .modal-footer,
+    #modalFirst  .modal-content-rdbtn,
+    #modalSecond  .modal-content-rdbtn,
+    #modalThird  .modal-content-rdbtn{
+          width: 556px !important;
+     }
+  
+     #modalFirst label, #modalSecond label, #modalThird label{
+      display: block;
+     }
+  
+     #modalFirst .modal__input-container,
+     #modalSecond .modal__input-container,
+     #modalThird .modal__input-container{
+      height: 20px;
+     }
+  
+     .custom-radiobox-text{
+      margin-left: 6px;
+      width: 430px; 
+     }
+  
+     #modalFirst .modal__radio-text, #modalSecond .modal__radio-text, #modalThird .modal__radio-text{
+      display:flex;
+  }  
+  
+      #modalFirst .modal__radio-text .custom-radiobox + span, 
+      #modalSecond .modal__radio-text .custom-radiobox + span, 
+      #modalThird .modal__radio-text .custom-radiobox +span{
+          display:flex;
+          align-items: center;
+          margin-left: 6px;
+      }
+  
+      #modalFirst .modal__radio-buttons,
+      #modalSecond .modal__radio-buttons,
+      #modalThird .modal__radio-buttons{
+          padding-left: 0px !important;
+          margin-left: 10px !important;
+      }
+   
+      #modalFirst .modal-title,
+      #modalSecond .modal-title,
+      #modalThird .modal-title{
+         margin-left: 10px !important;
+      }
+  }
+  
