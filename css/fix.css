@@ -268,5 +268,9 @@
        margin-top: 0px !important;
        align-items:center !important;
     }
+
+    .modal-win_width{
+       width: 421px;
+    }
  }
   
