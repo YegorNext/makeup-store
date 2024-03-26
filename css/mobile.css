@@ -1688,14 +1688,9 @@
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 500px){
+@media screen and (min-width: 425px) and (max-width: 640px){
     .for-whom_elem-text{
-        font-size: 16px;
+        font-size: 17.5px;
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 640px){
-    .for-whom_elem-text{
-        font-size: 18px;
-    }
-}
