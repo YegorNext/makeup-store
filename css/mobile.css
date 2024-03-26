@@ -575,6 +575,59 @@
 
     }
 
+    .point-wrapper {
+        width: 100%;
+        padding-right: 0px;
+        margin-top: 30px;
+      }
+
+      .stock_point_height{
+        min-height: 16px;
+      }
+
+    .stock__demo-main ul{
+        margin-top: 12px;
+    }
+
+    #spoiler-crs .stock__demo-main .display-flex.margin_s_a:first-child ,
+    #spoiler-six .stock__demo-main .display-flex.margin_s_a:first-child ,
+    #spoiler-seven .stock__demo-main .display-flex.margin_s_a:first-child ,
+    #spoiler-one .stock__demo-main .display-flex.margin_s_a:first-child {
+        margin-bottom: 30px;
+    }
+
+    #spoiler-five ul{
+        padding-left: 4px;
+    }
+
+    .stock__demo-main li{
+        margin-bottom: 12px;
+    }
+
+    .stock_brows_display{
+        display: block;
+    }
+
+    .detail__dvd-container li{
+        font-size: 16px;
+    }
+
+    .detail__dvd-container .detail__divider li{
+        padding-right: 40px;
+    }
+
+    .stock_brows_display > .margin_s_t20.display-flex:first-child{
+        margin-bottom: 10px;
+    }
+
+    .stock_brows_display > .margin_s_t20.display-flex:last-child{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #spoiler-crs .stock__demo-main .display-flex.margin_s_a:first-child, #spoiler-six .stock__demo-main .display-flex.margin_s_a:first-child, #spoiler-seven .stock__demo-main .display-flex.margin_s_a:first-child, #spoiler-one .stock__demo-main .display-flex.margin_s_a:first-child {
+        margin-right: 4px;
+      }
     /* online */
     .online{
         margin-top: 88px;
