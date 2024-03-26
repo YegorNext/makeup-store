@@ -791,7 +791,7 @@
     }
     
     .history__bottom-images img{
-        width: 23.5vw; height: 37vw;
+        width: 23.753vw; height: 31.565vw;
     }
 
     .history__collapsed{
@@ -1634,4 +1634,5 @@
         background-position-y: -4vw;
     }
 }
+
 

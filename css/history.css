@@ -155,6 +155,7 @@
 
 .history__bottom-images img{
     width: 103px; height: 134px;
+    border-radius: 5px;
 }
 
 

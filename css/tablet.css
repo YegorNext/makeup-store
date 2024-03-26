@@ -562,6 +562,8 @@
 
     .history__bottom-images img{
         width: 86px; height: 111px;
+
+        border-radius: 5px;
     }
 
     .display-history{
