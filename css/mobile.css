@@ -565,11 +565,11 @@
     }
     
     .stock__flag-point img{
-        height: 28px; width: 28px;
+        height: 8.75vw; width: 8.75vw;
     }
     
     .stock__flag-description{
-        font-size: 10px;
+        font-size: 3.13vw;
     
         line-height: 14.2px;
 
@@ -985,7 +985,7 @@
 
     .footer-logo__image{
         display: block;
-        width: 100px; height: 18vw;
+        width: 31.25vw; height: 18vw;
     }
 
     .footer__main{
@@ -1321,7 +1321,7 @@
         }
 
         .stock__collaps-add{
-            padding-left: 28px;
+            padding-left: 10vw;
         }
 
         .stock__part-one-title{
