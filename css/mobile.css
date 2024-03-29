@@ -571,7 +571,7 @@
     .stock__flag-description{
         font-size: 3.13vw;
     
-        line-height: 14.2px;
+        line-height: 4.5vw;
 
     }
 
@@ -1321,7 +1321,7 @@
         }
 
         .stock__collaps-add{
-            padding-left: 10vw;
+            padding-left: 28px;
         }
 
         .stock__part-one-title{
@@ -1511,7 +1511,7 @@
     }
 
     .forms__error-win{
-        font-size: 12px;
+        font-size: 3.75vw;
     }
 
     .forms__check-container{
