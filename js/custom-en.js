@@ -258,6 +258,48 @@ $('#spoiler-eight-btn').on('click', function(){
 
 });
 
+$('#spoiler-nine-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     var video = $(this).parent().find('video').get(0);
+ 
+     if(expanded == 'true'){
+          $(this).addClass('hide-angels');
+          $('#switcher-nine').addClass('expand');
+ 
+          stopAllVideos();
+          video.play();
+     }
+ 
+     if(expanded == 'false'){
+          $(this).removeClass('hide-angels');
+          $('#switcher-nine').removeClass('expand');
+          
+          video.pause();
+     }
+ 
+ });
+
+ $('#spoiler-ten-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     var video = $(this).parent().find('video').get(0);
+ 
+     if(expanded == 'true'){
+          $(this).addClass('hide-angels');
+          $('#switcher-ten').addClass('expand');
+ 
+          stopAllVideos();
+          video.play();
+     }
+ 
+     if(expanded == 'false'){
+          $(this).removeClass('hide-angels');
+          $('#switcher-ten').removeClass('expand');
+          
+          video.pause();
+     }
+ 
+ });
+
 $('#faq-first-btn').on('click', function(){
      var expanded = $(this).attr('aria-expanded');
      

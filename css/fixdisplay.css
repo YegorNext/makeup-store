@@ -2,8 +2,35 @@
    .stock__inner{
        display: block !important;
    }
+
+   #spoiler-eleven ul{
+    padding-left: 3% !important;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  #spoiler-eleven ul{
+   padding-left: 6% !important;
+ }
 }
 
 .stock_cont_padding {
   padding-right: 8% !important;
+}
+
+
+#spoiler-nine .stock__demo-points-container{
+  padding-right: 8% !important;
+}
+
+#spoiler-eleven ul{
+  padding-left: 20%;
+}
+
+#spoiler-eleven .stock__part-one-title img{
+  margin-right: 7px;
+}
+
+#spoiler-eleven .stock__part-two-desc{
+  margin-top: 0px !important;
 }
