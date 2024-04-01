@@ -1,0 +1,28 @@
+@media screen and (max-width: 640px){
+   .stock__inner .stock__mobile{
+        margin-left: 0px !important;
+   }
+   
+   .forms__subtitle_m {
+       font-size: 4.35vw !important;
+   }
+
+   .stock__price_striked {
+       font-size: 3.75vw;
+   }
+
+   .stock__inner{
+       display: block !important;
+   }
+}
+
+@media screen and (max-width: 1101px) {
+  .stock__collaps-buy {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .stock__demo-buy{
+    margin-top: 29px;
+  }
+}

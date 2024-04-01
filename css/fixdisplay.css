@@ -1,0 +1,9 @@
+@media screen and (max-width: 640px){
+   .stock__inner{
+       display: block !important;
+   }
+}
+
+.stock_cont_padding {
+  padding-right: 8% !important;
+}

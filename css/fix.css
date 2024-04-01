@@ -84,7 +84,7 @@
 
    #modalFirst .modal__radio-text, #modalSecond .modal__radio-text, #modalThird .modal__radio-text{
        display:flex;
-   }  
+   }
 
    #modalFirst .modal__radio-text .custom-radiobox + span, 
    #modalSecond .modal__radio-text .custom-radiobox + span, 
@@ -128,6 +128,7 @@
   #modalThird  .modal-content-rdbtn{
         width: 288px;
     }
+ 
 }
 
 
