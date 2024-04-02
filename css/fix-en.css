@@ -1,0 +1,30 @@
+.stock_brows_display {
+  display: flex;
+  justify-content: space-between;
+  width: 69%;
+}
+
+#spoiler-three .stock__demo-points-container{
+    padding-right: 8%;
+}
+
+#spoiler-eight .stock_brows_display{
+    width: 100%;
+}
+
+#spoiler-eight .stock_brows_display{
+   width: 74% !important;
+   flex-wrap: wrap;
+}
+
+#spoiler-eight .stock_brows_display:last-child .margin_s_t20.display-flex{
+   margin-top: 0px !important;
+}
+
+#spoiler-three .stock_brows_display{
+   flex-wrap: wrap;
+}
+
+#spoiler-three .margin_s_t20.display-flex:last-child{
+   margin-top: 0px !important;
+}

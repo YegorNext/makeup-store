@@ -13,7 +13,8 @@ function formCheck(formElement){
     var check_inst = formElement.find('input[name="check-inst"]');
 
     // conditions
-    if(phone.val().length < 5){
+    var isValid = /^\d{5,}$/.test(phone.val());
+    if(!isValid){
         phone.addClass('forms__error-input');
         isValid = false;
     } 

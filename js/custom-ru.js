@@ -300,6 +300,27 @@ $('#spoiler-nine-btn').on('click', function(){
  
  });
 
+ $('#spoiler-eleven-btn').on('click', function(){
+     var expanded = $(this).attr('aria-expanded');
+     var video = $(this).parent().find('video').get(0);
+
+     if(expanded == 'true'){
+          $(this).addClass('hide-angels');
+          $('#switcher-eleven').addClass('expand');
+
+          stopAllVideos();
+          video.play();
+     }
+
+     if(expanded == 'false'){
+          $(this).removeClass('hide-angels');
+          $('#switcher-eleven').removeClass('expand');
+
+          video.pause();
+     }
+
+ });
+
 $('#faq-first-btn').on('click', function(){
      var expanded = $(this).attr('aria-expanded');
      

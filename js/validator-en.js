@@ -12,8 +12,9 @@ function formCheck(formElement){
     // checkbox
     var check_inst = formElement.find('input[name="check-inst"]');
 
+    var isValid = /^\d{5,}$/.test(phone.val());
     // conditions
-    if(phone.val().length < 5){
+    if(!isValid){
         phone.addClass('forms__error-input');
         isValid = false;
     } 
