@@ -28,3 +28,18 @@
 #spoiler-three .margin_s_t20.display-flex:last-child{
    margin-top: 0px !important;
 }
+
+@media screen and (max-width: 640px) {
+   .sp-nine_tmargin_zero{
+      margin-top: 0 !important;
+   }   
+}
+
+@media screen and (min-width: 640px){
+   #modalThird .modal-footer.non-border.modal-footer-rdbtn,
+   #modalSecond .modal-footer.non-border.modal-footer-rdbtn, 
+   #modalFirst .modal-footer.non-border.modal-footer-rdbtn{
+      justify-content: center;
+   }
+}
+
