@@ -129,6 +129,11 @@
         width: 288px;
     }
  
+
+  .stock__collaps-buy{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+   }
 }
 
 
